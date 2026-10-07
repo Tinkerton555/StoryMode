@@ -126,14 +126,16 @@
         "Hands": 1131,
         "Legs": 955,
         "Feet": 1275,
-        "MainHand": 2314
+        "MainHand": 2314,
+        "OffHand": 2328
       },
       "itemNames": {
         "Body": "Weathered Doublet (Yellow)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Trousers",
         "Feet": "Weathered Workboots",
-        "MainHand": "Weathered Saw"
+        "MainHand": "Weathered Saw",
+        "OffHand": "Amateur\u0027s Claw Hammer"
       }
     },
     "9": {
@@ -143,14 +145,16 @@
         "Hands": 1129,
         "Legs": 960,
         "Feet": 1274,
-        "MainHand": 2340
+        "MainHand": 2340,
+        "OffHand": 2355
       },
       "itemNames": {
         "Body": "Weathered Shirt",
         "Hands": "Weathered Smithy\u0027s Gloves",
         "Legs": "Weathered Kecks (Brown)",
         "Feet": "Weathered Workboots (Grey)",
-        "MainHand": "Weathered Cross-pein Hammer"
+        "MainHand": "Weathered Cross-pein Hammer",
+        "OffHand": "Amateur\u0027s File"
       }
     },
     "10": {
@@ -160,14 +164,16 @@
         "Hands": 1129,
         "Legs": 958,
         "Feet": 1274,
-        "MainHand": 2366
+        "MainHand": 2366,
+        "OffHand": 2380
       },
       "itemNames": {
         "Body": "Weathered Acton (Grey)",
         "Hands": "Weathered Smithy\u0027s Gloves",
         "Legs": "Weathered Chausses (Grey)",
         "Feet": "Weathered Workboots (Grey)",
-        "MainHand": "Weathered Doming Hammer"
+        "MainHand": "Weathered Doming Hammer",
+        "OffHand": "Amateur\u0027s Pliers"
       }
     },
     "11": {
@@ -178,7 +184,8 @@
         "Hands": 1132,
         "Legs": 952,
         "Feet": 1278,
-        "MainHand": 2391
+        "MainHand": 2391,
+        "OffHand": 2405
       },
       "itemNames": {
         "Head": "Weathered Spectacles",
@@ -186,7 +193,8 @@
         "Hands": "Weathered Fingerless Gloves",
         "Legs": "Weathered Slops (Brown)",
         "Feet": "Weathered Shoes",
-        "MainHand": "Weathered Chaser Hammer"
+        "MainHand": "Weathered Chaser Hammer",
+        "OffHand": "Amateur\u0027s Grinding Wheel"
       }
     },
     "12": {
@@ -196,14 +204,16 @@
         "Hands": 1131,
         "Legs": 956,
         "Feet": 1279,
-        "MainHand": 2416
+        "MainHand": 2416,
+        "OffHand": 2430
       },
       "itemNames": {
         "Body": "Weathered Jerkin (Brown)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Breeches (Grey)",
         "Feet": "Weathered Moccasins",
-        "MainHand": "Weathered Head Knife"
+        "MainHand": "Weathered Head Knife",
+        "OffHand": "Amateur\u0027s Awl"
       }
     },
     "13": {
@@ -214,7 +224,8 @@
         "Hands": 1130,
         "Legs": 959,
         "Feet": 1277,
-        "MainHand": 2442
+        "MainHand": 2442,
+        "OffHand": 2456
       },
       "itemNames": {
         "Head": "Weathered Beret (Beige)",
@@ -222,7 +233,8 @@
         "Hands": "Weathered Halfgloves",
         "Legs": "Weathered Culottes (Grey)",
         "Feet": "Weathered Shoes (Taupe)",
-        "MainHand": "Rusty Needle"
+        "MainHand": "Rusty Needle",
+        "OffHand": "Amateur\u0027s Spinning Wheel"
       }
     },
     "14": {
@@ -233,7 +245,8 @@
         "Hands": 1130,
         "Legs": 953,
         "Feet": 1273,
-        "MainHand": 2467
+        "MainHand": 2467,
+        "OffHand": 2481
       },
       "itemNames": {
         "Head": "Weathered Spectacles",
@@ -241,7 +254,8 @@
         "Hands": "Weathered Halfgloves",
         "Legs": "Weathered Slops (Grey)",
         "Feet": "Weathered Pattens (Grey)",
-        "MainHand": "Weathered Alembic"
+        "MainHand": "Weathered Alembic",
+        "OffHand": "Amateur\u0027s Mortar"
       }
     },
     "15": {
@@ -251,14 +265,16 @@
         "Body": 623,
         "Legs": 955,
         "Feet": 1278,
-        "MainHand": 2493
+        "MainHand": 2493,
+        "OffHand": 2507
       },
       "itemNames": {
         "Head": "Weathered Coif (Grey)",
         "Body": "Weathered Shirt",
         "Legs": "Weathered Trousers",
         "Feet": "Weathered Shoes",
-        "MainHand": "Weathered Skillet"
+        "MainHand": "Weathered Skillet",
+        "OffHand": "Amateur\u0027s Culinary Knife"
       }
     },
     "16": {
@@ -458,7 +474,8 @@
           "Hands": 35481,
           "Legs": 35482,
           "Feet": 35483,
-          "MainHand": 35468
+          "MainHand": 35468,
+          "OffHand": 35331
         },
         "itemNames": {
           "Body": "Millsoph\u0027s Apron",
@@ -466,7 +483,8 @@
           "Hands": "Millsoph\u0027s Gloves",
           "Legs": "Millsoph\u0027s Breeches",
           "Feet": "Millsoph\u0027s Gaiters",
-          "MainHand": "Millsoph\u0027s Saw"
+          "MainHand": "Millsoph\u0027s Saw",
+          "OffHand": "High Durium Claw Hammer"
         }
       },
       {
@@ -478,7 +496,8 @@
           "Hands": 43361,
           "Legs": 43362,
           "Feet": 43363,
-          "MainHand": 43348
+          "MainHand": 43348,
+          "OffHand": 43211
         },
         "itemNames": {
           "Body": "Millrise Vest",
@@ -486,7 +505,8 @@
           "Hands": "Millrise Work Gloves",
           "Legs": "Millrise Slops",
           "Feet": "Millrise Boots",
-          "MainHand": "Millrise Saw"
+          "MainHand": "Millrise Saw",
+          "OffHand": "Mountain Chromite Claw Hammer"
         }
       }
     ],
@@ -588,7 +608,8 @@
           "Hands": 35486,
           "Legs": 35487,
           "Feet": 35488,
-          "MainHand": 35469
+          "MainHand": 35469,
+          "OffHand": 35332
         },
         "itemNames": {
           "Body": "Forgesoph\u0027s Apron",
@@ -596,7 +617,8 @@
           "Hands": "Forgesoph\u0027s Work Gloves",
           "Legs": "Forgesoph\u0027s Trousers",
           "Feet": "Forgesoph\u0027s Boots",
-          "MainHand": "Forgesoph\u0027s Hammer"
+          "MainHand": "Forgesoph\u0027s Hammer",
+          "OffHand": "High Durium File"
         }
       },
       {
@@ -608,7 +630,8 @@
           "Hands": 43366,
           "Legs": 43367,
           "Feet": 43368,
-          "MainHand": 43349
+          "MainHand": 43349,
+          "OffHand": 43212
         },
         "itemNames": {
           "Body": "Forgerise Chestwrap",
@@ -616,7 +639,8 @@
           "Hands": "Forgerise Mittens",
           "Legs": "Forgerise Longkilt",
           "Feet": "Forgerise Workboots",
-          "MainHand": "Forgerise Hammer"
+          "MainHand": "Forgerise Hammer",
+          "OffHand": "Mountain Chromite File"
         }
       }
     ],
@@ -718,7 +742,8 @@
           "Hands": 35491,
           "Legs": 35492,
           "Feet": 35493,
-          "MainHand": 35470
+          "MainHand": 35470,
+          "OffHand": 35333
         },
         "itemNames": {
           "Body": "Hammersoph\u0027s Apron",
@@ -726,7 +751,8 @@
           "Hands": "Hammersoph\u0027s Work Gloves",
           "Legs": "Hammersoph\u0027s Trousers",
           "Feet": "Hammersoph\u0027s Workboots",
-          "MainHand": "Hammersoph\u0027s Beetle"
+          "MainHand": "Hammersoph\u0027s Beetle",
+          "OffHand": "High Durium Pliers"
         }
       },
       {
@@ -738,7 +764,8 @@
           "Hands": 43371,
           "Legs": 43372,
           "Feet": 43373,
-          "MainHand": 43350
+          "MainHand": 43350,
+          "OffHand": 43213
         },
         "itemNames": {
           "Body": "Hammerrise Apron",
@@ -746,7 +773,8 @@
           "Hands": "Hammerrise Work Gloves",
           "Legs": "Hammerrise Brais",
           "Feet": "Hammerrise Jackboots",
-          "MainHand": "Hammerrise Beetle"
+          "MainHand": "Hammerrise Beetle",
+          "OffHand": "Mountain Chromite Pliers"
         }
       }
     ],
@@ -848,7 +876,8 @@
           "Hands": 35496,
           "Legs": 35497,
           "Feet": 35498,
-          "MainHand": 35471
+          "MainHand": 35471,
+          "OffHand": 35334
         },
         "itemNames": {
           "Body": "Gemsoph\u0027s Vest",
@@ -856,7 +885,8 @@
           "Hands": "Gemsoph\u0027s Wristdresses",
           "Legs": "Gemsoph\u0027s Trousers",
           "Feet": "Gemsoph\u0027s Thighboots",
-          "MainHand": "Gemsoph\u0027s Mallet"
+          "MainHand": "Gemsoph\u0027s Mallet",
+          "OffHand": "Horse Chestnut Grinding Wheel"
         }
       },
       {
@@ -868,7 +898,8 @@
           "Hands": 43376,
           "Legs": 43377,
           "Feet": 43378,
-          "MainHand": 43351
+          "MainHand": 43351,
+          "OffHand": 43214
         },
         "itemNames": {
           "Body": "Gemrise Work Shirt",
@@ -876,7 +907,8 @@
           "Hands": "Gemrise Fingerstalls",
           "Legs": "Gemrise Pantaloons",
           "Feet": "Gemrise Crakows",
-          "MainHand": "Gemrise Mallet"
+          "MainHand": "Gemrise Mallet",
+          "OffHand": "Ginseng Grinding Wheel"
         }
       }
     ],
@@ -978,7 +1010,8 @@
           "Hands": 35501,
           "Legs": 35502,
           "Feet": 35503,
-          "MainHand": 35472
+          "MainHand": 35472,
+          "OffHand": 35335
         },
         "itemNames": {
           "Body": "Hidesoph\u0027s Apron",
@@ -986,7 +1019,8 @@
           "Hands": "Hidesoph\u0027s Gloves",
           "Legs": "Hidesoph\u0027s Kecks",
           "Feet": "Hidesoph\u0027s Boots",
-          "MainHand": "Hidesoph\u0027s Knife"
+          "MainHand": "Hidesoph\u0027s Knife",
+          "OffHand": "High Durium Awl"
         }
       },
       {
@@ -998,7 +1032,8 @@
           "Hands": 43381,
           "Legs": 43382,
           "Feet": 43383,
-          "MainHand": 43352
+          "MainHand": 43352,
+          "OffHand": 43215
         },
         "itemNames": {
           "Body": "Hiderise Apron",
@@ -1006,7 +1041,8 @@
           "Hands": "Hiderise Armguards",
           "Legs": "Cropped Hiderise Slops",
           "Feet": "Hiderise Boots",
-          "MainHand": "Hiderise Knife"
+          "MainHand": "Hiderise Knife",
+          "OffHand": "Mountain Chromite Awl"
         }
       }
     ],
@@ -1108,7 +1144,8 @@
           "Hands": 35506,
           "Legs": 35507,
           "Feet": 35508,
-          "MainHand": 35473
+          "MainHand": 35473,
+          "OffHand": 35336
         },
         "itemNames": {
           "Body": "Boltsoph\u0027s Swallowtail",
@@ -1116,7 +1153,8 @@
           "Hands": "Boltsoph\u0027s Cuffs",
           "Legs": "Boltsoph\u0027s Slacks",
           "Feet": "Boltsoph\u0027s Boots",
-          "MainHand": "Boltsoph\u0027s Needle"
+          "MainHand": "Boltsoph\u0027s Needle",
+          "OffHand": "Horse Chestnut Spinning Wheel"
         }
       },
       {
@@ -1128,7 +1166,8 @@
           "Hands": 43386,
           "Legs": 43387,
           "Feet": 43388,
-          "MainHand": 43353
+          "MainHand": 43353,
+          "OffHand": 43216
         },
         "itemNames": {
           "Body": "Boltrise Vest",
@@ -1136,7 +1175,8 @@
           "Hands": "Boltrise Shortgloves",
           "Legs": "Boltrise Trousers",
           "Feet": "Boltrise Gaiters",
-          "MainHand": "Boltrise Needle"
+          "MainHand": "Boltrise Needle",
+          "OffHand": "Ginseng Spinning Wheel"
         }
       }
     ],
@@ -1238,7 +1278,8 @@
           "Hands": 35511,
           "Legs": 35512,
           "Feet": 35513,
-          "MainHand": 35474
+          "MainHand": 35474,
+          "OffHand": 35337
         },
         "itemNames": {
           "Body": "Cauldronsoph\u0027s Mantle",
@@ -1246,7 +1287,8 @@
           "Hands": "Cauldronsoph\u0027s Gloves",
           "Legs": "Cauldronsoph\u0027s Kecks",
           "Feet": "Cauldronsoph\u0027s Shoes",
-          "MainHand": "Cauldronsoph\u0027s Alembic"
+          "MainHand": "Cauldronsoph\u0027s Alembic",
+          "OffHand": "High Durium Mortar"
         }
       },
       {
@@ -1258,7 +1300,8 @@
           "Hands": 43391,
           "Legs": 43392,
           "Feet": 43393,
-          "MainHand": 43354
+          "MainHand": 43354,
+          "OffHand": 43217
         },
         "itemNames": {
           "Body": "Cauldronrise Coat",
@@ -1266,7 +1309,8 @@
           "Hands": "Cauldronrise Wristgauge",
           "Legs": "Cauldronrise Trousers",
           "Feet": "Cauldronrise Boots",
-          "MainHand": "Cauldronrise Alembic"
+          "MainHand": "Cauldronrise Alembic",
+          "OffHand": "Mountain Chromite Mortar"
         }
       }
     ],
@@ -1368,7 +1412,8 @@
           "Hands": 35516,
           "Legs": 35517,
           "Feet": 35518,
-          "MainHand": 35475
+          "MainHand": 35475,
+          "OffHand": 35338
         },
         "itemNames": {
           "Body": "Galleysoph\u0027s Apron",
@@ -1376,7 +1421,8 @@
           "Hands": "Galleysoph\u0027s Mittens",
           "Legs": "Galleysoph\u0027s Trousers",
           "Feet": "Galleysoph\u0027s Shoes",
-          "MainHand": "Galleysoph\u0027s Frypan"
+          "MainHand": "Galleysoph\u0027s Frypan",
+          "OffHand": "High Durium Culinary Knife"
         }
       },
       {
@@ -1388,7 +1434,8 @@
           "Hands": 43396,
           "Legs": 43397,
           "Feet": 43398,
-          "MainHand": 43355
+          "MainHand": 43355,
+          "OffHand": 43218
         },
         "itemNames": {
           "Body": "Galleyrise Apron",
@@ -1396,7 +1443,8 @@
           "Hands": "Galleyrise Mittens",
           "Legs": "Galleyrise Trousers",
           "Feet": "Galleyrise Boots",
-          "MainHand": "Galleyrise Frypan"
+          "MainHand": "Galleyrise Frypan",
+          "OffHand": "Mountain Chromite Culinary Knife"
         }
       }
     ],
@@ -1498,7 +1546,8 @@
           "Hands": 35521,
           "Legs": 35522,
           "Feet": 35523,
-          "MainHand": 35476
+          "MainHand": 35476,
+          "OffHand": 35339
         },
         "itemNames": {
           "Body": "Minesoph\u0027s Work Shirt",
@@ -1506,7 +1555,8 @@
           "Hands": "Minesoph\u0027s Work Gloves",
           "Legs": "Minesoph\u0027s Slops",
           "Feet": "Minesoph\u0027s Workboots",
-          "MainHand": "Minesoph\u0027s Pickaxe"
+          "MainHand": "Minesoph\u0027s Pickaxe",
+          "OffHand": "High Durium Sledgehammer"
         }
       },
       {
@@ -1518,7 +1568,8 @@
           "Hands": 43401,
           "Legs": 43402,
           "Feet": 43403,
-          "MainHand": 43356
+          "MainHand": 43356,
+          "OffHand": 43219
         },
         "itemNames": {
           "Body": "Minerise Work Shirt",
@@ -1526,7 +1577,8 @@
           "Hands": "Minerise Work Gloves",
           "Legs": "Minerise Slops",
           "Feet": "Minerise Workboots",
-          "MainHand": "Minerise Pickaxe"
+          "MainHand": "Minerise Pickaxe",
+          "OffHand": "Mountain Chromite Maul"
         }
       }
     ],
@@ -1628,7 +1680,8 @@
           "Hands": 35526,
           "Legs": 35527,
           "Feet": 35528,
-          "MainHand": 35477
+          "MainHand": 35477,
+          "OffHand": 35340
         },
         "itemNames": {
           "Body": "Fieldsoph\u0027s Shirt",
@@ -1636,7 +1689,8 @@
           "Hands": "Fieldsoph\u0027s Gloves",
           "Legs": "Fieldsoph\u0027s Slops",
           "Feet": "Fieldsoph\u0027s Crakows",
-          "MainHand": "Fieldsoph\u0027s Hatchet"
+          "MainHand": "Fieldsoph\u0027s Hatchet",
+          "OffHand": "High Durium Garden Scythe"
         }
       },
       {
@@ -1648,7 +1702,8 @@
           "Hands": 43406,
           "Legs": 43407,
           "Feet": 43408,
-          "MainHand": 43357
+          "MainHand": 43357,
+          "OffHand": 43220
         },
         "itemNames": {
           "Body": "Fieldrise Doublet",
@@ -1656,7 +1711,8 @@
           "Hands": "Fieldrise Work Gloves",
           "Legs": "Fieldrise Breeches",
           "Feet": "Fieldrise Thighboots",
-          "MainHand": "Fieldrise Hatchet"
+          "MainHand": "Fieldrise Hatchet",
+          "OffHand": "Mountain Chromite Garden Scythe"
         }
       }
     ],

@@ -228,8 +228,8 @@ public sealed unsafe class OutfitApplier : IDisposable
             {
                 real.WeaponsFor = outfit;
                 real.WeaponsReplaced = config.ReplaceWeapons;
-                ShowWeapon(container, DrawDataContainer.WeaponSlot.MainHand, config.ReplaceWeapons ? outfit.MainHand : RealWeapon(container, DrawDataContainer.WeaponSlot.MainHand));
-                ShowWeapon(container, DrawDataContainer.WeaponSlot.OffHand, config.ReplaceWeapons ? outfit.OffHand : RealWeapon(container, DrawDataContainer.WeaponSlot.OffHand));
+                foreach (var slot in new[] { DrawDataContainer.WeaponSlot.MainHand, DrawDataContainer.WeaponSlot.OffHand })
+                    ShowWeapon(container, slot, config.ReplaceWeapons ? OutfitWeapon(container, outfit, slot) : RealWeapon(container, slot));
             }
 
             var glasses = drawData.GlassesIds[0];
@@ -289,6 +289,17 @@ public sealed unsafe class OutfitApplier : IDisposable
         => container->Weapon(slot).ModelId;
 
     /// <summary>
+    /// The weapon to draw for this slot. An outfit with no off-hand keeps the player's real one:
+    /// crafting tools don't play their draw animation with an empty off-hand.
+    /// </summary>
+    private static WeaponModelId OutfitWeapon(DrawDataContainer* container, Outfit outfit, DrawDataContainer.WeaponSlot slot)
+    {
+        if (slot == DrawDataContainer.WeaponSlot.MainHand)
+            return outfit.MainHand;
+        return outfit.OffHand.Value != 0 ? outfit.OffHand : RealWeapon(container, slot);
+    }
+
+    /// <summary>
     /// Changes the weapon that's drawn without touching the game's record of the real weapon
     /// (skipGameObject = 1, as Glamourer does). The game uses that record for things like draw
     /// animations, so overwriting it broke them until the character was reloaded.
@@ -343,7 +354,7 @@ public sealed unsafe class OutfitApplier : IDisposable
             if (slot != DrawDataContainer.WeaponSlot.System && character != null && config.ReplaceWeapons
                 && changed.ContainsKey((nint)character) && DesiredOutfit(character) is { } outfit)
             {
-                var ours = slot == DrawDataContainer.WeaponSlot.MainHand ? outfit.MainHand : outfit.OffHand;
+                var ours = OutfitWeapon(self, outfit, slot);
                 if (ours.Value != model.Value)
                     loadWeaponHook.Original(self, slot, ours, 1, a5, 1, a7, a8);
             }

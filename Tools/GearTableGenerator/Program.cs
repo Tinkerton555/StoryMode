@@ -107,6 +107,10 @@ foreach (var cj in classJobs.Where(c => c.RowId is >= 8 and <= 42 and not (26 or
             if (ov.Main != 0) main = items.GetRow(ov.Main);
             if (ov.Off != 0) off = items.GetRow(ov.Off);
         }
+        // Crafters and gatherers need an off-hand tool for their draw animation; later scrip sets
+        // don't include one, so use the lowest item level one for the bracket.
+        if (off.RowId == 0 && cj.RowId is >= 8 and <= 17)
+            off = offs.OrderBy(i => i.LevelItem.RowId).ThenBy(i => i.RowId).FirstOrDefault();
         if (main.RowId != 0) picked["MainHand"] = main;
         if (off.RowId != 0) picked["OffHand"] = off;
 
@@ -230,6 +234,16 @@ foreach (var (id, (name, pieces)) in classOutfits)
     {
         if (Require(w.Main) is var m and not 0) picked["MainHand"] = m;
         if (w.Off != "" && Require(w.Off) is var o and not 0) picked["OffHand"] = o;
+
+        // Crafters without a "Weathered" off-hand get their lowest level one, for the draw animation.
+        if (w.Off == "" && id is >= 8 and <= 17)
+        {
+            var off = Report.JobItems(classJobs.GetRow(id).Abbreviation.ToString(), minItemLevel: 0)
+                .Where(i => Report.SlotOf(i) == 6)
+                .OrderBy(i => !i.Name.ToString().StartsWith("Amateur's ")) // the plain starter tools, not novelty ones like the Tonberry Knife
+                .ThenBy(i => i.LevelEquip).ThenBy(i => i.LevelItem.RowId).ThenBy(i => i.RowId).FirstOrDefault();
+            if (off.RowId != 0) picked["OffHand"] = off.RowId;
+        }
     }
     else
     {

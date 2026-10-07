@@ -18,6 +18,12 @@ public sealed class Outfit
 
     public WeaponModelId MainHand;
     public WeaponModelId OffHand;
+
+    /// <summary>
+    /// Crafters and gatherers keep their real tools: drawing a swapped crafting tool plays no draw
+    /// animation, and crafting tools rarely look out of place anyway.
+    /// </summary>
+    public bool KeepRealWeapons { get; init; }
 }
 
 /// <summary>A job's outfit, starting from <see cref="MinLevel"/>.</summary>
@@ -49,12 +55,12 @@ public sealed class GearTable
         var table = new GearTable();
 
         foreach (var (classJob, entry) in file.ClassOutfits)
-            table.ClassOutfits[classJob] = BuildOutfit(entry, items);
+            table.ClassOutfits[classJob] = BuildOutfit(entry, items, IsCrafterOrGatherer(classJob));
 
         foreach (var (classJob, tiers) in file.Jobs)
         {
             table.JobTiers[classJob] = tiers
-                .Select(t => new OutfitTier(t.MinLevel, BuildOutfit(t, items)))
+                .Select(t => new OutfitTier(t.MinLevel, BuildOutfit(t, items, IsCrafterOrGatherer(classJob))))
                 .OrderBy(t => t.MinLevel)
                 .ToList();
         }
@@ -62,9 +68,12 @@ public sealed class GearTable
         return table;
     }
 
-    private static Outfit BuildOutfit(OutfitEntry entry, Lumina.Excel.ExcelSheet<Item> items)
+    // Carpenter..Fisher.
+    private static bool IsCrafterOrGatherer(uint classJob) => classJob is >= 8 and <= 18;
+
+    private static Outfit BuildOutfit(OutfitEntry entry, Lumina.Excel.ExcelSheet<Item> items, bool keepRealWeapons)
     {
-        var outfit = new Outfit { Name = entry.Name };
+        var outfit = new Outfit { Name = entry.Name, KeepRealWeapons = keepRealWeapons };
 
         for (var i = 0; i < SlotKeys.Length; i++)
         {

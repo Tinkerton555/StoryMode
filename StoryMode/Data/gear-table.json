@@ -125,17 +125,13 @@
         "Body": 616,
         "Hands": 1131,
         "Legs": 955,
-        "Feet": 1275,
-        "MainHand": 2314,
-        "OffHand": 2328
+        "Feet": 1275
       },
       "itemNames": {
         "Body": "Weathered Doublet (Yellow)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Trousers",
-        "Feet": "Weathered Workboots",
-        "MainHand": "Weathered Saw",
-        "OffHand": "Amateur\u0027s Claw Hammer"
+        "Feet": "Weathered Workboots"
       }
     },
     "9": {
@@ -144,17 +140,13 @@
         "Body": 623,
         "Hands": 1129,
         "Legs": 960,
-        "Feet": 1274,
-        "MainHand": 2340,
-        "OffHand": 2355
+        "Feet": 1274
       },
       "itemNames": {
         "Body": "Weathered Shirt",
         "Hands": "Weathered Smithy\u0027s Gloves",
         "Legs": "Weathered Kecks (Brown)",
-        "Feet": "Weathered Workboots (Grey)",
-        "MainHand": "Weathered Cross-pein Hammer",
-        "OffHand": "Amateur\u0027s File"
+        "Feet": "Weathered Workboots (Grey)"
       }
     },
     "10": {
@@ -163,17 +155,13 @@
         "Body": 624,
         "Hands": 1129,
         "Legs": 958,
-        "Feet": 1274,
-        "MainHand": 2366,
-        "OffHand": 2380
+        "Feet": 1274
       },
       "itemNames": {
         "Body": "Weathered Acton (Grey)",
         "Hands": "Weathered Smithy\u0027s Gloves",
         "Legs": "Weathered Chausses (Grey)",
-        "Feet": "Weathered Workboots (Grey)",
-        "MainHand": "Weathered Doming Hammer",
-        "OffHand": "Amateur\u0027s Pliers"
+        "Feet": "Weathered Workboots (Grey)"
       }
     },
     "11": {
@@ -183,18 +171,14 @@
         "Body": 620,
         "Hands": 1132,
         "Legs": 952,
-        "Feet": 1278,
-        "MainHand": 2391,
-        "OffHand": 2405
+        "Feet": 1278
       },
       "itemNames": {
         "Head": "Weathered Spectacles",
         "Body": "Weathered Gown (Grey)",
         "Hands": "Weathered Fingerless Gloves",
         "Legs": "Weathered Slops (Brown)",
-        "Feet": "Weathered Shoes",
-        "MainHand": "Weathered Chaser Hammer",
-        "OffHand": "Amateur\u0027s Grinding Wheel"
+        "Feet": "Weathered Shoes"
       }
     },
     "12": {
@@ -203,17 +187,13 @@
         "Body": 625,
         "Hands": 1131,
         "Legs": 956,
-        "Feet": 1279,
-        "MainHand": 2416,
-        "OffHand": 2430
+        "Feet": 1279
       },
       "itemNames": {
         "Body": "Weathered Jerkin (Brown)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Breeches (Grey)",
-        "Feet": "Weathered Moccasins",
-        "MainHand": "Weathered Head Knife",
-        "OffHand": "Amateur\u0027s Awl"
+        "Feet": "Weathered Moccasins"
       }
     },
     "13": {
@@ -223,18 +203,14 @@
         "Body": 621,
         "Hands": 1130,
         "Legs": 959,
-        "Feet": 1277,
-        "MainHand": 2442,
-        "OffHand": 2456
+        "Feet": 1277
       },
       "itemNames": {
         "Head": "Weathered Beret (Beige)",
         "Body": "Weathered Gown (Beige)",
         "Hands": "Weathered Halfgloves",
         "Legs": "Weathered Culottes (Grey)",
-        "Feet": "Weathered Shoes (Taupe)",
-        "MainHand": "Rusty Needle",
-        "OffHand": "Amateur\u0027s Spinning Wheel"
+        "Feet": "Weathered Shoes (Taupe)"
       }
     },
     "14": {
@@ -244,18 +220,14 @@
         "Body": 619,
         "Hands": 1130,
         "Legs": 953,
-        "Feet": 1273,
-        "MainHand": 2467,
-        "OffHand": 2481
+        "Feet": 1273
       },
       "itemNames": {
         "Head": "Weathered Spectacles",
         "Body": "Weathered Dalmatica (Grey)",
         "Hands": "Weathered Halfgloves",
         "Legs": "Weathered Slops (Grey)",
-        "Feet": "Weathered Pattens (Grey)",
-        "MainHand": "Weathered Alembic",
-        "OffHand": "Amateur\u0027s Mortar"
+        "Feet": "Weathered Pattens (Grey)"
       }
     },
     "15": {
@@ -264,17 +236,13 @@
         "Head": 366,
         "Body": 623,
         "Legs": 955,
-        "Feet": 1278,
-        "MainHand": 2493,
-        "OffHand": 2507
+        "Feet": 1278
       },
       "itemNames": {
         "Head": "Weathered Coif (Grey)",
         "Body": "Weathered Shirt",
         "Legs": "Weathered Trousers",
-        "Feet": "Weathered Shoes",
-        "MainHand": "Weathered Skillet",
-        "OffHand": "Amateur\u0027s Culinary Knife"
+        "Feet": "Weathered Shoes"
       }
     },
     "16": {
@@ -284,18 +252,14 @@
         "Body": 627,
         "Hands": 1131,
         "Legs": 961,
-        "Feet": 1275,
-        "MainHand": 2519,
-        "OffHand": 2533
+        "Feet": 1275
       },
       "itemNames": {
         "Head": "Weathered Bandana",
         "Body": "Weathered Doublet Vest (Grey)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Kecks (Grey)",
-        "Feet": "Weathered Workboots",
-        "MainHand": "Weathered Pickaxe",
-        "OffHand": "Weathered Sledgehammer"
+        "Feet": "Weathered Workboots"
       }
     },
     "17": {
@@ -305,18 +269,14 @@
         "Body": 622,
         "Hands": 1131,
         "Legs": 952,
-        "Feet": 1279,
-        "MainHand": 2545,
-        "OffHand": 2559
+        "Feet": 1279
       },
       "itemNames": {
         "Head": "Weathered Sun Hat",
         "Body": "Weathered Hunting Tunic (Brown)",
         "Hands": "Weathered Work Gloves",
         "Legs": "Weathered Slops (Brown)",
-        "Feet": "Weathered Moccasins",
-        "MainHand": "Weathered Hatchet",
-        "OffHand": "Weathered Scythe"
+        "Feet": "Weathered Moccasins"
       }
     },
     "18": {
@@ -326,16 +286,14 @@
         "Body": 623,
         "Hands": 1132,
         "Legs": 955,
-        "Feet": 1271,
-        "MainHand": 2571
+        "Feet": 1271
       },
       "itemNames": {
         "Head": "Weathered Beach Hat (Blue)",
         "Body": "Weathered Shirt",
         "Hands": "Weathered Fingerless Gloves",
         "Legs": "Weathered Trousers",
-        "Feet": "Weathered Duckbills",
-        "MainHand": "Weathered Fishing Rod"
+        "Feet": "Weathered Duckbills"
       }
     },
     "26": {
@@ -385,18 +343,14 @@
           "Head": 2920,
           "Hands": 3706,
           "Legs": 3481,
-          "Feet": 3927,
-          "MainHand": 2326,
-          "OffHand": 2339
+          "Feet": 3927
         },
         "itemNames": {
           "Body": "Carpenter\u0027s Gown",
           "Head": "Carpenter\u0027s Hood",
           "Hands": "Carpenter\u0027s Gloves",
           "Legs": "Carpenter\u0027s Slops",
-          "Feet": "Carpenter\u0027s Workboots",
-          "MainHand": "Saw of the Luminary",
-          "OffHand": "Militia Claw Hammer"
+          "Feet": "Carpenter\u0027s Workboots"
         }
       },
       {
@@ -407,18 +361,14 @@
           "Head": 13013,
           "Hands": 13015,
           "Legs": 13016,
-          "Feet": 13017,
-          "MainHand": 13005,
-          "OffHand": 11918
+          "Feet": 13017
         },
         "itemNames": {
           "Body": "Millmaster\u0027s Apron",
           "Head": "Millmaster\u0027s Cap",
           "Hands": "Millmaster\u0027s Gloves",
           "Legs": "Millmaster\u0027s Slops",
-          "Feet": "Millmaster\u0027s Workboots",
-          "MainHand": "Millmaster\u0027s Saw",
-          "OffHand": "Fortified Claw Hammer"
+          "Feet": "Millmaster\u0027s Workboots"
         }
       },
       {
@@ -429,18 +379,14 @@
           "Head": 19662,
           "Hands": 19664,
           "Legs": 19665,
-          "Feet": 19666,
-          "MainHand": 19590,
-          "OffHand": 23189
+          "Feet": 19666
         },
         "itemNames": {
           "Body": "Millking\u0027s Coat",
           "Head": "Millking\u0027s Cap",
           "Hands": "Millking\u0027s Gloves",
           "Legs": "Millking\u0027s Slops",
-          "Feet": "Millking\u0027s Boots",
-          "MainHand": "Millking\u0027s Saw",
-          "OffHand": "Millking\u0027s Claw Hammer"
+          "Feet": "Millking\u0027s Boots"
         }
       },
       {
@@ -451,18 +397,14 @@
           "Head": 25333,
           "Hands": 25335,
           "Legs": 25336,
-          "Feet": 25337,
-          "MainHand": 25322,
-          "OffHand": 29948
+          "Feet": 25337
         },
         "itemNames": {
           "Body": "Millfiend\u0027s Apron",
           "Head": "Millfiend\u0027s Cap",
           "Hands": "Millfiend\u0027s Halfgloves",
           "Legs": "Millfiend\u0027s Kecks",
-          "Feet": "Millfiend\u0027s Workboots",
-          "MainHand": "Millfiend\u0027s Saw",
-          "OffHand": "Millfiend\u0027s Claw Hammer"
+          "Feet": "Millfiend\u0027s Workboots"
         }
       },
       {
@@ -473,18 +415,14 @@
           "Head": 35479,
           "Hands": 35481,
           "Legs": 35482,
-          "Feet": 35483,
-          "MainHand": 35468,
-          "OffHand": 35331
+          "Feet": 35483
         },
         "itemNames": {
           "Body": "Millsoph\u0027s Apron",
           "Head": "Millsoph\u0027s Bandana",
           "Hands": "Millsoph\u0027s Gloves",
           "Legs": "Millsoph\u0027s Breeches",
-          "Feet": "Millsoph\u0027s Gaiters",
-          "MainHand": "Millsoph\u0027s Saw",
-          "OffHand": "High Durium Claw Hammer"
+          "Feet": "Millsoph\u0027s Gaiters"
         }
       },
       {
@@ -495,18 +433,14 @@
           "Head": 43359,
           "Hands": 43361,
           "Legs": 43362,
-          "Feet": 43363,
-          "MainHand": 43348,
-          "OffHand": 43211
+          "Feet": 43363
         },
         "itemNames": {
           "Body": "Millrise Vest",
           "Head": "Millrise Goggles",
           "Hands": "Millrise Work Gloves",
           "Legs": "Millrise Slops",
-          "Feet": "Millrise Boots",
-          "MainHand": "Millrise Saw",
-          "OffHand": "Mountain Chromite Claw Hammer"
+          "Feet": "Millrise Boots"
         }
       }
     ],
@@ -519,18 +453,14 @@
           "Head": 2921,
           "Hands": 3707,
           "Legs": 3482,
-          "Feet": 3928,
-          "MainHand": 2353,
-          "OffHand": 2365
+          "Feet": 3928
         },
         "itemNames": {
           "Body": "Blacksmith\u0027s Apron",
           "Head": "Blacksmith\u0027s Goggles",
           "Hands": "Blacksmith\u0027s Gloves",
           "Legs": "Blacksmith\u0027s Slops",
-          "Feet": "Blacksmith\u0027s Workboots",
-          "MainHand": "Hammer of the Luminary",
-          "OffHand": "Militia File"
+          "Feet": "Blacksmith\u0027s Workboots"
         }
       },
       {
@@ -541,18 +471,14 @@
           "Head": 13018,
           "Hands": 13020,
           "Legs": 13021,
-          "Feet": 13022,
-          "MainHand": 13006,
-          "OffHand": 11922
+          "Feet": 13022
         },
         "itemNames": {
           "Body": "Forgemaster\u0027s Redingote",
           "Head": "Forgemaster\u0027s Goggles",
           "Hands": "Forgemaster\u0027s Gloves",
           "Legs": "Forgemaster\u0027s Slops",
-          "Feet": "Forgemaster\u0027s Sandals",
-          "MainHand": "Forgemaster\u0027s Hammer",
-          "OffHand": "Polished Adamantite File"
+          "Feet": "Forgemaster\u0027s Sandals"
         }
       },
       {
@@ -563,18 +489,14 @@
           "Head": 19667,
           "Hands": 19669,
           "Legs": 19670,
-          "Feet": 19671,
-          "MainHand": 19591,
-          "OffHand": 23190
+          "Feet": 19671
         },
         "itemNames": {
           "Body": "Forgeking\u0027s Apron",
           "Head": "Forgeking\u0027s Bandana",
           "Hands": "Forgeking\u0027s Gloves",
           "Legs": "Forgeking\u0027s Slops",
-          "Feet": "Forgeking\u0027s Boots",
-          "MainHand": "Forgeking\u0027s Hammer",
-          "OffHand": "Forgeking\u0027s File"
+          "Feet": "Forgeking\u0027s Boots"
         }
       },
       {
@@ -585,18 +507,14 @@
           "Head": 25338,
           "Hands": 25340,
           "Legs": 25341,
-          "Feet": 25342,
-          "MainHand": 25323,
-          "OffHand": 29949
+          "Feet": 25342
         },
         "itemNames": {
           "Body": "Forgefiend\u0027s Apron",
           "Head": "Forgefiend\u0027s Goggles",
           "Hands": "Forgefiend\u0027s Work Gloves",
           "Legs": "Forgefiend\u0027s Trousers",
-          "Feet": "Forgefiend\u0027s Leggings",
-          "MainHand": "Forgefiend\u0027s Hammer",
-          "OffHand": "Forgefiend\u0027s File"
+          "Feet": "Forgefiend\u0027s Leggings"
         }
       },
       {
@@ -607,18 +525,14 @@
           "Head": 35484,
           "Hands": 35486,
           "Legs": 35487,
-          "Feet": 35488,
-          "MainHand": 35469,
-          "OffHand": 35332
+          "Feet": 35488
         },
         "itemNames": {
           "Body": "Forgesoph\u0027s Apron",
           "Head": "Forgesoph\u0027s Goggles",
           "Hands": "Forgesoph\u0027s Work Gloves",
           "Legs": "Forgesoph\u0027s Trousers",
-          "Feet": "Forgesoph\u0027s Boots",
-          "MainHand": "Forgesoph\u0027s Hammer",
-          "OffHand": "High Durium File"
+          "Feet": "Forgesoph\u0027s Boots"
         }
       },
       {
@@ -629,18 +543,14 @@
           "Head": 43364,
           "Hands": 43366,
           "Legs": 43367,
-          "Feet": 43368,
-          "MainHand": 43349,
-          "OffHand": 43212
+          "Feet": 43368
         },
         "itemNames": {
           "Body": "Forgerise Chestwrap",
           "Head": "Forgerise Cap",
           "Hands": "Forgerise Mittens",
           "Legs": "Forgerise Longkilt",
-          "Feet": "Forgerise Workboots",
-          "MainHand": "Forgerise Hammer",
-          "OffHand": "Mountain Chromite File"
+          "Feet": "Forgerise Workboots"
         }
       }
     ],
@@ -653,18 +563,14 @@
           "Head": 2922,
           "Hands": 3708,
           "Legs": 3483,
-          "Feet": 3929,
-          "MainHand": 2378,
-          "OffHand": 2390
+          "Feet": 3929
         },
         "itemNames": {
           "Body": "Armorer\u0027s Gown",
           "Head": "Armorer\u0027s Visor",
           "Hands": "Armorer\u0027s Gloves",
           "Legs": "Armorer\u0027s Slops",
-          "Feet": "Armorer\u0027s Workboots",
-          "MainHand": "Mallet of the Luminary",
-          "OffHand": "Militia Pliers"
+          "Feet": "Armorer\u0027s Workboots"
         }
       },
       {
@@ -675,18 +581,14 @@
           "Head": 13023,
           "Hands": 13025,
           "Legs": 13026,
-          "Feet": 13027,
-          "MainHand": 13007,
-          "OffHand": 11926
+          "Feet": 13027
         },
         "itemNames": {
           "Body": "Hammermaster\u0027s Waist Apron",
           "Head": "Hammermaster\u0027s Visor",
           "Hands": "Hammermaster\u0027s Work Gloves",
           "Legs": "Hammermaster\u0027s Slops",
-          "Feet": "Hammermaster\u0027s Workboots",
-          "MainHand": "Hammermaster\u0027s Beetle",
-          "OffHand": "Double-jointed Adamantite Pliers"
+          "Feet": "Hammermaster\u0027s Workboots"
         }
       },
       {
@@ -697,18 +599,14 @@
           "Head": 19672,
           "Hands": 19674,
           "Legs": 19675,
-          "Feet": 19676,
-          "MainHand": 19592,
-          "OffHand": 23191
+          "Feet": 19676
         },
         "itemNames": {
           "Body": "Hammerking\u0027s Redingote",
           "Head": "Hammerking\u0027s Visor",
           "Hands": "Hammerking\u0027s Gloves",
           "Legs": "Hammerking\u0027s Slops",
-          "Feet": "Hammerking\u0027s Boots",
-          "MainHand": "Hammerking\u0027s Beetle",
-          "OffHand": "Hammerking\u0027s Pliers"
+          "Feet": "Hammerking\u0027s Boots"
         }
       },
       {
@@ -719,18 +617,14 @@
           "Head": 25343,
           "Hands": 25345,
           "Legs": 25346,
-          "Feet": 25347,
-          "MainHand": 25324,
-          "OffHand": 29950
+          "Feet": 25347
         },
         "itemNames": {
           "Body": "Hammerfiend\u0027s Apron",
           "Head": "Hammerfiend\u0027s Visor",
           "Hands": "Hammerfiend\u0027s Work Gloves",
           "Legs": "Hammerfiend\u0027s Trousers",
-          "Feet": "Hammerfiend\u0027s Workboots",
-          "MainHand": "Hammerfiend\u0027s Beetle",
-          "OffHand": "Hammerfiend\u0027s Pliers"
+          "Feet": "Hammerfiend\u0027s Workboots"
         }
       },
       {
@@ -741,18 +635,14 @@
           "Head": 35489,
           "Hands": 35491,
           "Legs": 35492,
-          "Feet": 35493,
-          "MainHand": 35470,
-          "OffHand": 35333
+          "Feet": 35493
         },
         "itemNames": {
           "Body": "Hammersoph\u0027s Apron",
           "Head": "Hammersoph\u0027s Visor",
           "Hands": "Hammersoph\u0027s Work Gloves",
           "Legs": "Hammersoph\u0027s Trousers",
-          "Feet": "Hammersoph\u0027s Workboots",
-          "MainHand": "Hammersoph\u0027s Beetle",
-          "OffHand": "High Durium Pliers"
+          "Feet": "Hammersoph\u0027s Workboots"
         }
       },
       {
@@ -763,18 +653,14 @@
           "Head": 43369,
           "Hands": 43371,
           "Legs": 43372,
-          "Feet": 43373,
-          "MainHand": 43350,
-          "OffHand": 43213
+          "Feet": 43373
         },
         "itemNames": {
           "Body": "Hammerrise Apron",
           "Head": "Hammerrise Mesail",
           "Hands": "Hammerrise Work Gloves",
           "Legs": "Hammerrise Brais",
-          "Feet": "Hammerrise Jackboots",
-          "MainHand": "Hammerrise Beetle",
-          "OffHand": "Mountain Chromite Pliers"
+          "Feet": "Hammerrise Jackboots"
         }
       }
     ],
@@ -787,18 +673,14 @@
           "Head": 2923,
           "Hands": 3709,
           "Legs": 3484,
-          "Feet": 3930,
-          "MainHand": 2403,
-          "OffHand": 2415
+          "Feet": 3930
         },
         "itemNames": {
           "Body": "Goldsmith\u0027s Doublet",
           "Head": "Goldsmith\u0027s Turban",
           "Hands": "Goldsmith\u0027s Gloves",
           "Legs": "Goldsmith\u0027s Trousers",
-          "Feet": "Goldsmith\u0027s Boots",
-          "MainHand": "Gavel of the Luminary",
-          "OffHand": "Militia Grinding Wheel"
+          "Feet": "Goldsmith\u0027s Boots"
         }
       },
       {
@@ -809,18 +691,14 @@
           "Head": 13028,
           "Hands": 13030,
           "Legs": 13031,
-          "Feet": 13032,
-          "MainHand": 13008,
-          "OffHand": 11930
+          "Feet": 13032
         },
         "itemNames": {
           "Body": "Gemmaster\u0027s Gown",
           "Head": "Gemmaster\u0027s Coronal",
           "Hands": "Gemmaster\u0027s Chaplets",
           "Legs": "Gemmaster\u0027s Trousers",
-          "Feet": "Gemmaster\u0027s Sandals",
-          "MainHand": "Gemmaster\u0027s Mallet",
-          "OffHand": "Sun Mica Grinding Wheel"
+          "Feet": "Gemmaster\u0027s Sandals"
         }
       },
       {
@@ -831,18 +709,14 @@
           "Head": 19677,
           "Hands": 19679,
           "Legs": 19680,
-          "Feet": 19681,
-          "MainHand": 19593,
-          "OffHand": 23192
+          "Feet": 19681
         },
         "itemNames": {
           "Body": "Gemking\u0027s Coat",
           "Head": "Gemking\u0027s Turban",
           "Hands": "Gemking\u0027s Gloves",
           "Legs": "Gemking\u0027s Slops",
-          "Feet": "Gemking\u0027s Boots",
-          "MainHand": "Gemking\u0027s Mallet",
-          "OffHand": "Gemking\u0027s Grinding Wheel"
+          "Feet": "Gemking\u0027s Boots"
         }
       },
       {
@@ -853,18 +727,14 @@
           "Head": 25348,
           "Hands": 25350,
           "Legs": 25351,
-          "Feet": 25352,
-          "MainHand": 25325,
-          "OffHand": 29951
+          "Feet": 25352
         },
         "itemNames": {
           "Body": "Gemfiend\u0027s Vest",
           "Head": "Gemfiend\u0027s Monocle",
           "Hands": "Gemfiend\u0027s Shortgloves",
           "Legs": "Gemfiend\u0027s Trousers",
-          "Feet": "Gemfiend\u0027s Boots",
-          "MainHand": "Gemfiend\u0027s Mallet",
-          "OffHand": "Gemfiend\u0027s Grinding Wheel"
+          "Feet": "Gemfiend\u0027s Boots"
         }
       },
       {
@@ -875,18 +745,14 @@
           "Head": 35494,
           "Hands": 35496,
           "Legs": 35497,
-          "Feet": 35498,
-          "MainHand": 35471,
-          "OffHand": 35334
+          "Feet": 35498
         },
         "itemNames": {
           "Body": "Gemsoph\u0027s Vest",
           "Head": "Gemsoph\u0027s Hat",
           "Hands": "Gemsoph\u0027s Wristdresses",
           "Legs": "Gemsoph\u0027s Trousers",
-          "Feet": "Gemsoph\u0027s Thighboots",
-          "MainHand": "Gemsoph\u0027s Mallet",
-          "OffHand": "Horse Chestnut Grinding Wheel"
+          "Feet": "Gemsoph\u0027s Thighboots"
         }
       },
       {
@@ -897,18 +763,14 @@
           "Head": 43374,
           "Hands": 43376,
           "Legs": 43377,
-          "Feet": 43378,
-          "MainHand": 43351,
-          "OffHand": 43214
+          "Feet": 43378
         },
         "itemNames": {
           "Body": "Gemrise Work Shirt",
           "Head": "Gemrise Cap",
           "Hands": "Gemrise Fingerstalls",
           "Legs": "Gemrise Pantaloons",
-          "Feet": "Gemrise Crakows",
-          "MainHand": "Gemrise Mallet",
-          "OffHand": "Ginseng Grinding Wheel"
+          "Feet": "Gemrise Crakows"
         }
       }
     ],
@@ -921,18 +783,14 @@
           "Head": 2924,
           "Hands": 3710,
           "Legs": 3485,
-          "Feet": 3931,
-          "MainHand": 2428,
-          "OffHand": 2441
+          "Feet": 3931
         },
         "itemNames": {
           "Body": "Leatherworker\u0027s Shirt",
           "Head": "Leatherworker\u0027s Hat",
           "Hands": "Leatherworker\u0027s Gloves",
           "Legs": "Leatherworker\u0027s Trousers",
-          "Feet": "Leatherworker\u0027s Workboots",
-          "MainHand": "Knife of the Luminary",
-          "OffHand": "Militia Awl"
+          "Feet": "Leatherworker\u0027s Workboots"
         }
       },
       {
@@ -943,18 +801,14 @@
           "Head": 13033,
           "Hands": 13035,
           "Legs": 13036,
-          "Feet": 13037,
-          "MainHand": 13009,
-          "OffHand": 11934
+          "Feet": 13037
         },
         "itemNames": {
           "Body": "Hidemaster\u0027s Apron",
           "Head": "Hidemaster\u0027s Cap",
           "Hands": "Hidemaster\u0027s Gloves",
           "Legs": "Hidemaster\u0027s Trousers",
-          "Feet": "Hidemaster\u0027s Workboots",
-          "MainHand": "Hidemaster\u0027s Knife",
-          "OffHand": "Sharpened Adamantite Awl"
+          "Feet": "Hidemaster\u0027s Workboots"
         }
       },
       {
@@ -965,18 +819,14 @@
           "Head": 19682,
           "Hands": 19684,
           "Legs": 19685,
-          "Feet": 19686,
-          "MainHand": 19594,
-          "OffHand": 23193
+          "Feet": 19686
         },
         "itemNames": {
           "Body": "Hideking\u0027s Jacket",
           "Head": "Hideking\u0027s Bandana",
           "Hands": "Hideking\u0027s Gloves",
           "Legs": "Hideking\u0027s Slacks",
-          "Feet": "Hideking\u0027s Thighboots",
-          "MainHand": "Hideking\u0027s Knife",
-          "OffHand": "Hideking\u0027s Awl"
+          "Feet": "Hideking\u0027s Thighboots"
         }
       },
       {
@@ -987,18 +837,14 @@
           "Head": 25353,
           "Hands": 25355,
           "Legs": 25356,
-          "Feet": 25357,
-          "MainHand": 25326,
-          "OffHand": 29952
+          "Feet": 25357
         },
         "itemNames": {
           "Body": "Hidefiend\u0027s Jacket",
           "Head": "Hidefiend\u0027s Cap",
           "Hands": "Hidefiend\u0027s Armlets",
           "Legs": "Hidefiend\u0027s Kecks",
-          "Feet": "Hidefiend\u0027s Thighboots",
-          "MainHand": "Hidefiend\u0027s Knife",
-          "OffHand": "Hidefiend\u0027s Awl"
+          "Feet": "Hidefiend\u0027s Thighboots"
         }
       },
       {
@@ -1009,18 +855,14 @@
           "Head": 35499,
           "Hands": 35501,
           "Legs": 35502,
-          "Feet": 35503,
-          "MainHand": 35472,
-          "OffHand": 35335
+          "Feet": 35503
         },
         "itemNames": {
           "Body": "Hidesoph\u0027s Apron",
           "Head": "Hidesoph\u0027s Cap",
           "Hands": "Hidesoph\u0027s Gloves",
           "Legs": "Hidesoph\u0027s Kecks",
-          "Feet": "Hidesoph\u0027s Boots",
-          "MainHand": "Hidesoph\u0027s Knife",
-          "OffHand": "High Durium Awl"
+          "Feet": "Hidesoph\u0027s Boots"
         }
       },
       {
@@ -1031,18 +873,14 @@
           "Head": 43379,
           "Hands": 43381,
           "Legs": 43382,
-          "Feet": 43383,
-          "MainHand": 43352,
-          "OffHand": 43215
+          "Feet": 43383
         },
         "itemNames": {
           "Body": "Hiderise Apron",
           "Head": "Hiderise Cap",
           "Hands": "Hiderise Armguards",
           "Legs": "Cropped Hiderise Slops",
-          "Feet": "Hiderise Boots",
-          "MainHand": "Hiderise Knife",
-          "OffHand": "Mountain Chromite Awl"
+          "Feet": "Hiderise Boots"
         }
       }
     ],
@@ -1055,18 +893,14 @@
           "Head": 2925,
           "Hands": 3711,
           "Legs": 3486,
-          "Feet": 3932,
-          "MainHand": 2454,
-          "OffHand": 2466
+          "Feet": 3932
         },
         "itemNames": {
           "Body": "Weaver\u0027s Swallowtail",
           "Head": "Weaver\u0027s Gibus",
           "Hands": "Weaver\u0027s Gloves",
           "Legs": "Weaver\u0027s Trousers",
-          "Feet": "Weaver\u0027s Thighboots",
-          "MainHand": "Needle of the Luminary",
-          "OffHand": "Militia Spinning Wheel"
+          "Feet": "Weaver\u0027s Thighboots"
         }
       },
       {
@@ -1077,18 +911,14 @@
           "Head": 13038,
           "Hands": 13040,
           "Legs": 13041,
-          "Feet": 13042,
-          "MainHand": 13010,
-          "OffHand": 11938
+          "Feet": 13042
         },
         "itemNames": {
           "Body": "Boltmaster\u0027s Dreadnought",
           "Head": "Boltmaster\u0027s Gibus",
           "Hands": "Boltmaster\u0027s Gloves",
           "Legs": "Boltmaster\u0027s Slacks",
-          "Feet": "Boltmaster\u0027s Top Boots",
-          "MainHand": "Boltmaster\u0027s Needle",
-          "OffHand": "Astral Birch Spinning Wheel"
+          "Feet": "Boltmaster\u0027s Top Boots"
         }
       },
       {
@@ -1099,18 +929,14 @@
           "Head": 19687,
           "Hands": 19689,
           "Legs": 19690,
-          "Feet": 19691,
-          "MainHand": 19595,
-          "OffHand": 23194
+          "Feet": 19691
         },
         "itemNames": {
           "Body": "Boltking\u0027s Jacket",
           "Head": "Boltking\u0027s Cap",
           "Hands": "Boltking\u0027s Gloves",
           "Legs": "Boltking\u0027s Slops",
-          "Feet": "Boltking\u0027s Boots",
-          "MainHand": "Boltking\u0027s Needle",
-          "OffHand": "Boltking\u0027s Spinning Wheel"
+          "Feet": "Boltking\u0027s Boots"
         }
       },
       {
@@ -1121,18 +947,14 @@
           "Head": 25358,
           "Hands": 25360,
           "Legs": 25361,
-          "Feet": 25362,
-          "MainHand": 25327,
-          "OffHand": 29953
+          "Feet": 25362
         },
         "itemNames": {
           "Body": "Boltfiend\u0027s Swallowtail",
           "Head": "Boltfiend\u0027s Top Hat",
           "Hands": "Boltfiend\u0027s Fingerstalls",
           "Legs": "Boltfiend\u0027s Slacks",
-          "Feet": "Boltfiend\u0027s Boots",
-          "MainHand": "Boltfiend\u0027s Needle",
-          "OffHand": "Boltfiend\u0027s Spinning Wheel"
+          "Feet": "Boltfiend\u0027s Boots"
         }
       },
       {
@@ -1143,18 +965,14 @@
           "Head": 35504,
           "Hands": 35506,
           "Legs": 35507,
-          "Feet": 35508,
-          "MainHand": 35473,
-          "OffHand": 35336
+          "Feet": 35508
         },
         "itemNames": {
           "Body": "Boltsoph\u0027s Swallowtail",
           "Head": "Boltsoph\u0027s Hat",
           "Hands": "Boltsoph\u0027s Cuffs",
           "Legs": "Boltsoph\u0027s Slacks",
-          "Feet": "Boltsoph\u0027s Boots",
-          "MainHand": "Boltsoph\u0027s Needle",
-          "OffHand": "Horse Chestnut Spinning Wheel"
+          "Feet": "Boltsoph\u0027s Boots"
         }
       },
       {
@@ -1165,18 +983,14 @@
           "Head": 43384,
           "Hands": 43386,
           "Legs": 43387,
-          "Feet": 43388,
-          "MainHand": 43353,
-          "OffHand": 43216
+          "Feet": 43388
         },
         "itemNames": {
           "Body": "Boltrise Vest",
           "Head": "Boltrise Hat",
           "Hands": "Boltrise Shortgloves",
           "Legs": "Boltrise Trousers",
-          "Feet": "Boltrise Gaiters",
-          "MainHand": "Boltrise Needle",
-          "OffHand": "Ginseng Spinning Wheel"
+          "Feet": "Boltrise Gaiters"
         }
       }
     ],
@@ -1189,18 +1003,14 @@
           "Head": 2926,
           "Hands": 3712,
           "Legs": 3487,
-          "Feet": 3933,
-          "MainHand": 2479,
-          "OffHand": 2492
+          "Feet": 3933
         },
         "itemNames": {
           "Body": "Alchemist\u0027s Coat",
           "Head": "Alchemist\u0027s Monocle",
           "Hands": "Alchemist\u0027s Gloves",
           "Legs": "Alchemist\u0027s Trousers",
-          "Feet": "Alchemist\u0027s Thighboots",
-          "MainHand": "Alembic of the Luminary",
-          "OffHand": "Militia Mortar"
+          "Feet": "Alchemist\u0027s Thighboots"
         }
       },
       {
@@ -1211,18 +1021,14 @@
           "Head": 13043,
           "Hands": 13045,
           "Legs": 13046,
-          "Feet": 13047,
-          "MainHand": 13011,
-          "OffHand": 11942
+          "Feet": 13047
         },
         "itemNames": {
           "Body": "Cauldronmaster\u0027s Overcoat",
           "Head": "Cauldronmaster\u0027s Spectacles",
           "Hands": "Cauldronmaster\u0027s Gloves",
           "Legs": "Cauldronmaster\u0027s Longkilt",
-          "Feet": "Cauldronmaster\u0027s Jackboots",
-          "MainHand": "Cauldronmaster\u0027s Alembic",
-          "OffHand": "Heavy Adamantite Mortar"
+          "Feet": "Cauldronmaster\u0027s Jackboots"
         }
       },
       {
@@ -1233,18 +1039,14 @@
           "Head": 19692,
           "Hands": 19694,
           "Legs": 19695,
-          "Feet": 19696,
-          "MainHand": 19596,
-          "OffHand": 23195
+          "Feet": 19696
         },
         "itemNames": {
           "Body": "Cauldronking\u0027s Coat",
           "Head": "Cauldronking\u0027s Hat",
           "Hands": "Cauldronking\u0027s Dress Gloves",
           "Legs": "Cauldronking\u0027s Slops",
-          "Feet": "Cauldronking\u0027s Boots",
-          "MainHand": "Cauldronking\u0027s Alembic",
-          "OffHand": "Cauldronking\u0027s Mortar"
+          "Feet": "Cauldronking\u0027s Boots"
         }
       },
       {
@@ -1255,18 +1057,14 @@
           "Head": 25363,
           "Hands": 25365,
           "Legs": 25366,
-          "Feet": 25367,
-          "MainHand": 25328,
-          "OffHand": 29954
+          "Feet": 25367
         },
         "itemNames": {
           "Body": "Cauldronfiend\u0027s Coat",
           "Head": "Cauldronfiend\u0027s Spectacles",
           "Hands": "Cauldronfiend\u0027s Gloves",
           "Legs": "Cauldronfiend\u0027s Kecks",
-          "Feet": "Cauldronfiend\u0027s Shoes",
-          "MainHand": "Cauldronfiend\u0027s Alembic",
-          "OffHand": "Cauldronfiend\u0027s Mortar"
+          "Feet": "Cauldronfiend\u0027s Shoes"
         }
       },
       {
@@ -1277,18 +1075,14 @@
           "Head": 35509,
           "Hands": 35511,
           "Legs": 35512,
-          "Feet": 35513,
-          "MainHand": 35474,
-          "OffHand": 35337
+          "Feet": 35513
         },
         "itemNames": {
           "Body": "Cauldronsoph\u0027s Mantle",
           "Head": "Cauldronsoph\u0027s Hat",
           "Hands": "Cauldronsoph\u0027s Gloves",
           "Legs": "Cauldronsoph\u0027s Kecks",
-          "Feet": "Cauldronsoph\u0027s Shoes",
-          "MainHand": "Cauldronsoph\u0027s Alembic",
-          "OffHand": "High Durium Mortar"
+          "Feet": "Cauldronsoph\u0027s Shoes"
         }
       },
       {
@@ -1299,18 +1093,14 @@
           "Head": 43389,
           "Hands": 43391,
           "Legs": 43392,
-          "Feet": 43393,
-          "MainHand": 43354,
-          "OffHand": 43217
+          "Feet": 43393
         },
         "itemNames": {
           "Body": "Cauldronrise Coat",
           "Head": "Cauldronrise Beret",
           "Hands": "Cauldronrise Wristgauge",
           "Legs": "Cauldronrise Trousers",
-          "Feet": "Cauldronrise Boots",
-          "MainHand": "Cauldronrise Alembic",
-          "OffHand": "Mountain Chromite Mortar"
+          "Feet": "Cauldronrise Boots"
         }
       }
     ],
@@ -1323,18 +1113,14 @@
           "Head": 2927,
           "Hands": 3713,
           "Legs": 3488,
-          "Feet": 3934,
-          "MainHand": 2505,
-          "OffHand": 2518
+          "Feet": 3934
         },
         "itemNames": {
           "Body": "Culinarian\u0027s Apron",
           "Head": "Culinarian\u0027s Hat",
           "Hands": "Culinarian\u0027s Mitts",
           "Legs": "Culinarian\u0027s Trousers",
-          "Feet": "Culinarian\u0027s Gaiters",
-          "MainHand": "Pan of the Luminary",
-          "OffHand": "Militia Culinary Knife"
+          "Feet": "Culinarian\u0027s Gaiters"
         }
       },
       {
@@ -1345,18 +1131,14 @@
           "Head": 13048,
           "Hands": 13050,
           "Legs": 13051,
-          "Feet": 13052,
-          "MainHand": 13012,
-          "OffHand": 11946
+          "Feet": 13052
         },
         "itemNames": {
           "Body": "Galleymaster\u0027s Whites",
           "Head": "Galleymaster\u0027s Toque",
           "Hands": "Galleymaster\u0027s Gloves",
           "Legs": "Galleymaster\u0027s Trousers",
-          "Feet": "Galleymaster\u0027s Top Boots",
-          "MainHand": "Galleymaster\u0027s Frypan",
-          "OffHand": "Wrapped Adamantite Culinary Knife"
+          "Feet": "Galleymaster\u0027s Top Boots"
         }
       },
       {
@@ -1367,18 +1149,14 @@
           "Head": 19697,
           "Hands": 19699,
           "Legs": 19700,
-          "Feet": 19701,
-          "MainHand": 19597,
-          "OffHand": 23196
+          "Feet": 19701
         },
         "itemNames": {
           "Body": "Galleyking\u0027s Apron",
           "Head": "Galleyking\u0027s Toque",
           "Hands": "Galleyking\u0027s Mittens",
           "Legs": "Galleyking\u0027s Trousers",
-          "Feet": "Galleyking\u0027s Shoes",
-          "MainHand": "Galleyking\u0027s Frypan",
-          "OffHand": "Galleyking\u0027s Culinary Knife"
+          "Feet": "Galleyking\u0027s Shoes"
         }
       },
       {
@@ -1389,18 +1167,14 @@
           "Head": 25368,
           "Hands": 25370,
           "Legs": 25371,
-          "Feet": 25372,
-          "MainHand": 25329,
-          "OffHand": 29955
+          "Feet": 25372
         },
         "itemNames": {
           "Body": "Galleyfiend\u0027s Apron",
           "Head": "Galleyfiend\u0027s Toque",
           "Hands": "Galleyfiend\u0027s Mittens",
           "Legs": "Galleyfiend\u0027s Trousers",
-          "Feet": "Galleyfiend\u0027s Pattens",
-          "MainHand": "Galleyfiend\u0027s Frypan",
-          "OffHand": "Galleyfiend\u0027s Culinary Knife"
+          "Feet": "Galleyfiend\u0027s Pattens"
         }
       },
       {
@@ -1411,18 +1185,14 @@
           "Head": 35514,
           "Hands": 35516,
           "Legs": 35517,
-          "Feet": 35518,
-          "MainHand": 35475,
-          "OffHand": 35338
+          "Feet": 35518
         },
         "itemNames": {
           "Body": "Galleysoph\u0027s Apron",
           "Head": "Galleysoph\u0027s Cap",
           "Hands": "Galleysoph\u0027s Mittens",
           "Legs": "Galleysoph\u0027s Trousers",
-          "Feet": "Galleysoph\u0027s Shoes",
-          "MainHand": "Galleysoph\u0027s Frypan",
-          "OffHand": "High Durium Culinary Knife"
+          "Feet": "Galleysoph\u0027s Shoes"
         }
       },
       {
@@ -1433,18 +1203,14 @@
           "Head": 43394,
           "Hands": 43396,
           "Legs": 43397,
-          "Feet": 43398,
-          "MainHand": 43355,
-          "OffHand": 43218
+          "Feet": 43398
         },
         "itemNames": {
           "Body": "Galleyrise Apron",
           "Head": "Galleyrise Cap",
           "Hands": "Galleyrise Mittens",
           "Legs": "Galleyrise Trousers",
-          "Feet": "Galleyrise Boots",
-          "MainHand": "Galleyrise Frypan",
-          "OffHand": "Mountain Chromite Culinary Knife"
+          "Feet": "Galleyrise Boots"
         }
       }
     ],
@@ -1457,18 +1223,14 @@
           "Head": 2928,
           "Hands": 3714,
           "Legs": 3489,
-          "Feet": 3935,
-          "MainHand": 2531,
-          "OffHand": 2544
+          "Feet": 3935
         },
         "itemNames": {
           "Body": "Miner\u0027s Shirt",
           "Head": "Hamlet Digger\u0027s Helmet",
           "Hands": "Miner\u0027s Gloves",
           "Legs": "Miner\u0027s Slops",
-          "Feet": "Miner\u0027s Workboots",
-          "MainHand": "Pick of the Luminary",
-          "OffHand": "Militia Sledgehammer"
+          "Feet": "Miner\u0027s Workboots"
         }
       },
       {
@@ -1479,18 +1241,14 @@
           "Head": 10270,
           "Hands": 10272,
           "Legs": 10273,
-          "Feet": 10274,
-          "MainHand": 10304,
-          "OffHand": 14114
+          "Feet": 10274
         },
         "itemNames": {
           "Body": "Minekeep\u0027s Overalls",
           "Head": "Minekeep\u0027s Helmet",
           "Hands": "Minekeep\u0027s Work Gloves",
           "Legs": "Minekeep\u0027s Slops",
-          "Feet": "Minekeep\u0027s Workboots",
-          "MainHand": "Minekeep\u0027s Pickaxe",
-          "OffHand": "Minekeep\u0027s Sledgehammer"
+          "Feet": "Minekeep\u0027s Workboots"
         }
       },
       {
@@ -1501,18 +1259,14 @@
           "Head": 19702,
           "Hands": 19704,
           "Legs": 19705,
-          "Feet": 19706,
-          "MainHand": 19598,
-          "OffHand": 23197
+          "Feet": 19706
         },
         "itemNames": {
           "Body": "Mineking\u0027s Work Shirt",
           "Head": "Mineking\u0027s Helmet",
           "Hands": "Mineking\u0027s Work Gloves",
           "Legs": "Mineking\u0027s Slops",
-          "Feet": "Mineking\u0027s Workboots",
-          "MainHand": "Mineking\u0027s Pickaxe",
-          "OffHand": "Mineking\u0027s Sledgehammer"
+          "Feet": "Mineking\u0027s Workboots"
         }
       },
       {
@@ -1523,18 +1277,14 @@
           "Head": 25373,
           "Hands": 25375,
           "Legs": 25376,
-          "Feet": 25377,
-          "MainHand": 25330,
-          "OffHand": 29956
+          "Feet": 25377
         },
         "itemNames": {
           "Body": "Minefiend\u0027s Work Shirt",
           "Head": "Minefiend\u0027s Helmet",
           "Hands": "Minefiend\u0027s Work Gloves",
           "Legs": "Minefiend\u0027s Slops",
-          "Feet": "Minefiend\u0027s Workboots",
-          "MainHand": "Minefiend\u0027s Pickaxe",
-          "OffHand": "Minefiend\u0027s Sledgehammer"
+          "Feet": "Minefiend\u0027s Workboots"
         }
       },
       {
@@ -1545,18 +1295,14 @@
           "Head": 35519,
           "Hands": 35521,
           "Legs": 35522,
-          "Feet": 35523,
-          "MainHand": 35476,
-          "OffHand": 35339
+          "Feet": 35523
         },
         "itemNames": {
           "Body": "Minesoph\u0027s Work Shirt",
           "Head": "Minesoph\u0027s Helmet",
           "Hands": "Minesoph\u0027s Work Gloves",
           "Legs": "Minesoph\u0027s Slops",
-          "Feet": "Minesoph\u0027s Workboots",
-          "MainHand": "Minesoph\u0027s Pickaxe",
-          "OffHand": "High Durium Sledgehammer"
+          "Feet": "Minesoph\u0027s Workboots"
         }
       },
       {
@@ -1567,18 +1313,14 @@
           "Head": 43399,
           "Hands": 43401,
           "Legs": 43402,
-          "Feet": 43403,
-          "MainHand": 43356,
-          "OffHand": 43219
+          "Feet": 43403
         },
         "itemNames": {
           "Body": "Minerise Work Shirt",
           "Head": "Minerise Helmet",
           "Hands": "Minerise Work Gloves",
           "Legs": "Minerise Slops",
-          "Feet": "Minerise Workboots",
-          "MainHand": "Minerise Pickaxe",
-          "OffHand": "Mountain Chromite Maul"
+          "Feet": "Minerise Workboots"
         }
       }
     ],
@@ -1591,18 +1333,14 @@
           "Head": 2929,
           "Hands": 3715,
           "Legs": 3490,
-          "Feet": 3936,
-          "MainHand": 2557,
-          "OffHand": 2570
+          "Feet": 3936
         },
         "itemNames": {
           "Body": "Botanist\u0027s Doublet",
           "Head": "Hamlet Cutter\u0027s Hat",
           "Hands": "Botanist\u0027s Gloves",
           "Legs": "Botanist\u0027s Slops",
-          "Feet": "Botanist\u0027s Workboots",
-          "MainHand": "Axe of the Luminary",
-          "OffHand": "Militia Scythe"
+          "Feet": "Botanist\u0027s Workboots"
         }
       },
       {
@@ -1613,18 +1351,14 @@
           "Head": 10275,
           "Hands": 10277,
           "Legs": 10278,
-          "Feet": 10279,
-          "MainHand": 10305,
-          "OffHand": 14115
+          "Feet": 10279
         },
         "itemNames": {
           "Body": "Fieldkeep\u0027s Shirt",
           "Head": "Fieldkeep\u0027s Canotier",
           "Hands": "Fieldkeep\u0027s Corsage",
           "Legs": "Fieldkeep\u0027s Slops",
-          "Feet": "Fieldkeep\u0027s Jackboots",
-          "MainHand": "Fieldkeep\u0027s Hatchet",
-          "OffHand": "Fieldkeep\u0027s Scythe"
+          "Feet": "Fieldkeep\u0027s Jackboots"
         }
       },
       {
@@ -1635,18 +1369,14 @@
           "Head": 19707,
           "Hands": 19709,
           "Legs": 19710,
-          "Feet": 19711,
-          "MainHand": 19599,
-          "OffHand": 23198
+          "Feet": 19711
         },
         "itemNames": {
           "Body": "Fieldking\u0027s Shirt",
           "Head": "Fieldking\u0027s Hat",
           "Hands": "Fieldking\u0027s Gloves",
           "Legs": "Fieldking\u0027s Slops",
-          "Feet": "Fieldking\u0027s Shoes",
-          "MainHand": "Fieldking\u0027s Hatchet",
-          "OffHand": "Fieldking\u0027s Scythe"
+          "Feet": "Fieldking\u0027s Shoes"
         }
       },
       {
@@ -1657,18 +1387,14 @@
           "Head": 25378,
           "Hands": 25380,
           "Legs": 25381,
-          "Feet": 25382,
-          "MainHand": 25331,
-          "OffHand": 29957
+          "Feet": 25382
         },
         "itemNames": {
           "Body": "Fieldfiend\u0027s Shirt",
           "Head": "Fieldfiend\u0027s Hat",
           "Hands": "Fieldfiend\u0027s Halfgloves",
           "Legs": "Fieldfiend\u0027s Slops",
-          "Feet": "Fieldfiend\u0027s Workboots",
-          "MainHand": "Fieldfiend\u0027s Hatchet",
-          "OffHand": "Fieldfiend\u0027s Scythe"
+          "Feet": "Fieldfiend\u0027s Workboots"
         }
       },
       {
@@ -1679,18 +1405,14 @@
           "Head": 35524,
           "Hands": 35526,
           "Legs": 35527,
-          "Feet": 35528,
-          "MainHand": 35477,
-          "OffHand": 35340
+          "Feet": 35528
         },
         "itemNames": {
           "Body": "Fieldsoph\u0027s Shirt",
           "Head": "Fieldsoph\u0027s Hood",
           "Hands": "Fieldsoph\u0027s Gloves",
           "Legs": "Fieldsoph\u0027s Slops",
-          "Feet": "Fieldsoph\u0027s Crakows",
-          "MainHand": "Fieldsoph\u0027s Hatchet",
-          "OffHand": "High Durium Garden Scythe"
+          "Feet": "Fieldsoph\u0027s Crakows"
         }
       },
       {
@@ -1701,18 +1423,14 @@
           "Head": 43404,
           "Hands": 43406,
           "Legs": 43407,
-          "Feet": 43408,
-          "MainHand": 43357,
-          "OffHand": 43220
+          "Feet": 43408
         },
         "itemNames": {
           "Body": "Fieldrise Doublet",
           "Head": "Fieldrise Hat",
           "Hands": "Fieldrise Work Gloves",
           "Legs": "Fieldrise Breeches",
-          "Feet": "Fieldrise Thighboots",
-          "MainHand": "Fieldrise Hatchet",
-          "OffHand": "Mountain Chromite Garden Scythe"
+          "Feet": "Fieldrise Thighboots"
         }
       }
     ],
@@ -1725,16 +1443,14 @@
           "Head": 2930,
           "Hands": 3716,
           "Legs": 3491,
-          "Feet": 3937,
-          "MainHand": 2583
+          "Feet": 3937
         },
         "itemNames": {
           "Body": "Fisher\u0027s Shirt",
           "Head": "Hamlet Puller\u0027s Hat",
           "Hands": "Fisher\u0027s Gloves",
           "Legs": "Fisher\u0027s Gaskins",
-          "Feet": "Fisher\u0027s Wading Boots",
-          "MainHand": "Rod of the Luminary"
+          "Feet": "Fisher\u0027s Wading Boots"
         }
       },
       {
@@ -1745,16 +1461,14 @@
           "Head": 10280,
           "Hands": 10282,
           "Legs": 10283,
-          "Feet": 10284,
-          "MainHand": 10306
+          "Feet": 10284
         },
         "itemNames": {
           "Body": "Tacklekeep\u0027s Vest",
           "Head": "Tacklekeep\u0027s Cap",
           "Hands": "Tacklekeep\u0027s Gloves",
           "Legs": "Tacklekeep\u0027s Gaskins",
-          "Feet": "Tacklekeep\u0027s Waders",
-          "MainHand": "Tacklekeep\u0027s Rod"
+          "Feet": "Tacklekeep\u0027s Waders"
         }
       },
       {
@@ -1765,16 +1479,14 @@
           "Head": 19712,
           "Hands": 19714,
           "Legs": 19715,
-          "Feet": 19716,
-          "MainHand": 19600
+          "Feet": 19716
         },
         "itemNames": {
           "Body": "Tackleking\u0027s Vest",
           "Head": "Tackleking\u0027s Bandana",
           "Hands": "Tackleking\u0027s Fingerless Gloves",
           "Legs": "Tackleking\u0027s Halfslops",
-          "Feet": "Tackleking\u0027s Sandals",
-          "MainHand": "Tackleking\u0027s Rod"
+          "Feet": "Tackleking\u0027s Sandals"
         }
       },
       {
@@ -1785,16 +1497,14 @@
           "Head": 25383,
           "Hands": 25385,
           "Legs": 25386,
-          "Feet": 25387,
-          "MainHand": 25332
+          "Feet": 25387
         },
         "itemNames": {
           "Body": "Tacklefiend\u0027s Jacket",
           "Head": "Tacklefiend\u0027s Hat",
           "Hands": "Tacklefiend\u0027s Work Gloves",
           "Legs": "Tacklefiend\u0027s Slops",
-          "Feet": "Tacklefiend\u0027s Workboots",
-          "MainHand": "Tacklefiend\u0027s Rod"
+          "Feet": "Tacklefiend\u0027s Workboots"
         }
       },
       {
@@ -1805,16 +1515,14 @@
           "Head": 35529,
           "Hands": 35531,
           "Legs": 35532,
-          "Feet": 35533,
-          "MainHand": 35478
+          "Feet": 35533
         },
         "itemNames": {
           "Body": "Tacklesoph\u0027s Jacket",
           "Head": "Tacklesoph\u0027s Hat",
           "Hands": "Tacklesoph\u0027s Work Gloves",
           "Legs": "Tacklesoph\u0027s Slops",
-          "Feet": "Tacklesoph\u0027s Workboots",
-          "MainHand": "Tacklesoph\u0027s Rod"
+          "Feet": "Tacklesoph\u0027s Workboots"
         }
       },
       {
@@ -1825,16 +1533,14 @@
           "Head": 43409,
           "Hands": 43411,
           "Legs": 43412,
-          "Feet": 43413,
-          "MainHand": 43358
+          "Feet": 43413
         },
         "itemNames": {
           "Body": "Tacklerise Work Shirt",
           "Head": "Tacklerise Hat",
           "Hands": "Tacklerise Work Gloves",
           "Legs": "Tacklerise Kecks",
-          "Feet": "Tacklerise Workboots",
-          "MainHand": "Tacklerise Rod"
+          "Feet": "Tacklerise Workboots"
         }
       }
     ],

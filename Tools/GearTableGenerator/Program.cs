@@ -107,12 +107,13 @@ foreach (var cj in classJobs.Where(c => c.RowId is >= 8 and <= 42 and not (26 or
             if (ov.Main != 0) main = items.GetRow(ov.Main);
             if (ov.Off != 0) off = items.GetRow(ov.Off);
         }
-        // Crafters and gatherers need an off-hand tool for their draw animation; later scrip sets
-        // don't include one, so use the lowest item level one for the bracket.
-        if (off.RowId == 0 && cj.RowId is >= 8 and <= 17)
-            off = offs.OrderBy(i => i.LevelItem.RowId).ThenBy(i => i.RowId).FirstOrDefault();
-        if (main.RowId != 0) picked["MainHand"] = main;
-        if (off.RowId != 0) picked["OffHand"] = off;
+        // Crafters and gatherers keep their real tools (the plugin can't swap them without breaking
+        // their draw animation), so only combat jobs get weapons.
+        if (!IsCrafterOrGatherer(cj.RowId))
+        {
+            if (main.RowId != 0) picked["MainHand"] = main;
+            if (off.RowId != 0) picked["OffHand"] = off;
+        }
 
         list.Add((t, Entry($"{abbr} {t}: {family}", t, picked)));
     }
@@ -203,21 +204,11 @@ var classOutfits = new Dictionary<uint, (string Name, string[] Pieces)>
     [18] = ("Fisher", ["Weathered Beach Hat (Blue)", "Weathered Shirt", "Weathered Fingerless Gloves", "Weathered Trousers", "Weathered Duckbills"]),
 };
 
-// Classes without a starting weapon in the ClassJob sheet.
+// Combat classes without a starting weapon in the ClassJob sheet. (Crafters and gatherers keep
+// their real tools.)
 var starterWeapons = new Dictionary<uint, (string Main, string Off)>
 {
     [29] = ("Weathered Daggers", ""),
-    [8] = ("Weathered Saw", ""),
-    [9] = ("Weathered Cross-pein Hammer", ""),
-    [10] = ("Weathered Doming Hammer", ""),
-    [11] = ("Weathered Chaser Hammer", ""),
-    [12] = ("Weathered Head Knife", ""),
-    [13] = ("Rusty Needle", ""),
-    [14] = ("Weathered Alembic", ""),
-    [15] = ("Weathered Skillet", ""),
-    [16] = ("Weathered Pickaxe", "Weathered Sledgehammer"),
-    [17] = ("Weathered Hatchet", "Weathered Scythe"),
-    [18] = ("Weathered Fishing Rod", ""),
 };
 
 var classOut = new SortedDictionary<uint, object>();
@@ -234,18 +225,8 @@ foreach (var (id, (name, pieces)) in classOutfits)
     {
         if (Require(w.Main) is var m and not 0) picked["MainHand"] = m;
         if (w.Off != "" && Require(w.Off) is var o and not 0) picked["OffHand"] = o;
-
-        // Crafters without a "Weathered" off-hand get their lowest level one, for the draw animation.
-        if (w.Off == "" && id is >= 8 and <= 17)
-        {
-            var off = Report.JobItems(classJobs.GetRow(id).Abbreviation.ToString(), minItemLevel: 0)
-                .Where(i => Report.SlotOf(i) == 6)
-                .OrderBy(i => !i.Name.ToString().StartsWith("Amateur's ")) // the plain starter tools, not novelty ones like the Tonberry Knife
-                .ThenBy(i => i.LevelEquip).ThenBy(i => i.LevelItem.RowId).ThenBy(i => i.RowId).FirstOrDefault();
-            if (off.RowId != 0) picked["OffHand"] = off.RowId;
-        }
     }
-    else
+    else if (!IsCrafterOrGatherer(id))
     {
         var cj = classJobs.GetRow(id);
         if (cj.ItemStartingWeaponMainHand.RowId != 0) picked["MainHand"] = cj.ItemStartingWeaponMainHand.RowId;
@@ -264,3 +245,5 @@ var output = args.Length > 1 ? args[1] : Path.Combine("..", "..", "StoryMode", "
 File.WriteAllText(output, JsonSerializer.Serialize(new { classOutfits = classOut, jobs = jobsOut }, new JsonSerializerOptions { WriteIndented = true }));
 Console.WriteLine($"Wrote {output}: {classOut.Count} class outfits, {jobsOut.Sum(j => j.Value.Count)} job tiers, {missing} missing items.");
 return missing == 0 ? 0 : 1;
+
+static bool IsCrafterOrGatherer(uint classJob) => classJob is >= 8 and <= 18;

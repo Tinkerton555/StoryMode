@@ -104,6 +104,8 @@ public sealed unsafe class OutfitApplier : IDisposable
             source = (Character*)real;
 
         var local = (Character*)Control.GetLocalPlayer();
+        if (local == null)
+            return null;
         return resolver.ShouldAffect(source, local) ? resolver.Resolve(source) : null;
     }
 
@@ -152,6 +154,11 @@ public sealed unsafe class OutfitApplier : IDisposable
 
     private void OnFrameworkUpdate(IFramework framework)
     {
+        // Without the local player (logging in, loading screens) we can't tell who "me", the party
+        // or friends are, so make no decisions this frame.
+        if (Control.GetLocalPlayer() == null)
+            return;
+
         seenThisFrame.Clear();
         MapCutsceneCopies();
 

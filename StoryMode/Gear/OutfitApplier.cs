@@ -190,11 +190,25 @@ public sealed unsafe class OutfitApplier : IDisposable
         if (!changed.TryGetValue(address, out var real))
         {
             real = new RealLook { EntityId = character->GameObject.EntityId };
-            for (var i = 0; i < 10; i++)
-                real.Equipment[i] = drawData.Equipment((DrawDataContainer.EquipmentSlot)i);
-            real.MainHand = drawData.Weapon(DrawDataContainer.WeaponSlot.MainHand).ModelId;
-            real.OffHand = drawData.Weapon(DrawDataContainer.WeaponSlot.OffHand).ModelId;
-            real.Glasses = drawData.GlassesIds[0];
+
+            // Cutscene and GPose copies are made from how the player looks right now, which may
+            // already be our outfit. Their real look is the original player's real look.
+            if (cutsceneSources.TryGetValue(address, out var source) && changed.TryGetValue(source, out var sourceReal))
+            {
+                Array.Copy(sourceReal.Equipment, real.Equipment, real.Equipment.Length);
+                real.MainHand = sourceReal.MainHand;
+                real.OffHand = sourceReal.OffHand;
+                real.Glasses = sourceReal.Glasses;
+            }
+            else
+            {
+                for (var i = 0; i < 10; i++)
+                    real.Equipment[i] = drawData.Equipment((DrawDataContainer.EquipmentSlot)i);
+                real.MainHand = drawData.Weapon(DrawDataContainer.WeaponSlot.MainHand).ModelId;
+                real.OffHand = drawData.Weapon(DrawDataContainer.WeaponSlot.OffHand).ModelId;
+                real.Glasses = drawData.GlassesIds[0];
+            }
+
             changed[address] = real;
         }
 

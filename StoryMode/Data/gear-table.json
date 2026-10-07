@@ -1,0 +1,4122 @@
+{
+  "classOutfits": {
+    "1": {
+      "name": "Gladiator starter outfit",
+      "items": {
+        "Body": 624,
+        "Hands": 1130,
+        "Legs": 957,
+        "Feet": 1280,
+        "MainHand": 1601
+      },
+      "itemNames": {
+        "Body": "Weathered Acton (Grey)",
+        "Hands": "Weathered Halfgloves",
+        "Legs": "Weathered Chausses",
+        "Feet": "Weathered Jackboots (Taupe)",
+        "MainHand": "Weathered Shortsword"
+      }
+    },
+    "2": {
+      "name": "Pugilist starter outfit",
+      "items": {
+        "Head": 369,
+        "Body": 623,
+        "Legs": 962,
+        "Feet": 1279,
+        "MainHand": 1680
+      },
+      "itemNames": {
+        "Head": "Weathered Bandana",
+        "Body": "Weathered Shirt",
+        "Legs": "Weathered Sarouel (Brown)",
+        "Feet": "Weathered Moccasins",
+        "MainHand": "Weathered Hora"
+      }
+    },
+    "3": {
+      "name": "Marauder starter outfit",
+      "items": {
+        "Body": 625,
+        "Hands": 1131,
+        "Legs": 960,
+        "Feet": 1275,
+        "MainHand": 1749
+      },
+      "itemNames": {
+        "Body": "Weathered Jerkin (Brown)",
+        "Hands": "Weathered Work Gloves",
+        "Legs": "Weathered Kecks (Brown)",
+        "Feet": "Weathered Workboots",
+        "MainHand": "Weathered War Axe"
+      }
+    },
+    "4": {
+      "name": "Lancer starter outfit",
+      "items": {
+        "Head": 366,
+        "Body": 626,
+        "Hands": 1132,
+        "Legs": 956,
+        "Feet": 1270,
+        "MainHand": 1819
+      },
+      "itemNames": {
+        "Head": "Weathered Coif (Grey)",
+        "Body": "Weathered Tabard",
+        "Hands": "Weathered Fingerless Gloves",
+        "Legs": "Weathered Breeches (Grey)",
+        "Feet": "Weathered Thighboots (Grey)",
+        "MainHand": "Weathered Spear"
+      }
+    },
+    "5": {
+      "name": "Archer starter outfit",
+      "items": {
+        "Head": 367,
+        "Body": 622,
+        "Hands": 1132,
+        "Legs": 963,
+        "Feet": 1269,
+        "MainHand": 1889
+      },
+      "itemNames": {
+        "Head": "Weathered Beret (Beige)",
+        "Body": "Weathered Hunting Tunic (Brown)",
+        "Hands": "Weathered Fingerless Gloves",
+        "Legs": "Weathered Tights",
+        "Feet": "Weathered Thighboots",
+        "MainHand": "Weathered Shortbow"
+      }
+    },
+    "6": {
+      "name": "Conjurer starter outfit",
+      "items": {
+        "Body": 617,
+        "Legs": 954,
+        "Feet": 1272,
+        "MainHand": 1995
+      },
+      "itemNames": {
+        "Body": "Weathered Robe",
+        "Legs": "Weathered Slops (Beige)",
+        "Feet": "Weathered Pattens",
+        "MainHand": "Weathered Cane"
+      }
+    },
+    "7": {
+      "name": "Thaumaturge starter outfit",
+      "items": {
+        "Body": 618,
+        "Legs": 953,
+        "Feet": 1276,
+        "MainHand": 2055
+      },
+      "itemNames": {
+        "Body": "Weathered Dalmatica",
+        "Legs": "Weathered Slops (Grey)",
+        "Feet": "Weathered Crakows",
+        "MainHand": "Weathered Scepter"
+      }
+    },
+    "8": {
+      "name": "Carpenter starter outfit",
+      "items": {
+        "Body": 616,
+        "Hands": 1131,
+        "Legs": 955,
+        "Feet": 1275,
+        "MainHand": 2314
+      },
+      "itemNames": {
+        "Body": "Weathered Doublet (Yellow)",
+        "Hands": "Weathered Work Gloves",
+        "Legs": "Weathered Trousers",
+        "Feet": "Weathered Workboots",
+        "MainHand": "Weathered Saw"
+      }
+    },
+    "9": {
+      "name": "Blacksmith starter outfit",
+      "items": {
+        "Body": 623,
+        "Hands": 1129,
+        "Legs": 960,
+        "Feet": 1274,
+        "MainHand": 2340
+      },
+      "itemNames": {
+        "Body": "Weathered Shirt",
+        "Hands": "Weathered Smithy\u0027s Gloves",
+        "Legs": "Weathered Kecks (Brown)",
+        "Feet": "Weathered Workboots (Grey)",
+        "MainHand": "Weathered Cross-pein Hammer"
+      }
+    },
+    "10": {
+      "name": "Armorer starter outfit",
+      "items": {
+        "Body": 624,
+        "Hands": 1129,
+        "Legs": 958,
+        "Feet": 1274,
+        "MainHand": 2366
+      },
+      "itemNames": {
+        "Body": "Weathered Acton (Grey)",
+        "Hands": "Weathered Smithy\u0027s Gloves",
+        "Legs": "Weathered Chausses (Grey)",
+        "Feet": "Weathered Workboots (Grey)",
+        "MainHand": "Weathered Doming Hammer"
+      }
+    },
+    "11": {
+      "name": "Goldsmith starter outfit",
+      "items": {
+        "Head": 368,
+        "Body": 620,
+        "Hands": 1132,
+        "Legs": 952,
+        "Feet": 1278,
+        "MainHand": 2391
+      },
+      "itemNames": {
+        "Head": "Weathered Spectacles",
+        "Body": "Weathered Gown (Grey)",
+        "Hands": "Weathered Fingerless Gloves",
+        "Legs": "Weathered Slops (Brown)",
+        "Feet": "Weathered Shoes",
+        "MainHand": "Weathered Chaser Hammer"
+      }
+    },
+    "12": {
+      "name": "Leatherworker starter outfit",
+      "items": {
+        "Body": 625,
+        "Hands": 1131,
+        "Legs": 956,
+        "Feet": 1279,
+        "MainHand": 2416
+      },
+      "itemNames": {
+        "Body": "Weathered Jerkin (Brown)",
+        "Hands": "Weathered Work Gloves",
+        "Legs": "Weathered Breeches (Grey)",
+        "Feet": "Weathered Moccasins",
+        "MainHand": "Weathered Head Knife"
+      }
+    },
+    "13": {
+      "name": "Weaver starter outfit",
+      "items": {
+        "Head": 367,
+        "Body": 621,
+        "Hands": 1130,
+        "Legs": 959,
+        "Feet": 1277,
+        "MainHand": 2442
+      },
+      "itemNames": {
+        "Head": "Weathered Beret (Beige)",
+        "Body": "Weathered Gown (Beige)",
+        "Hands": "Weathered Halfgloves",
+        "Legs": "Weathered Culottes (Grey)",
+        "Feet": "Weathered Shoes (Taupe)",
+        "MainHand": "Rusty Needle"
+      }
+    },
+    "14": {
+      "name": "Alchemist starter outfit",
+      "items": {
+        "Head": 368,
+        "Body": 619,
+        "Hands": 1130,
+        "Legs": 953,
+        "Feet": 1273,
+        "MainHand": 2467
+      },
+      "itemNames": {
+        "Head": "Weathered Spectacles",
+        "Body": "Weathered Dalmatica (Grey)",
+        "Hands": "Weathered Halfgloves",
+        "Legs": "Weathered Slops (Grey)",
+        "Feet": "Weathered Pattens (Grey)",
+        "MainHand": "Weathered Alembic"
+      }
+    },
+    "15": {
+      "name": "Culinarian starter outfit",
+      "items": {
+        "Head": 366,
+        "Body": 623,
+        "Legs": 955,
+        "Feet": 1278,
+        "MainHand": 2493
+      },
+      "itemNames": {
+        "Head": "Weathered Coif (Grey)",
+        "Body": "Weathered Shirt",
+        "Legs": "Weathered Trousers",
+        "Feet": "Weathered Shoes",
+        "MainHand": "Weathered Skillet"
+      }
+    },
+    "16": {
+      "name": "Miner starter outfit",
+      "items": {
+        "Head": 369,
+        "Body": 627,
+        "Hands": 1131,
+        "Legs": 961,
+        "Feet": 1275,
+        "MainHand": 2519,
+        "OffHand": 2533
+      },
+      "itemNames": {
+        "Head": "Weathered Bandana",
+        "Body": "Weathered Doublet Vest (Grey)",
+        "Hands": "Weathered Work Gloves",
+        "Legs": "Weathered Kecks (Grey)",
+        "Feet": "Weathered Workboots",
+        "MainHand": "Weathered Pickaxe",
+        "OffHand": "Weathered Sledgehammer"
+      }
+    },
+    "17": {
+      "name": "Botanist starter outfit",
+      "items": {
+        "Head": 370,
+        "Body": 622,
+        "Hands": 1131,
+        "Legs": 952,
+        "Feet": 1279,
+        "MainHand": 2545,
+        "OffHand": 2559
+      },
+      "itemNames": {
+        "Head": "Weathered Sun Hat",
+        "Body": "Weathered Hunting Tunic (Brown)",
+        "Hands": "Weathered Work Gloves",
+        "Legs": "Weathered Slops (Brown)",
+        "Feet": "Weathered Moccasins",
+        "MainHand": "Weathered Hatchet",
+        "OffHand": "Weathered Scythe"
+      }
+    },
+    "18": {
+      "name": "Fisher starter outfit",
+      "items": {
+        "Head": 371,
+        "Body": 623,
+        "Hands": 1132,
+        "Legs": 955,
+        "Feet": 1271,
+        "MainHand": 2571
+      },
+      "itemNames": {
+        "Head": "Weathered Beach Hat (Blue)",
+        "Body": "Weathered Shirt",
+        "Hands": "Weathered Fingerless Gloves",
+        "Legs": "Weathered Trousers",
+        "Feet": "Weathered Duckbills",
+        "MainHand": "Weathered Fishing Rod"
+      }
+    },
+    "26": {
+      "name": "Arcanist starter outfit",
+      "items": {
+        "Head": 368,
+        "Body": 628,
+        "Legs": 959,
+        "Feet": 1277,
+        "MainHand": 2142
+      },
+      "itemNames": {
+        "Head": "Weathered Spectacles",
+        "Body": "Weathered Halfrobe (Beige)",
+        "Legs": "Weathered Culottes (Grey)",
+        "Feet": "Weathered Shoes (Taupe)",
+        "MainHand": "Weathered Grimoire"
+      }
+    },
+    "29": {
+      "name": "Rogue starter outfit",
+      "items": {
+        "Head": 369,
+        "Body": 627,
+        "Hands": 1132,
+        "Legs": 961,
+        "Feet": 1278,
+        "MainHand": 7952
+      },
+      "itemNames": {
+        "Head": "Weathered Bandana",
+        "Body": "Weathered Doublet Vest (Grey)",
+        "Hands": "Weathered Fingerless Gloves",
+        "Legs": "Weathered Kecks (Grey)",
+        "Feet": "Weathered Shoes",
+        "MainHand": "Weathered Daggers"
+      }
+    }
+  },
+  "jobs": {
+    "8": [
+      {
+        "name": "CRP 50: Carpenter\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3229,
+          "Head": 2920,
+          "Hands": 3706,
+          "Legs": 3481,
+          "Feet": 3927,
+          "MainHand": 2326,
+          "OffHand": 2339
+        },
+        "itemNames": {
+          "Body": "Carpenter\u0027s Gown",
+          "Head": "Carpenter\u0027s Hood",
+          "Hands": "Carpenter\u0027s Gloves",
+          "Legs": "Carpenter\u0027s Slops",
+          "Feet": "Carpenter\u0027s Workboots",
+          "MainHand": "Saw of the Luminary",
+          "OffHand": "Militia Claw Hammer"
+        }
+      },
+      {
+        "name": "CRP 60: Millmaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13014,
+          "Head": 13013,
+          "Hands": 13015,
+          "Legs": 13016,
+          "Feet": 13017,
+          "MainHand": 13005,
+          "OffHand": 11918
+        },
+        "itemNames": {
+          "Body": "Millmaster\u0027s Apron",
+          "Head": "Millmaster\u0027s Cap",
+          "Hands": "Millmaster\u0027s Gloves",
+          "Legs": "Millmaster\u0027s Slops",
+          "Feet": "Millmaster\u0027s Workboots",
+          "MainHand": "Millmaster\u0027s Saw",
+          "OffHand": "Fortified Claw Hammer"
+        }
+      },
+      {
+        "name": "CRP 70: Millking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19663,
+          "Head": 19662,
+          "Hands": 19664,
+          "Legs": 19665,
+          "Feet": 19666,
+          "MainHand": 19590,
+          "OffHand": 23189
+        },
+        "itemNames": {
+          "Body": "Millking\u0027s Coat",
+          "Head": "Millking\u0027s Cap",
+          "Hands": "Millking\u0027s Gloves",
+          "Legs": "Millking\u0027s Slops",
+          "Feet": "Millking\u0027s Boots",
+          "MainHand": "Millking\u0027s Saw",
+          "OffHand": "Millking\u0027s Claw Hammer"
+        }
+      },
+      {
+        "name": "CRP 80: Millfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25334,
+          "Head": 25333,
+          "Hands": 25335,
+          "Legs": 25336,
+          "Feet": 25337,
+          "MainHand": 25322,
+          "OffHand": 29948
+        },
+        "itemNames": {
+          "Body": "Millfiend\u0027s Apron",
+          "Head": "Millfiend\u0027s Cap",
+          "Hands": "Millfiend\u0027s Halfgloves",
+          "Legs": "Millfiend\u0027s Kecks",
+          "Feet": "Millfiend\u0027s Workboots",
+          "MainHand": "Millfiend\u0027s Saw",
+          "OffHand": "Millfiend\u0027s Claw Hammer"
+        }
+      },
+      {
+        "name": "CRP 90: Millsoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35480,
+          "Head": 35479,
+          "Hands": 35481,
+          "Legs": 35482,
+          "Feet": 35483,
+          "MainHand": 35468
+        },
+        "itemNames": {
+          "Body": "Millsoph\u0027s Apron",
+          "Head": "Millsoph\u0027s Bandana",
+          "Hands": "Millsoph\u0027s Gloves",
+          "Legs": "Millsoph\u0027s Breeches",
+          "Feet": "Millsoph\u0027s Gaiters",
+          "MainHand": "Millsoph\u0027s Saw"
+        }
+      },
+      {
+        "name": "CRP 100: Millrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43360,
+          "Head": 43359,
+          "Hands": 43361,
+          "Legs": 43362,
+          "Feet": 43363,
+          "MainHand": 43348
+        },
+        "itemNames": {
+          "Body": "Millrise Vest",
+          "Head": "Millrise Goggles",
+          "Hands": "Millrise Work Gloves",
+          "Legs": "Millrise Slops",
+          "Feet": "Millrise Boots",
+          "MainHand": "Millrise Saw"
+        }
+      }
+    ],
+    "9": [
+      {
+        "name": "BSM 50: Blacksmith\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3230,
+          "Head": 2921,
+          "Hands": 3707,
+          "Legs": 3482,
+          "Feet": 3928,
+          "MainHand": 2353,
+          "OffHand": 2365
+        },
+        "itemNames": {
+          "Body": "Blacksmith\u0027s Apron",
+          "Head": "Blacksmith\u0027s Goggles",
+          "Hands": "Blacksmith\u0027s Gloves",
+          "Legs": "Blacksmith\u0027s Slops",
+          "Feet": "Blacksmith\u0027s Workboots",
+          "MainHand": "Hammer of the Luminary",
+          "OffHand": "Militia File"
+        }
+      },
+      {
+        "name": "BSM 60: Forgemaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13019,
+          "Head": 13018,
+          "Hands": 13020,
+          "Legs": 13021,
+          "Feet": 13022,
+          "MainHand": 13006,
+          "OffHand": 11922
+        },
+        "itemNames": {
+          "Body": "Forgemaster\u0027s Redingote",
+          "Head": "Forgemaster\u0027s Goggles",
+          "Hands": "Forgemaster\u0027s Gloves",
+          "Legs": "Forgemaster\u0027s Slops",
+          "Feet": "Forgemaster\u0027s Sandals",
+          "MainHand": "Forgemaster\u0027s Hammer",
+          "OffHand": "Polished Adamantite File"
+        }
+      },
+      {
+        "name": "BSM 70: Forgeking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19668,
+          "Head": 19667,
+          "Hands": 19669,
+          "Legs": 19670,
+          "Feet": 19671,
+          "MainHand": 19591,
+          "OffHand": 23190
+        },
+        "itemNames": {
+          "Body": "Forgeking\u0027s Apron",
+          "Head": "Forgeking\u0027s Bandana",
+          "Hands": "Forgeking\u0027s Gloves",
+          "Legs": "Forgeking\u0027s Slops",
+          "Feet": "Forgeking\u0027s Boots",
+          "MainHand": "Forgeking\u0027s Hammer",
+          "OffHand": "Forgeking\u0027s File"
+        }
+      },
+      {
+        "name": "BSM 80: Forgefiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25339,
+          "Head": 25338,
+          "Hands": 25340,
+          "Legs": 25341,
+          "Feet": 25342,
+          "MainHand": 25323,
+          "OffHand": 29949
+        },
+        "itemNames": {
+          "Body": "Forgefiend\u0027s Apron",
+          "Head": "Forgefiend\u0027s Goggles",
+          "Hands": "Forgefiend\u0027s Work Gloves",
+          "Legs": "Forgefiend\u0027s Trousers",
+          "Feet": "Forgefiend\u0027s Leggings",
+          "MainHand": "Forgefiend\u0027s Hammer",
+          "OffHand": "Forgefiend\u0027s File"
+        }
+      },
+      {
+        "name": "BSM 90: Forgesoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35485,
+          "Head": 35484,
+          "Hands": 35486,
+          "Legs": 35487,
+          "Feet": 35488,
+          "MainHand": 35469
+        },
+        "itemNames": {
+          "Body": "Forgesoph\u0027s Apron",
+          "Head": "Forgesoph\u0027s Goggles",
+          "Hands": "Forgesoph\u0027s Work Gloves",
+          "Legs": "Forgesoph\u0027s Trousers",
+          "Feet": "Forgesoph\u0027s Boots",
+          "MainHand": "Forgesoph\u0027s Hammer"
+        }
+      },
+      {
+        "name": "BSM 100: Forgerise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43365,
+          "Head": 43364,
+          "Hands": 43366,
+          "Legs": 43367,
+          "Feet": 43368,
+          "MainHand": 43349
+        },
+        "itemNames": {
+          "Body": "Forgerise Chestwrap",
+          "Head": "Forgerise Cap",
+          "Hands": "Forgerise Mittens",
+          "Legs": "Forgerise Longkilt",
+          "Feet": "Forgerise Workboots",
+          "MainHand": "Forgerise Hammer"
+        }
+      }
+    ],
+    "10": [
+      {
+        "name": "ARM 50: Armorer\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3231,
+          "Head": 2922,
+          "Hands": 3708,
+          "Legs": 3483,
+          "Feet": 3929,
+          "MainHand": 2378,
+          "OffHand": 2390
+        },
+        "itemNames": {
+          "Body": "Armorer\u0027s Gown",
+          "Head": "Armorer\u0027s Visor",
+          "Hands": "Armorer\u0027s Gloves",
+          "Legs": "Armorer\u0027s Slops",
+          "Feet": "Armorer\u0027s Workboots",
+          "MainHand": "Mallet of the Luminary",
+          "OffHand": "Militia Pliers"
+        }
+      },
+      {
+        "name": "ARM 60: Hammermaster\u0027s Waist",
+        "minLevel": 60,
+        "items": {
+          "Body": 13024,
+          "Head": 13023,
+          "Hands": 13025,
+          "Legs": 13026,
+          "Feet": 13027,
+          "MainHand": 13007,
+          "OffHand": 11926
+        },
+        "itemNames": {
+          "Body": "Hammermaster\u0027s Waist Apron",
+          "Head": "Hammermaster\u0027s Visor",
+          "Hands": "Hammermaster\u0027s Work Gloves",
+          "Legs": "Hammermaster\u0027s Slops",
+          "Feet": "Hammermaster\u0027s Workboots",
+          "MainHand": "Hammermaster\u0027s Beetle",
+          "OffHand": "Double-jointed Adamantite Pliers"
+        }
+      },
+      {
+        "name": "ARM 70: Hammerking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19673,
+          "Head": 19672,
+          "Hands": 19674,
+          "Legs": 19675,
+          "Feet": 19676,
+          "MainHand": 19592,
+          "OffHand": 23191
+        },
+        "itemNames": {
+          "Body": "Hammerking\u0027s Redingote",
+          "Head": "Hammerking\u0027s Visor",
+          "Hands": "Hammerking\u0027s Gloves",
+          "Legs": "Hammerking\u0027s Slops",
+          "Feet": "Hammerking\u0027s Boots",
+          "MainHand": "Hammerking\u0027s Beetle",
+          "OffHand": "Hammerking\u0027s Pliers"
+        }
+      },
+      {
+        "name": "ARM 80: Hammerfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25344,
+          "Head": 25343,
+          "Hands": 25345,
+          "Legs": 25346,
+          "Feet": 25347,
+          "MainHand": 25324,
+          "OffHand": 29950
+        },
+        "itemNames": {
+          "Body": "Hammerfiend\u0027s Apron",
+          "Head": "Hammerfiend\u0027s Visor",
+          "Hands": "Hammerfiend\u0027s Work Gloves",
+          "Legs": "Hammerfiend\u0027s Trousers",
+          "Feet": "Hammerfiend\u0027s Workboots",
+          "MainHand": "Hammerfiend\u0027s Beetle",
+          "OffHand": "Hammerfiend\u0027s Pliers"
+        }
+      },
+      {
+        "name": "ARM 90: Hammersoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35490,
+          "Head": 35489,
+          "Hands": 35491,
+          "Legs": 35492,
+          "Feet": 35493,
+          "MainHand": 35470
+        },
+        "itemNames": {
+          "Body": "Hammersoph\u0027s Apron",
+          "Head": "Hammersoph\u0027s Visor",
+          "Hands": "Hammersoph\u0027s Work Gloves",
+          "Legs": "Hammersoph\u0027s Trousers",
+          "Feet": "Hammersoph\u0027s Workboots",
+          "MainHand": "Hammersoph\u0027s Beetle"
+        }
+      },
+      {
+        "name": "ARM 100: Hammerrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43370,
+          "Head": 43369,
+          "Hands": 43371,
+          "Legs": 43372,
+          "Feet": 43373,
+          "MainHand": 43350
+        },
+        "itemNames": {
+          "Body": "Hammerrise Apron",
+          "Head": "Hammerrise Mesail",
+          "Hands": "Hammerrise Work Gloves",
+          "Legs": "Hammerrise Brais",
+          "Feet": "Hammerrise Jackboots",
+          "MainHand": "Hammerrise Beetle"
+        }
+      }
+    ],
+    "11": [
+      {
+        "name": "GSM 50: Goldsmith\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3232,
+          "Head": 2923,
+          "Hands": 3709,
+          "Legs": 3484,
+          "Feet": 3930,
+          "MainHand": 2403,
+          "OffHand": 2415
+        },
+        "itemNames": {
+          "Body": "Goldsmith\u0027s Doublet",
+          "Head": "Goldsmith\u0027s Turban",
+          "Hands": "Goldsmith\u0027s Gloves",
+          "Legs": "Goldsmith\u0027s Trousers",
+          "Feet": "Goldsmith\u0027s Boots",
+          "MainHand": "Gavel of the Luminary",
+          "OffHand": "Militia Grinding Wheel"
+        }
+      },
+      {
+        "name": "GSM 60: Gemmaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13029,
+          "Head": 13028,
+          "Hands": 13030,
+          "Legs": 13031,
+          "Feet": 13032,
+          "MainHand": 13008,
+          "OffHand": 11930
+        },
+        "itemNames": {
+          "Body": "Gemmaster\u0027s Gown",
+          "Head": "Gemmaster\u0027s Coronal",
+          "Hands": "Gemmaster\u0027s Chaplets",
+          "Legs": "Gemmaster\u0027s Trousers",
+          "Feet": "Gemmaster\u0027s Sandals",
+          "MainHand": "Gemmaster\u0027s Mallet",
+          "OffHand": "Sun Mica Grinding Wheel"
+        }
+      },
+      {
+        "name": "GSM 70: Gemking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19678,
+          "Head": 19677,
+          "Hands": 19679,
+          "Legs": 19680,
+          "Feet": 19681,
+          "MainHand": 19593,
+          "OffHand": 23192
+        },
+        "itemNames": {
+          "Body": "Gemking\u0027s Coat",
+          "Head": "Gemking\u0027s Turban",
+          "Hands": "Gemking\u0027s Gloves",
+          "Legs": "Gemking\u0027s Slops",
+          "Feet": "Gemking\u0027s Boots",
+          "MainHand": "Gemking\u0027s Mallet",
+          "OffHand": "Gemking\u0027s Grinding Wheel"
+        }
+      },
+      {
+        "name": "GSM 80: Gemfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25349,
+          "Head": 25348,
+          "Hands": 25350,
+          "Legs": 25351,
+          "Feet": 25352,
+          "MainHand": 25325,
+          "OffHand": 29951
+        },
+        "itemNames": {
+          "Body": "Gemfiend\u0027s Vest",
+          "Head": "Gemfiend\u0027s Monocle",
+          "Hands": "Gemfiend\u0027s Shortgloves",
+          "Legs": "Gemfiend\u0027s Trousers",
+          "Feet": "Gemfiend\u0027s Boots",
+          "MainHand": "Gemfiend\u0027s Mallet",
+          "OffHand": "Gemfiend\u0027s Grinding Wheel"
+        }
+      },
+      {
+        "name": "GSM 90: Gemsoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35495,
+          "Head": 35494,
+          "Hands": 35496,
+          "Legs": 35497,
+          "Feet": 35498,
+          "MainHand": 35471
+        },
+        "itemNames": {
+          "Body": "Gemsoph\u0027s Vest",
+          "Head": "Gemsoph\u0027s Hat",
+          "Hands": "Gemsoph\u0027s Wristdresses",
+          "Legs": "Gemsoph\u0027s Trousers",
+          "Feet": "Gemsoph\u0027s Thighboots",
+          "MainHand": "Gemsoph\u0027s Mallet"
+        }
+      },
+      {
+        "name": "GSM 100: Gemrise Work",
+        "minLevel": 100,
+        "items": {
+          "Body": 43375,
+          "Head": 43374,
+          "Hands": 43376,
+          "Legs": 43377,
+          "Feet": 43378,
+          "MainHand": 43351
+        },
+        "itemNames": {
+          "Body": "Gemrise Work Shirt",
+          "Head": "Gemrise Cap",
+          "Hands": "Gemrise Fingerstalls",
+          "Legs": "Gemrise Pantaloons",
+          "Feet": "Gemrise Crakows",
+          "MainHand": "Gemrise Mallet"
+        }
+      }
+    ],
+    "12": [
+      {
+        "name": "LTW 50: Leatherworker\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3233,
+          "Head": 2924,
+          "Hands": 3710,
+          "Legs": 3485,
+          "Feet": 3931,
+          "MainHand": 2428,
+          "OffHand": 2441
+        },
+        "itemNames": {
+          "Body": "Leatherworker\u0027s Shirt",
+          "Head": "Leatherworker\u0027s Hat",
+          "Hands": "Leatherworker\u0027s Gloves",
+          "Legs": "Leatherworker\u0027s Trousers",
+          "Feet": "Leatherworker\u0027s Workboots",
+          "MainHand": "Knife of the Luminary",
+          "OffHand": "Militia Awl"
+        }
+      },
+      {
+        "name": "LTW 60: Hidemaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13034,
+          "Head": 13033,
+          "Hands": 13035,
+          "Legs": 13036,
+          "Feet": 13037,
+          "MainHand": 13009,
+          "OffHand": 11934
+        },
+        "itemNames": {
+          "Body": "Hidemaster\u0027s Apron",
+          "Head": "Hidemaster\u0027s Cap",
+          "Hands": "Hidemaster\u0027s Gloves",
+          "Legs": "Hidemaster\u0027s Trousers",
+          "Feet": "Hidemaster\u0027s Workboots",
+          "MainHand": "Hidemaster\u0027s Knife",
+          "OffHand": "Sharpened Adamantite Awl"
+        }
+      },
+      {
+        "name": "LTW 70: Hideking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19683,
+          "Head": 19682,
+          "Hands": 19684,
+          "Legs": 19685,
+          "Feet": 19686,
+          "MainHand": 19594,
+          "OffHand": 23193
+        },
+        "itemNames": {
+          "Body": "Hideking\u0027s Jacket",
+          "Head": "Hideking\u0027s Bandana",
+          "Hands": "Hideking\u0027s Gloves",
+          "Legs": "Hideking\u0027s Slacks",
+          "Feet": "Hideking\u0027s Thighboots",
+          "MainHand": "Hideking\u0027s Knife",
+          "OffHand": "Hideking\u0027s Awl"
+        }
+      },
+      {
+        "name": "LTW 80: Hidefiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25354,
+          "Head": 25353,
+          "Hands": 25355,
+          "Legs": 25356,
+          "Feet": 25357,
+          "MainHand": 25326,
+          "OffHand": 29952
+        },
+        "itemNames": {
+          "Body": "Hidefiend\u0027s Jacket",
+          "Head": "Hidefiend\u0027s Cap",
+          "Hands": "Hidefiend\u0027s Armlets",
+          "Legs": "Hidefiend\u0027s Kecks",
+          "Feet": "Hidefiend\u0027s Thighboots",
+          "MainHand": "Hidefiend\u0027s Knife",
+          "OffHand": "Hidefiend\u0027s Awl"
+        }
+      },
+      {
+        "name": "LTW 90: Hidesoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35500,
+          "Head": 35499,
+          "Hands": 35501,
+          "Legs": 35502,
+          "Feet": 35503,
+          "MainHand": 35472
+        },
+        "itemNames": {
+          "Body": "Hidesoph\u0027s Apron",
+          "Head": "Hidesoph\u0027s Cap",
+          "Hands": "Hidesoph\u0027s Gloves",
+          "Legs": "Hidesoph\u0027s Kecks",
+          "Feet": "Hidesoph\u0027s Boots",
+          "MainHand": "Hidesoph\u0027s Knife"
+        }
+      },
+      {
+        "name": "LTW 100: Hiderise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43380,
+          "Head": 43379,
+          "Hands": 43381,
+          "Legs": 43382,
+          "Feet": 43383,
+          "MainHand": 43352
+        },
+        "itemNames": {
+          "Body": "Hiderise Apron",
+          "Head": "Hiderise Cap",
+          "Hands": "Hiderise Armguards",
+          "Legs": "Cropped Hiderise Slops",
+          "Feet": "Hiderise Boots",
+          "MainHand": "Hiderise Knife"
+        }
+      }
+    ],
+    "13": [
+      {
+        "name": "WVR 50: Weaver\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3234,
+          "Head": 2925,
+          "Hands": 3711,
+          "Legs": 3486,
+          "Feet": 3932,
+          "MainHand": 2454,
+          "OffHand": 2466
+        },
+        "itemNames": {
+          "Body": "Weaver\u0027s Swallowtail",
+          "Head": "Weaver\u0027s Gibus",
+          "Hands": "Weaver\u0027s Gloves",
+          "Legs": "Weaver\u0027s Trousers",
+          "Feet": "Weaver\u0027s Thighboots",
+          "MainHand": "Needle of the Luminary",
+          "OffHand": "Militia Spinning Wheel"
+        }
+      },
+      {
+        "name": "WVR 60: Boltmaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13039,
+          "Head": 13038,
+          "Hands": 13040,
+          "Legs": 13041,
+          "Feet": 13042,
+          "MainHand": 13010,
+          "OffHand": 11938
+        },
+        "itemNames": {
+          "Body": "Boltmaster\u0027s Dreadnought",
+          "Head": "Boltmaster\u0027s Gibus",
+          "Hands": "Boltmaster\u0027s Gloves",
+          "Legs": "Boltmaster\u0027s Slacks",
+          "Feet": "Boltmaster\u0027s Top Boots",
+          "MainHand": "Boltmaster\u0027s Needle",
+          "OffHand": "Astral Birch Spinning Wheel"
+        }
+      },
+      {
+        "name": "WVR 70: Boltking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19688,
+          "Head": 19687,
+          "Hands": 19689,
+          "Legs": 19690,
+          "Feet": 19691,
+          "MainHand": 19595,
+          "OffHand": 23194
+        },
+        "itemNames": {
+          "Body": "Boltking\u0027s Jacket",
+          "Head": "Boltking\u0027s Cap",
+          "Hands": "Boltking\u0027s Gloves",
+          "Legs": "Boltking\u0027s Slops",
+          "Feet": "Boltking\u0027s Boots",
+          "MainHand": "Boltking\u0027s Needle",
+          "OffHand": "Boltking\u0027s Spinning Wheel"
+        }
+      },
+      {
+        "name": "WVR 80: Boltfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25359,
+          "Head": 25358,
+          "Hands": 25360,
+          "Legs": 25361,
+          "Feet": 25362,
+          "MainHand": 25327,
+          "OffHand": 29953
+        },
+        "itemNames": {
+          "Body": "Boltfiend\u0027s Swallowtail",
+          "Head": "Boltfiend\u0027s Top Hat",
+          "Hands": "Boltfiend\u0027s Fingerstalls",
+          "Legs": "Boltfiend\u0027s Slacks",
+          "Feet": "Boltfiend\u0027s Boots",
+          "MainHand": "Boltfiend\u0027s Needle",
+          "OffHand": "Boltfiend\u0027s Spinning Wheel"
+        }
+      },
+      {
+        "name": "WVR 90: Boltsoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35505,
+          "Head": 35504,
+          "Hands": 35506,
+          "Legs": 35507,
+          "Feet": 35508,
+          "MainHand": 35473
+        },
+        "itemNames": {
+          "Body": "Boltsoph\u0027s Swallowtail",
+          "Head": "Boltsoph\u0027s Hat",
+          "Hands": "Boltsoph\u0027s Cuffs",
+          "Legs": "Boltsoph\u0027s Slacks",
+          "Feet": "Boltsoph\u0027s Boots",
+          "MainHand": "Boltsoph\u0027s Needle"
+        }
+      },
+      {
+        "name": "WVR 100: Boltrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43385,
+          "Head": 43384,
+          "Hands": 43386,
+          "Legs": 43387,
+          "Feet": 43388,
+          "MainHand": 43353
+        },
+        "itemNames": {
+          "Body": "Boltrise Vest",
+          "Head": "Boltrise Hat",
+          "Hands": "Boltrise Shortgloves",
+          "Legs": "Boltrise Trousers",
+          "Feet": "Boltrise Gaiters",
+          "MainHand": "Boltrise Needle"
+        }
+      }
+    ],
+    "14": [
+      {
+        "name": "ALC 50: Alchemist\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3235,
+          "Head": 2926,
+          "Hands": 3712,
+          "Legs": 3487,
+          "Feet": 3933,
+          "MainHand": 2479,
+          "OffHand": 2492
+        },
+        "itemNames": {
+          "Body": "Alchemist\u0027s Coat",
+          "Head": "Alchemist\u0027s Monocle",
+          "Hands": "Alchemist\u0027s Gloves",
+          "Legs": "Alchemist\u0027s Trousers",
+          "Feet": "Alchemist\u0027s Thighboots",
+          "MainHand": "Alembic of the Luminary",
+          "OffHand": "Militia Mortar"
+        }
+      },
+      {
+        "name": "ALC 60: Cauldronmaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13044,
+          "Head": 13043,
+          "Hands": 13045,
+          "Legs": 13046,
+          "Feet": 13047,
+          "MainHand": 13011,
+          "OffHand": 11942
+        },
+        "itemNames": {
+          "Body": "Cauldronmaster\u0027s Overcoat",
+          "Head": "Cauldronmaster\u0027s Spectacles",
+          "Hands": "Cauldronmaster\u0027s Gloves",
+          "Legs": "Cauldronmaster\u0027s Longkilt",
+          "Feet": "Cauldronmaster\u0027s Jackboots",
+          "MainHand": "Cauldronmaster\u0027s Alembic",
+          "OffHand": "Heavy Adamantite Mortar"
+        }
+      },
+      {
+        "name": "ALC 70: Cauldronking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19693,
+          "Head": 19692,
+          "Hands": 19694,
+          "Legs": 19695,
+          "Feet": 19696,
+          "MainHand": 19596,
+          "OffHand": 23195
+        },
+        "itemNames": {
+          "Body": "Cauldronking\u0027s Coat",
+          "Head": "Cauldronking\u0027s Hat",
+          "Hands": "Cauldronking\u0027s Dress Gloves",
+          "Legs": "Cauldronking\u0027s Slops",
+          "Feet": "Cauldronking\u0027s Boots",
+          "MainHand": "Cauldronking\u0027s Alembic",
+          "OffHand": "Cauldronking\u0027s Mortar"
+        }
+      },
+      {
+        "name": "ALC 80: Cauldronfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25364,
+          "Head": 25363,
+          "Hands": 25365,
+          "Legs": 25366,
+          "Feet": 25367,
+          "MainHand": 25328,
+          "OffHand": 29954
+        },
+        "itemNames": {
+          "Body": "Cauldronfiend\u0027s Coat",
+          "Head": "Cauldronfiend\u0027s Spectacles",
+          "Hands": "Cauldronfiend\u0027s Gloves",
+          "Legs": "Cauldronfiend\u0027s Kecks",
+          "Feet": "Cauldronfiend\u0027s Shoes",
+          "MainHand": "Cauldronfiend\u0027s Alembic",
+          "OffHand": "Cauldronfiend\u0027s Mortar"
+        }
+      },
+      {
+        "name": "ALC 90: Cauldronsoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35510,
+          "Head": 35509,
+          "Hands": 35511,
+          "Legs": 35512,
+          "Feet": 35513,
+          "MainHand": 35474
+        },
+        "itemNames": {
+          "Body": "Cauldronsoph\u0027s Mantle",
+          "Head": "Cauldronsoph\u0027s Hat",
+          "Hands": "Cauldronsoph\u0027s Gloves",
+          "Legs": "Cauldronsoph\u0027s Kecks",
+          "Feet": "Cauldronsoph\u0027s Shoes",
+          "MainHand": "Cauldronsoph\u0027s Alembic"
+        }
+      },
+      {
+        "name": "ALC 100: Cauldronrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43390,
+          "Head": 43389,
+          "Hands": 43391,
+          "Legs": 43392,
+          "Feet": 43393,
+          "MainHand": 43354
+        },
+        "itemNames": {
+          "Body": "Cauldronrise Coat",
+          "Head": "Cauldronrise Beret",
+          "Hands": "Cauldronrise Wristgauge",
+          "Legs": "Cauldronrise Trousers",
+          "Feet": "Cauldronrise Boots",
+          "MainHand": "Cauldronrise Alembic"
+        }
+      }
+    ],
+    "15": [
+      {
+        "name": "CUL 50: Culinarian\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3236,
+          "Head": 2927,
+          "Hands": 3713,
+          "Legs": 3488,
+          "Feet": 3934,
+          "MainHand": 2505,
+          "OffHand": 2518
+        },
+        "itemNames": {
+          "Body": "Culinarian\u0027s Apron",
+          "Head": "Culinarian\u0027s Hat",
+          "Hands": "Culinarian\u0027s Mitts",
+          "Legs": "Culinarian\u0027s Trousers",
+          "Feet": "Culinarian\u0027s Gaiters",
+          "MainHand": "Pan of the Luminary",
+          "OffHand": "Militia Culinary Knife"
+        }
+      },
+      {
+        "name": "CUL 60: Galleymaster\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 13049,
+          "Head": 13048,
+          "Hands": 13050,
+          "Legs": 13051,
+          "Feet": 13052,
+          "MainHand": 13012,
+          "OffHand": 11946
+        },
+        "itemNames": {
+          "Body": "Galleymaster\u0027s Whites",
+          "Head": "Galleymaster\u0027s Toque",
+          "Hands": "Galleymaster\u0027s Gloves",
+          "Legs": "Galleymaster\u0027s Trousers",
+          "Feet": "Galleymaster\u0027s Top Boots",
+          "MainHand": "Galleymaster\u0027s Frypan",
+          "OffHand": "Wrapped Adamantite Culinary Knife"
+        }
+      },
+      {
+        "name": "CUL 70: Galleyking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19698,
+          "Head": 19697,
+          "Hands": 19699,
+          "Legs": 19700,
+          "Feet": 19701,
+          "MainHand": 19597,
+          "OffHand": 23196
+        },
+        "itemNames": {
+          "Body": "Galleyking\u0027s Apron",
+          "Head": "Galleyking\u0027s Toque",
+          "Hands": "Galleyking\u0027s Mittens",
+          "Legs": "Galleyking\u0027s Trousers",
+          "Feet": "Galleyking\u0027s Shoes",
+          "MainHand": "Galleyking\u0027s Frypan",
+          "OffHand": "Galleyking\u0027s Culinary Knife"
+        }
+      },
+      {
+        "name": "CUL 80: Galleyfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25369,
+          "Head": 25368,
+          "Hands": 25370,
+          "Legs": 25371,
+          "Feet": 25372,
+          "MainHand": 25329,
+          "OffHand": 29955
+        },
+        "itemNames": {
+          "Body": "Galleyfiend\u0027s Apron",
+          "Head": "Galleyfiend\u0027s Toque",
+          "Hands": "Galleyfiend\u0027s Mittens",
+          "Legs": "Galleyfiend\u0027s Trousers",
+          "Feet": "Galleyfiend\u0027s Pattens",
+          "MainHand": "Galleyfiend\u0027s Frypan",
+          "OffHand": "Galleyfiend\u0027s Culinary Knife"
+        }
+      },
+      {
+        "name": "CUL 90: Galleysoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35515,
+          "Head": 35514,
+          "Hands": 35516,
+          "Legs": 35517,
+          "Feet": 35518,
+          "MainHand": 35475
+        },
+        "itemNames": {
+          "Body": "Galleysoph\u0027s Apron",
+          "Head": "Galleysoph\u0027s Cap",
+          "Hands": "Galleysoph\u0027s Mittens",
+          "Legs": "Galleysoph\u0027s Trousers",
+          "Feet": "Galleysoph\u0027s Shoes",
+          "MainHand": "Galleysoph\u0027s Frypan"
+        }
+      },
+      {
+        "name": "CUL 100: Galleyrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43395,
+          "Head": 43394,
+          "Hands": 43396,
+          "Legs": 43397,
+          "Feet": 43398,
+          "MainHand": 43355
+        },
+        "itemNames": {
+          "Body": "Galleyrise Apron",
+          "Head": "Galleyrise Cap",
+          "Hands": "Galleyrise Mittens",
+          "Legs": "Galleyrise Trousers",
+          "Feet": "Galleyrise Boots",
+          "MainHand": "Galleyrise Frypan"
+        }
+      }
+    ],
+    "16": [
+      {
+        "name": "MIN 50: Miner\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3237,
+          "Head": 2928,
+          "Hands": 3714,
+          "Legs": 3489,
+          "Feet": 3935,
+          "MainHand": 2531,
+          "OffHand": 2544
+        },
+        "itemNames": {
+          "Body": "Miner\u0027s Shirt",
+          "Head": "Hamlet Digger\u0027s Helmet",
+          "Hands": "Miner\u0027s Gloves",
+          "Legs": "Miner\u0027s Slops",
+          "Feet": "Miner\u0027s Workboots",
+          "MainHand": "Pick of the Luminary",
+          "OffHand": "Militia Sledgehammer"
+        }
+      },
+      {
+        "name": "MIN 60: Minekeep\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10271,
+          "Head": 10270,
+          "Hands": 10272,
+          "Legs": 10273,
+          "Feet": 10274,
+          "MainHand": 10304,
+          "OffHand": 14114
+        },
+        "itemNames": {
+          "Body": "Minekeep\u0027s Overalls",
+          "Head": "Minekeep\u0027s Helmet",
+          "Hands": "Minekeep\u0027s Work Gloves",
+          "Legs": "Minekeep\u0027s Slops",
+          "Feet": "Minekeep\u0027s Workboots",
+          "MainHand": "Minekeep\u0027s Pickaxe",
+          "OffHand": "Minekeep\u0027s Sledgehammer"
+        }
+      },
+      {
+        "name": "MIN 70: Mineking\u0027s Work",
+        "minLevel": 70,
+        "items": {
+          "Body": 19703,
+          "Head": 19702,
+          "Hands": 19704,
+          "Legs": 19705,
+          "Feet": 19706,
+          "MainHand": 19598,
+          "OffHand": 23197
+        },
+        "itemNames": {
+          "Body": "Mineking\u0027s Work Shirt",
+          "Head": "Mineking\u0027s Helmet",
+          "Hands": "Mineking\u0027s Work Gloves",
+          "Legs": "Mineking\u0027s Slops",
+          "Feet": "Mineking\u0027s Workboots",
+          "MainHand": "Mineking\u0027s Pickaxe",
+          "OffHand": "Mineking\u0027s Sledgehammer"
+        }
+      },
+      {
+        "name": "MIN 80: Minefiend\u0027s Work",
+        "minLevel": 80,
+        "items": {
+          "Body": 25374,
+          "Head": 25373,
+          "Hands": 25375,
+          "Legs": 25376,
+          "Feet": 25377,
+          "MainHand": 25330,
+          "OffHand": 29956
+        },
+        "itemNames": {
+          "Body": "Minefiend\u0027s Work Shirt",
+          "Head": "Minefiend\u0027s Helmet",
+          "Hands": "Minefiend\u0027s Work Gloves",
+          "Legs": "Minefiend\u0027s Slops",
+          "Feet": "Minefiend\u0027s Workboots",
+          "MainHand": "Minefiend\u0027s Pickaxe",
+          "OffHand": "Minefiend\u0027s Sledgehammer"
+        }
+      },
+      {
+        "name": "MIN 90: Minesoph\u0027s Work",
+        "minLevel": 90,
+        "items": {
+          "Body": 35520,
+          "Head": 35519,
+          "Hands": 35521,
+          "Legs": 35522,
+          "Feet": 35523,
+          "MainHand": 35476
+        },
+        "itemNames": {
+          "Body": "Minesoph\u0027s Work Shirt",
+          "Head": "Minesoph\u0027s Helmet",
+          "Hands": "Minesoph\u0027s Work Gloves",
+          "Legs": "Minesoph\u0027s Slops",
+          "Feet": "Minesoph\u0027s Workboots",
+          "MainHand": "Minesoph\u0027s Pickaxe"
+        }
+      },
+      {
+        "name": "MIN 100: Minerise Work",
+        "minLevel": 100,
+        "items": {
+          "Body": 43400,
+          "Head": 43399,
+          "Hands": 43401,
+          "Legs": 43402,
+          "Feet": 43403,
+          "MainHand": 43356
+        },
+        "itemNames": {
+          "Body": "Minerise Work Shirt",
+          "Head": "Minerise Helmet",
+          "Hands": "Minerise Work Gloves",
+          "Legs": "Minerise Slops",
+          "Feet": "Minerise Workboots",
+          "MainHand": "Minerise Pickaxe"
+        }
+      }
+    ],
+    "17": [
+      {
+        "name": "BTN 50: Botanist\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3238,
+          "Head": 2929,
+          "Hands": 3715,
+          "Legs": 3490,
+          "Feet": 3936,
+          "MainHand": 2557,
+          "OffHand": 2570
+        },
+        "itemNames": {
+          "Body": "Botanist\u0027s Doublet",
+          "Head": "Hamlet Cutter\u0027s Hat",
+          "Hands": "Botanist\u0027s Gloves",
+          "Legs": "Botanist\u0027s Slops",
+          "Feet": "Botanist\u0027s Workboots",
+          "MainHand": "Axe of the Luminary",
+          "OffHand": "Militia Scythe"
+        }
+      },
+      {
+        "name": "BTN 60: Fieldkeep\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10276,
+          "Head": 10275,
+          "Hands": 10277,
+          "Legs": 10278,
+          "Feet": 10279,
+          "MainHand": 10305,
+          "OffHand": 14115
+        },
+        "itemNames": {
+          "Body": "Fieldkeep\u0027s Shirt",
+          "Head": "Fieldkeep\u0027s Canotier",
+          "Hands": "Fieldkeep\u0027s Corsage",
+          "Legs": "Fieldkeep\u0027s Slops",
+          "Feet": "Fieldkeep\u0027s Jackboots",
+          "MainHand": "Fieldkeep\u0027s Hatchet",
+          "OffHand": "Fieldkeep\u0027s Scythe"
+        }
+      },
+      {
+        "name": "BTN 70: Fieldking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19708,
+          "Head": 19707,
+          "Hands": 19709,
+          "Legs": 19710,
+          "Feet": 19711,
+          "MainHand": 19599,
+          "OffHand": 23198
+        },
+        "itemNames": {
+          "Body": "Fieldking\u0027s Shirt",
+          "Head": "Fieldking\u0027s Hat",
+          "Hands": "Fieldking\u0027s Gloves",
+          "Legs": "Fieldking\u0027s Slops",
+          "Feet": "Fieldking\u0027s Shoes",
+          "MainHand": "Fieldking\u0027s Hatchet",
+          "OffHand": "Fieldking\u0027s Scythe"
+        }
+      },
+      {
+        "name": "BTN 80: Fieldfiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25379,
+          "Head": 25378,
+          "Hands": 25380,
+          "Legs": 25381,
+          "Feet": 25382,
+          "MainHand": 25331,
+          "OffHand": 29957
+        },
+        "itemNames": {
+          "Body": "Fieldfiend\u0027s Shirt",
+          "Head": "Fieldfiend\u0027s Hat",
+          "Hands": "Fieldfiend\u0027s Halfgloves",
+          "Legs": "Fieldfiend\u0027s Slops",
+          "Feet": "Fieldfiend\u0027s Workboots",
+          "MainHand": "Fieldfiend\u0027s Hatchet",
+          "OffHand": "Fieldfiend\u0027s Scythe"
+        }
+      },
+      {
+        "name": "BTN 90: Fieldsoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35525,
+          "Head": 35524,
+          "Hands": 35526,
+          "Legs": 35527,
+          "Feet": 35528,
+          "MainHand": 35477
+        },
+        "itemNames": {
+          "Body": "Fieldsoph\u0027s Shirt",
+          "Head": "Fieldsoph\u0027s Hood",
+          "Hands": "Fieldsoph\u0027s Gloves",
+          "Legs": "Fieldsoph\u0027s Slops",
+          "Feet": "Fieldsoph\u0027s Crakows",
+          "MainHand": "Fieldsoph\u0027s Hatchet"
+        }
+      },
+      {
+        "name": "BTN 100: Fieldrise",
+        "minLevel": 100,
+        "items": {
+          "Body": 43405,
+          "Head": 43404,
+          "Hands": 43406,
+          "Legs": 43407,
+          "Feet": 43408,
+          "MainHand": 43357
+        },
+        "itemNames": {
+          "Body": "Fieldrise Doublet",
+          "Head": "Fieldrise Hat",
+          "Hands": "Fieldrise Work Gloves",
+          "Legs": "Fieldrise Breeches",
+          "Feet": "Fieldrise Thighboots",
+          "MainHand": "Fieldrise Hatchet"
+        }
+      }
+    ],
+    "18": [
+      {
+        "name": "FSH 50: Fisher\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3239,
+          "Head": 2930,
+          "Hands": 3716,
+          "Legs": 3491,
+          "Feet": 3937,
+          "MainHand": 2583
+        },
+        "itemNames": {
+          "Body": "Fisher\u0027s Shirt",
+          "Head": "Hamlet Puller\u0027s Hat",
+          "Hands": "Fisher\u0027s Gloves",
+          "Legs": "Fisher\u0027s Gaskins",
+          "Feet": "Fisher\u0027s Wading Boots",
+          "MainHand": "Rod of the Luminary"
+        }
+      },
+      {
+        "name": "FSH 60: Tacklekeep\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10281,
+          "Head": 10280,
+          "Hands": 10282,
+          "Legs": 10283,
+          "Feet": 10284,
+          "MainHand": 10306
+        },
+        "itemNames": {
+          "Body": "Tacklekeep\u0027s Vest",
+          "Head": "Tacklekeep\u0027s Cap",
+          "Hands": "Tacklekeep\u0027s Gloves",
+          "Legs": "Tacklekeep\u0027s Gaskins",
+          "Feet": "Tacklekeep\u0027s Waders",
+          "MainHand": "Tacklekeep\u0027s Rod"
+        }
+      },
+      {
+        "name": "FSH 70: Tackleking\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 19713,
+          "Head": 19712,
+          "Hands": 19714,
+          "Legs": 19715,
+          "Feet": 19716,
+          "MainHand": 19600
+        },
+        "itemNames": {
+          "Body": "Tackleking\u0027s Vest",
+          "Head": "Tackleking\u0027s Bandana",
+          "Hands": "Tackleking\u0027s Fingerless Gloves",
+          "Legs": "Tackleking\u0027s Halfslops",
+          "Feet": "Tackleking\u0027s Sandals",
+          "MainHand": "Tackleking\u0027s Rod"
+        }
+      },
+      {
+        "name": "FSH 80: Tacklefiend\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25384,
+          "Head": 25383,
+          "Hands": 25385,
+          "Legs": 25386,
+          "Feet": 25387,
+          "MainHand": 25332
+        },
+        "itemNames": {
+          "Body": "Tacklefiend\u0027s Jacket",
+          "Head": "Tacklefiend\u0027s Hat",
+          "Hands": "Tacklefiend\u0027s Work Gloves",
+          "Legs": "Tacklefiend\u0027s Slops",
+          "Feet": "Tacklefiend\u0027s Workboots",
+          "MainHand": "Tacklefiend\u0027s Rod"
+        }
+      },
+      {
+        "name": "FSH 90: Tacklesoph\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 35530,
+          "Head": 35529,
+          "Hands": 35531,
+          "Legs": 35532,
+          "Feet": 35533,
+          "MainHand": 35478
+        },
+        "itemNames": {
+          "Body": "Tacklesoph\u0027s Jacket",
+          "Head": "Tacklesoph\u0027s Hat",
+          "Hands": "Tacklesoph\u0027s Work Gloves",
+          "Legs": "Tacklesoph\u0027s Slops",
+          "Feet": "Tacklesoph\u0027s Workboots",
+          "MainHand": "Tacklesoph\u0027s Rod"
+        }
+      },
+      {
+        "name": "FSH 100: Tacklerise Work",
+        "minLevel": 100,
+        "items": {
+          "Body": 43410,
+          "Head": 43409,
+          "Hands": 43411,
+          "Legs": 43412,
+          "Feet": 43413,
+          "MainHand": 43358
+        },
+        "itemNames": {
+          "Body": "Tacklerise Work Shirt",
+          "Head": "Tacklerise Hat",
+          "Hands": "Tacklerise Work Gloves",
+          "Legs": "Tacklerise Kecks",
+          "Feet": "Tacklerise Workboots",
+          "MainHand": "Tacklerise Rod"
+        }
+      }
+    ],
+    "19": [
+      {
+        "name": "PLD 50: Gallant",
+        "minLevel": 50,
+        "items": {
+          "Body": 3220,
+          "Head": 2897,
+          "Hands": 3682,
+          "Legs": 3458,
+          "Feet": 3889,
+          "MainHand": 1675,
+          "OffHand": 2306
+        },
+        "itemNames": {
+          "Body": "Gallant Surcoat",
+          "Head": "Gallant Coronet",
+          "Hands": "Gallant Gauntlets",
+          "Legs": "Gallant Cuisses",
+          "Feet": "Gallant Sollerets",
+          "MainHand": "Curtana",
+          "OffHand": "Holy Shield"
+        }
+      },
+      {
+        "name": "PLD 60: Antiquated Creed",
+        "minLevel": 60,
+        "items": {
+          "Body": 10181,
+          "Head": 10180,
+          "Hands": 10182,
+          "Legs": 10183,
+          "Feet": 10184,
+          "MainHand": 10285,
+          "OffHand": 10286
+        },
+        "itemNames": {
+          "Body": "Antiquated Creed Cuirass",
+          "Head": "Antiquated Creed Wings",
+          "Hands": "Antiquated Creed Gauntlets",
+          "Legs": "Antiquated Creed Cuisses",
+          "Feet": "Antiquated Creed Sabatons",
+          "MainHand": "Antiquated Hauteclaire",
+          "OffHand": "Antiquated Prytwen"
+        }
+      },
+      {
+        "name": "PLD 70: Antiquated Chivalrous",
+        "minLevel": 70,
+        "items": {
+          "Body": 17743,
+          "Head": 17742,
+          "Hands": 17744,
+          "Legs": 17745,
+          "Feet": 17746,
+          "MainHand": 17817,
+          "OffHand": 17832
+        },
+        "itemNames": {
+          "Body": "Antiquated Chivalrous Surcoat",
+          "Head": "Antiquated Chivalrous Circlet",
+          "Hands": "Antiquated Chivalrous Gauntlets",
+          "Legs": "Antiquated Chivalrous Cuisses",
+          "Feet": "Antiquated Chivalrous Sollerets",
+          "MainHand": "Antiquated Galatyn",
+          "OffHand": "Antiquated Evalach"
+        }
+      },
+      {
+        "name": "PLD 80: Weathered Chevalier\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25237,
+          "Head": 25236,
+          "Hands": 25238,
+          "Legs": 25239,
+          "Feet": 25240,
+          "MainHand": 25218,
+          "OffHand": 25235
+        },
+        "itemNames": {
+          "Body": "Weathered Chevalier\u0027s Cuirass",
+          "Head": "Weathered Chevalier\u0027s Temple Chain",
+          "Hands": "Weathered Chevalier\u0027s Gauntlets",
+          "Legs": "Weathered Chevalier\u0027s Poleyns",
+          "Feet": "Weathered Chevalier\u0027s Sollerets",
+          "MainHand": "Sequence",
+          "OffHand": "Srivatsa"
+        }
+      },
+      {
+        "name": "PLD 90: Reverence",
+        "minLevel": 90,
+        "items": {
+          "Body": 33948,
+          "Head": 33947,
+          "Hands": 33949,
+          "Legs": 33950,
+          "Feet": 33951,
+          "MainHand": 34042,
+          "OffHand": 34061
+        },
+        "itemNames": {
+          "Body": "Reverence Cuirass",
+          "Head": "Reverence Coronet",
+          "Hands": "Reverence Gauntlets",
+          "Legs": "Reverence Skirt",
+          "Feet": "Reverence Sollerets",
+          "MainHand": "Lightbringer",
+          "OffHand": "Hero\u0027s Shield"
+        }
+      },
+      {
+        "name": "PLD 100: Caballarius",
+        "minLevel": 100,
+        "items": {
+          "Body": 42592,
+          "Head": 42591,
+          "Hands": 42593,
+          "Legs": 42594,
+          "Feet": 42595,
+          "MainHand": 42569,
+          "OffHand": 42590
+        },
+        "itemNames": {
+          "Body": "Caballarius Cuirass",
+          "Head": "Caballarius Coronet",
+          "Hands": "Caballarius Gauntlets",
+          "Legs": "Caballarius Breeches",
+          "Feet": "Caballarius Sabatons",
+          "MainHand": "Clarent",
+          "OffHand": "Galahad Shield"
+        }
+      }
+    ],
+    "20": [
+      {
+        "name": "MNK 50: Temple",
+        "minLevel": 50,
+        "items": {
+          "Body": 3221,
+          "Head": 2898,
+          "Hands": 3683,
+          "Legs": 3459,
+          "Feet": 3890,
+          "MainHand": 1746
+        },
+        "itemNames": {
+          "Body": "Temple Cyclas",
+          "Head": "Temple Circlet",
+          "Hands": "Temple Gloves",
+          "Legs": "Temple Gaskins",
+          "Feet": "Temple Boots",
+          "MainHand": "Sphairai"
+        }
+      },
+      {
+        "name": "MNK 60: Antiquated Tantra",
+        "minLevel": 60,
+        "items": {
+          "Body": 10186,
+          "Head": 10185,
+          "Hands": 10187,
+          "Legs": 10188,
+          "Feet": 10189,
+          "MainHand": 10287
+        },
+        "itemNames": {
+          "Body": "Antiquated Tantra Chestwrap",
+          "Head": "Antiquated Tantra Tantour",
+          "Hands": "Antiquated Tantra Wristwraps",
+          "Legs": "Antiquated Tantra Galligaskins",
+          "Feet": "Antiquated Tantra Gaiters",
+          "MainHand": "Antiquated Rising Suns"
+        }
+      },
+      {
+        "name": "MNK 70: Antiquated Pacifist\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17748,
+          "Head": 17747,
+          "Hands": 17749,
+          "Legs": 17750,
+          "Feet": 17751,
+          "MainHand": 17818
+        },
+        "itemNames": {
+          "Body": "Antiquated Pacifist\u0027s Vest",
+          "Head": "Antiquated Pacifist\u0027s Circlet",
+          "Hands": "Antiquated Pacifist\u0027s Armguards",
+          "Legs": "Antiquated Pacifist\u0027s Gaskins",
+          "Feet": "Antiquated Pacifist\u0027s Boots",
+          "MainHand": "Antiquated Sudarshana Chakra"
+        }
+      },
+      {
+        "name": "MNK 80: Weathered Bhikku",
+        "minLevel": 80,
+        "items": {
+          "Body": 25242,
+          "Head": 25241,
+          "Hands": 25243,
+          "Legs": 25244,
+          "Feet": 25245,
+          "MainHand": 25219
+        },
+        "itemNames": {
+          "Body": "Weathered Bhikku Cyclas",
+          "Head": "Weathered Bhikku Knotcap",
+          "Hands": "Weathered Bhikku Gloves",
+          "Legs": "Weathered Bhikku Poleyns",
+          "Feet": "Weathered Bhikku Boots",
+          "MainHand": "Godhands"
+        }
+      },
+      {
+        "name": "MNK 90: Anchorite\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 33953,
+          "Head": 33952,
+          "Hands": 33954,
+          "Legs": 33955,
+          "Feet": 33956,
+          "MainHand": 34043
+        },
+        "itemNames": {
+          "Body": "Anchorite\u0027s Cyclas",
+          "Head": "Anchorite\u0027s Flame",
+          "Hands": "Anchorite\u0027s Vambraces",
+          "Legs": "Anchorite\u0027s Gaskins",
+          "Feet": "Anchorite\u0027s Greaves",
+          "MainHand": "Burning Fists"
+        }
+      },
+      {
+        "name": "MNK 100: Hesychast\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42597,
+          "Head": 42596,
+          "Hands": 42598,
+          "Legs": 42599,
+          "Feet": 42600,
+          "MainHand": 42570
+        },
+        "itemNames": {
+          "Body": "Hesychast\u0027s Cyclas",
+          "Head": "Hesychast\u0027s Crown",
+          "Hands": "Hesychast\u0027s Vambraces",
+          "Legs": "Hesychast\u0027s Gaskins",
+          "Feet": "Hesychast\u0027s Greaves",
+          "MainHand": "Suwaiyas"
+        }
+      }
+    ],
+    "21": [
+      {
+        "name": "WAR 50: Fighter\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3222,
+          "Head": 2899,
+          "Hands": 3684,
+          "Legs": 3460,
+          "Feet": 3891,
+          "MainHand": 1816
+        },
+        "itemNames": {
+          "Body": "Fighter\u0027s Cuirass",
+          "Head": "Fighter\u0027s Burgeonet",
+          "Hands": "Fighter\u0027s Gauntlets",
+          "Legs": "Fighter\u0027s Breeches",
+          "Feet": "Fighter\u0027s Jackboots",
+          "MainHand": "Bravura"
+        }
+      },
+      {
+        "name": "WAR 60: Antiquated Ravager\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10191,
+          "Head": 10190,
+          "Hands": 10192,
+          "Legs": 10193,
+          "Feet": 10194,
+          "MainHand": 10288
+        },
+        "itemNames": {
+          "Body": "Antiquated Ravager\u0027s Cuirass",
+          "Head": "Antiquated Ravager\u0027s Helm",
+          "Hands": "Antiquated Ravager\u0027s Chains",
+          "Legs": "Antiquated Ravager\u0027s Breeches",
+          "Feet": "Antiquated Ravager\u0027s Warboots",
+          "MainHand": "Antiquated Parashu"
+        }
+      },
+      {
+        "name": "WAR 70: Antiquated Brutal",
+        "minLevel": 70,
+        "items": {
+          "Body": 17753,
+          "Head": 17752,
+          "Hands": 17754,
+          "Legs": 17755,
+          "Feet": 17756,
+          "MainHand": 17819
+        },
+        "itemNames": {
+          "Body": "Antiquated Brutal Lorica",
+          "Head": "Antiquated Brutal Visor",
+          "Hands": "Antiquated Brutal Gauntlets",
+          "Legs": "Antiquated Brutal Breeches",
+          "Feet": "Antiquated Brutal Sollerets",
+          "MainHand": "Antiquated Farsha"
+        }
+      },
+      {
+        "name": "WAR 80: Weathered Boii",
+        "minLevel": 80,
+        "items": {
+          "Body": 25247,
+          "Head": 25246,
+          "Hands": 25248,
+          "Legs": 25249,
+          "Feet": 25250,
+          "MainHand": 25220
+        },
+        "itemNames": {
+          "Body": "Weathered Boii Tunic",
+          "Head": "Weathered Boii Burgeonet",
+          "Hands": "Weathered Boii Gauntlets",
+          "Legs": "Weathered Boii Brais",
+          "Feet": "Weathered Boii Boots",
+          "MainHand": "Chango"
+        }
+      },
+      {
+        "name": "WAR 90: Pummeler\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 33958,
+          "Head": 33957,
+          "Hands": 33959,
+          "Legs": 33960,
+          "Feet": 33961,
+          "MainHand": 34044
+        },
+        "itemNames": {
+          "Body": "Pummeler\u0027s Vest",
+          "Head": "Pummeler\u0027s Burgeonet",
+          "Hands": "Pummeler\u0027s Gauntlets",
+          "Legs": "Pummeler\u0027s Cuisses",
+          "Feet": "Pummeler\u0027s Boots",
+          "MainHand": "Gigantaxe"
+        }
+      },
+      {
+        "name": "WAR 100: Agoge",
+        "minLevel": 100,
+        "items": {
+          "Body": 42602,
+          "Head": 42601,
+          "Hands": 42603,
+          "Legs": 42604,
+          "Feet": 42605,
+          "MainHand": 42571
+        },
+        "itemNames": {
+          "Body": "Agoge Vest",
+          "Head": "Agoge Horns",
+          "Hands": "Agoge Vambraces",
+          "Legs": "Agoge Breeches",
+          "Feet": "Agoge Jackboots",
+          "MainHand": "Ferocity"
+        }
+      }
+    ],
+    "22": [
+      {
+        "name": "DRG 50: Drachen",
+        "minLevel": 50,
+        "items": {
+          "Body": 3223,
+          "Head": 2900,
+          "Hands": 3685,
+          "Legs": 3461,
+          "Feet": 3892,
+          "MainHand": 1885
+        },
+        "itemNames": {
+          "Body": "Drachen Mail",
+          "Head": "Drachen Armet",
+          "Hands": "Drachen Gauntlets",
+          "Legs": "Drachen Breeches",
+          "Feet": "Drachen Greaves",
+          "MainHand": "Gae Bolg"
+        }
+      },
+      {
+        "name": "DRG 60: Antiquated Dragonlancer\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10196,
+          "Head": 10195,
+          "Hands": 10197,
+          "Legs": 10198,
+          "Feet": 10199,
+          "MainHand": 10289
+        },
+        "itemNames": {
+          "Body": "Antiquated Dragonlancer\u0027s Plackart",
+          "Head": "Antiquated Dragonlancer\u0027s Mesail",
+          "Hands": "Antiquated Dragonlancer\u0027s Vambraces",
+          "Legs": "Antiquated Dragonlancer\u0027s Cuissots",
+          "Feet": "Antiquated Dragonlancer\u0027s Schynbalds",
+          "MainHand": "Antiquated Brionac"
+        }
+      },
+      {
+        "name": "DRG 70: Antiquated Trueblood",
+        "minLevel": 70,
+        "items": {
+          "Body": 17758,
+          "Head": 17757,
+          "Hands": 17759,
+          "Legs": 17760,
+          "Feet": 17761,
+          "MainHand": 17820
+        },
+        "itemNames": {
+          "Body": "Antiquated Trueblood Mail",
+          "Head": "Antiquated Trueblood Armet",
+          "Hands": "Antiquated Trueblood Gauntlets",
+          "Legs": "Antiquated Trueblood Brais",
+          "Feet": "Antiquated Trueblood Greaves",
+          "MainHand": "Antiquated Ryunohige"
+        }
+      },
+      {
+        "name": "DRG 80: Weathered Pteroslaver",
+        "minLevel": 80,
+        "items": {
+          "Body": 25252,
+          "Head": 25251,
+          "Hands": 25253,
+          "Legs": 25254,
+          "Feet": 25255,
+          "MainHand": 25221
+        },
+        "itemNames": {
+          "Body": "Weathered Pteroslaver Mail",
+          "Head": "Weathered Pteroslaver Armet",
+          "Hands": "Weathered Pteroslaver Gauntlets",
+          "Legs": "Weathered Pteroslaver Subligar",
+          "Feet": "Weathered Pteroslaver Greaves",
+          "MainHand": "Trishula"
+        }
+      },
+      {
+        "name": "DRG 90: Tiamat",
+        "minLevel": 90,
+        "items": {
+          "Body": 33963,
+          "Head": 33962,
+          "Hands": 33964,
+          "Legs": 33965,
+          "Feet": 33966,
+          "MainHand": 34045
+        },
+        "itemNames": {
+          "Body": "Tiamat Mail",
+          "Head": "Tiamat Armet",
+          "Hands": "Tiamat Gauntlets",
+          "Legs": "Tiamat Trousers",
+          "Feet": "Tiamat Greaves",
+          "MainHand": "Abel\u0027s Lance"
+        }
+      },
+      {
+        "name": "DRG 100: Heavensbound",
+        "minLevel": 100,
+        "items": {
+          "Body": 42607,
+          "Head": 42606,
+          "Hands": 42608,
+          "Legs": 42609,
+          "Feet": 42610,
+          "MainHand": 42572
+        },
+        "itemNames": {
+          "Body": "Heavensbound Mail",
+          "Head": "Heavensbound Armet",
+          "Hands": "Heavensbound Gauntlets",
+          "Legs": "Heavensbound Breeches",
+          "Feet": "Heavensbound Sollerets",
+          "MainHand": "Gae Assail"
+        }
+      }
+    ],
+    "23": [
+      {
+        "name": "BRD 50: Choral",
+        "minLevel": 50,
+        "items": {
+          "Body": 3224,
+          "Head": 2901,
+          "Hands": 3686,
+          "Legs": 3462,
+          "Feet": 3893,
+          "MainHand": 1955
+        },
+        "itemNames": {
+          "Body": "Choral Shirt",
+          "Head": "Choral Chapeau",
+          "Hands": "Choral Ringbands",
+          "Legs": "Choral Tights",
+          "Feet": "Choral Sandals",
+          "MainHand": "Artemis Bow"
+        }
+      },
+      {
+        "name": "BRD 60: Antiquated Aoidos\u0027",
+        "minLevel": 60,
+        "items": {
+          "Body": 10201,
+          "Head": 10200,
+          "Hands": 10202,
+          "Legs": 10203,
+          "Feet": 10204,
+          "MainHand": 10290
+        },
+        "itemNames": {
+          "Body": "Antiquated Aoidos\u0027 Cloak",
+          "Head": "Antiquated Aoidos\u0027 Turban",
+          "Hands": "Antiquated Aoidos\u0027 Shoulder Gloves",
+          "Legs": "Antiquated Aoidos\u0027 Tights",
+          "Feet": "Antiquated Aoidos\u0027 Thighboots",
+          "MainHand": "Antiquated Berimbau"
+        }
+      },
+      {
+        "name": "BRD 70: Antiquated Storyteller\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17763,
+          "Head": 17762,
+          "Hands": 17764,
+          "Legs": 17765,
+          "Feet": 17766,
+          "MainHand": 17821
+        },
+        "itemNames": {
+          "Body": "Antiquated Storyteller\u0027s Coat",
+          "Head": "Antiquated Storyteller\u0027s Chapeau",
+          "Hands": "Antiquated Storyteller\u0027s Gloves",
+          "Legs": "Antiquated Storyteller\u0027s Bottoms",
+          "Feet": "Antiquated Storyteller\u0027s Boots",
+          "MainHand": "Antiquated Failnaught"
+        }
+      },
+      {
+        "name": "BRD 80: Weathered Fili",
+        "minLevel": 80,
+        "items": {
+          "Body": 25257,
+          "Head": 25256,
+          "Hands": 25258,
+          "Legs": 25259,
+          "Feet": 25260,
+          "MainHand": 25222
+        },
+        "itemNames": {
+          "Body": "Weathered Fili Gilet",
+          "Head": "Weathered Fili Chapeau",
+          "Hands": "Weathered Fili Armlets",
+          "Legs": "Weathered Fili Bottoms",
+          "Feet": "Weathered Fili Shoes",
+          "MainHand": "Fail-Not"
+        }
+      },
+      {
+        "name": "BRD 90: Brioso",
+        "minLevel": 90,
+        "items": {
+          "Body": 33968,
+          "Head": 33967,
+          "Hands": 33969,
+          "Legs": 33970,
+          "Feet": 33971,
+          "MainHand": 34046
+        },
+        "itemNames": {
+          "Body": "Brioso Gilet",
+          "Head": "Brioso Chapeau",
+          "Hands": "Brioso Halfgloves",
+          "Legs": "Brioso Bottoms",
+          "Feet": "Brioso Shoes",
+          "MainHand": "Perseus\u0027s Bow"
+        }
+      },
+      {
+        "name": "BRD 100: Bihu",
+        "minLevel": 100,
+        "items": {
+          "Body": 42612,
+          "Head": 42611,
+          "Hands": 42613,
+          "Legs": 42614,
+          "Feet": 42615,
+          "MainHand": 42573
+        },
+        "itemNames": {
+          "Body": "Bihu Jacket",
+          "Head": "Bihu Chapeau",
+          "Hands": "Bihu Gloves",
+          "Legs": "Bihu Kecks",
+          "Feet": "Bihu Boots",
+          "MainHand": "Gastraphetes"
+        }
+      }
+    ],
+    "24": [
+      {
+        "name": "WHM 50: Healer\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3225,
+          "Head": 2902,
+          "Hands": 3687,
+          "Legs": 3463,
+          "Feet": 3894,
+          "MainHand": 2052
+        },
+        "itemNames": {
+          "Body": "Healer\u0027s Robe",
+          "Head": "Healer\u0027s Circlet",
+          "Hands": "Healer\u0027s Gloves",
+          "Legs": "Healer\u0027s Culottes",
+          "Feet": "Healer\u0027s Boots",
+          "MainHand": "Thyrus"
+        }
+      },
+      {
+        "name": "WHM 60: Antiquated Orison",
+        "minLevel": 60,
+        "items": {
+          "Body": 10206,
+          "Head": 10205,
+          "Hands": 10207,
+          "Legs": 10208,
+          "Feet": 10209,
+          "MainHand": 10292
+        },
+        "itemNames": {
+          "Body": "Antiquated Orison Robe",
+          "Head": "Antiquated Orison Hood",
+          "Hands": "Antiquated Orison Fingerless Gloves",
+          "Legs": "Antiquated Orison Skirt",
+          "Feet": "Antiquated Orison Thighboots",
+          "MainHand": "Antiquated Seraph Cane"
+        }
+      },
+      {
+        "name": "WHM 70: Antiquated Seventh Heaven",
+        "minLevel": 70,
+        "items": {
+          "Body": 17768,
+          "Head": 17767,
+          "Hands": 17769,
+          "Legs": 17770,
+          "Feet": 17771,
+          "MainHand": 17825
+        },
+        "itemNames": {
+          "Body": "Antiquated Seventh Heaven Top",
+          "Head": "Antiquated Seventh Heaven Circlet",
+          "Hands": "Antiquated Seventh Heaven Fingerless Gloves",
+          "Legs": "Antiquated Seventh Heaven Bottoms",
+          "Feet": "Antiquated Seventh Heaven Thighboots",
+          "MainHand": "Antiquated Aymur"
+        }
+      },
+      {
+        "name": "WHM 80: Weathered Ebers",
+        "minLevel": 80,
+        "items": {
+          "Body": 25262,
+          "Head": 25261,
+          "Hands": 25263,
+          "Legs": 25264,
+          "Feet": 25265,
+          "MainHand": 25226
+        },
+        "itemNames": {
+          "Body": "Weathered Ebers Robe",
+          "Head": "Weathered Ebers Hood",
+          "Hands": "Weathered Ebers Armlets",
+          "Legs": "Weathered Ebers Skirt",
+          "Feet": "Weathered Ebers Thighboots",
+          "MainHand": "Tishtrya"
+        }
+      },
+      {
+        "name": "WHM 90: Theophany",
+        "minLevel": 90,
+        "items": {
+          "Body": 33973,
+          "Head": 33972,
+          "Hands": 33974,
+          "Legs": 33975,
+          "Feet": 33976,
+          "MainHand": 34050
+        },
+        "itemNames": {
+          "Body": "Theophany Robe",
+          "Head": "Theophany Circlet",
+          "Hands": "Theophany Shortgloves",
+          "Legs": "Theophany Skirt",
+          "Feet": "Theophany Thighboots",
+          "MainHand": "Xoanon"
+        }
+      },
+      {
+        "name": "WHM 100: Piety",
+        "minLevel": 100,
+        "items": {
+          "Body": 42617,
+          "Head": 42616,
+          "Hands": 42618,
+          "Legs": 42619,
+          "Feet": 42620,
+          "MainHand": 42574
+        },
+        "itemNames": {
+          "Body": "Piety Robe",
+          "Head": "Piety Headdress",
+          "Hands": "Piety Fingerstalls",
+          "Legs": "Piety Slops",
+          "Feet": "Piety Boots",
+          "MainHand": "Serenity"
+        }
+      }
+    ],
+    "25": [
+      {
+        "name": "BLM 50: Wizard\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3226,
+          "Head": 2903,
+          "Hands": 3690,
+          "Legs": 3464,
+          "Feet": 3895,
+          "MainHand": 2140
+        },
+        "itemNames": {
+          "Body": "Wizard\u0027s Coat",
+          "Head": "Wizard\u0027s Petasos",
+          "Hands": "Wizard\u0027s Gloves",
+          "Legs": "Wizard\u0027s Tonban",
+          "Feet": "Wizard\u0027s Crakows",
+          "MainHand": "Stardust Rod"
+        }
+      },
+      {
+        "name": "BLM 60: Antiquated Goetia",
+        "minLevel": 60,
+        "items": {
+          "Body": 10211,
+          "Head": 10210,
+          "Hands": 10212,
+          "Legs": 10213,
+          "Feet": 10214,
+          "MainHand": 10293
+        },
+        "itemNames": {
+          "Body": "Antiquated Goetia Coat",
+          "Head": "Antiquated Goetia Tricorne",
+          "Hands": "Antiquated Goetia Gloves",
+          "Legs": "Antiquated Goetia Chausses",
+          "Feet": "Antiquated Goetia Thighboots",
+          "MainHand": "Antiquated Lunaris Rod"
+        }
+      },
+      {
+        "name": "BLM 70: Antiquated Seventh Hell",
+        "minLevel": 70,
+        "items": {
+          "Body": 17773,
+          "Head": 17772,
+          "Hands": 17774,
+          "Legs": 17775,
+          "Feet": 17776,
+          "MainHand": 17826
+        },
+        "itemNames": {
+          "Body": "Antiquated Seventh Hell Coat",
+          "Head": "Antiquated Seventh Hell Petasos",
+          "Hands": "Antiquated Seventh Hell Gloves",
+          "Legs": "Antiquated Seventh Hell Breeches",
+          "Feet": "Antiquated Seventh Hell Thighboots",
+          "MainHand": "Antiquated Vanargand"
+        }
+      },
+      {
+        "name": "BLM 80: Weathered Wicce",
+        "minLevel": 80,
+        "items": {
+          "Body": 25267,
+          "Head": 25266,
+          "Hands": 25268,
+          "Legs": 25269,
+          "Feet": 25270,
+          "MainHand": 25227
+        },
+        "itemNames": {
+          "Body": "Weathered Wicce Coat",
+          "Head": "Weathered Wicce Petasos",
+          "Hands": "Weathered Wicce Wrist Torque",
+          "Legs": "Weathered Wicce Bottoms",
+          "Feet": "Weathered Wicce Shoes",
+          "MainHand": "Khatvanga"
+        }
+      },
+      {
+        "name": "BLM 90: Spaekona\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 33978,
+          "Head": 33977,
+          "Hands": 33979,
+          "Legs": 33980,
+          "Feet": 33981,
+          "MainHand": 34051
+        },
+        "itemNames": {
+          "Body": "Spaekona\u0027s Coat",
+          "Head": "Spaekona\u0027s Petasos",
+          "Hands": "Spaekona\u0027s Wrist Torques",
+          "Legs": "Spaekona\u0027s Skirt",
+          "Feet": "Spaekona\u0027s Shoes",
+          "MainHand": "Asura\u0027s Rod"
+        }
+      },
+      {
+        "name": "BLM 100: Archmage\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42622,
+          "Head": 42621,
+          "Hands": 42623,
+          "Legs": 42624,
+          "Feet": 42625,
+          "MainHand": 42575
+        },
+        "itemNames": {
+          "Body": "Archmage\u0027s Coat",
+          "Head": "Archmage\u0027s Petasos",
+          "Hands": "Archmage\u0027s Hand Runes",
+          "Legs": "Archmage\u0027s Bottoms",
+          "Feet": "Archmage\u0027s Thighboots",
+          "MainHand": "Gridarvor"
+        }
+      }
+    ],
+    "27": [
+      {
+        "name": "SMN 50: Evoker\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3227,
+          "Head": 2904,
+          "Hands": 3688,
+          "Legs": 3465,
+          "Feet": 3896,
+          "MainHand": 2213
+        },
+        "itemNames": {
+          "Body": "Evoker\u0027s Doublet",
+          "Head": "Evoker\u0027s Horn",
+          "Hands": "Evoker\u0027s Ringbands",
+          "Legs": "Evoker\u0027s Waistclout",
+          "Feet": "Evoker\u0027s Thighboots",
+          "MainHand": "The Veil of Wiyu"
+        }
+      },
+      {
+        "name": "SMN 60: Antiquated Caller\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10216,
+          "Head": 10215,
+          "Hands": 10217,
+          "Legs": 10218,
+          "Feet": 10219,
+          "MainHand": 10294
+        },
+        "itemNames": {
+          "Body": "Antiquated Caller\u0027s Himation",
+          "Head": "Antiquated Caller\u0027s Horn",
+          "Hands": "Antiquated Caller\u0027s Armlets",
+          "Legs": "Antiquated Caller\u0027s Loincloth",
+          "Feet": "Antiquated Caller\u0027s Sandals",
+          "MainHand": "Antiquated Almandal"
+        }
+      },
+      {
+        "name": "SMN 70: Antiquated Channeler\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17778,
+          "Head": 17777,
+          "Hands": 17779,
+          "Legs": 17780,
+          "Feet": 17781,
+          "MainHand": 17827
+        },
+        "itemNames": {
+          "Body": "Antiquated Channeler\u0027s Vest",
+          "Head": "Antiquated Channeler\u0027s Horn",
+          "Hands": "Antiquated Channeler\u0027s Armlets",
+          "Legs": "Antiquated Channeler\u0027s Halfslops",
+          "Feet": "Antiquated Channeler\u0027s Boots",
+          "MainHand": "Antiquated Lemegeton"
+        }
+      },
+      {
+        "name": "SMN 80: Weathered Beckoner\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25272,
+          "Head": 25271,
+          "Hands": 25273,
+          "Legs": 25274,
+          "Feet": 25275,
+          "MainHand": 25228
+        },
+        "itemNames": {
+          "Body": "Weathered Beckoner\u0027s Coat",
+          "Head": "Weathered Beckoner\u0027s Horn",
+          "Hands": "Weathered Beckoner\u0027s Fingerless Gloves",
+          "Legs": "Weathered Beckoner\u0027s Sarouel",
+          "Feet": "Weathered Beckoner\u0027s Crakows",
+          "MainHand": "Meteorologica"
+        }
+      },
+      {
+        "name": "SMN 90: Convoker\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 33983,
+          "Head": 33982,
+          "Hands": 33984,
+          "Legs": 33985,
+          "Feet": 33986,
+          "MainHand": 34052
+        },
+        "itemNames": {
+          "Body": "Convoker\u0027s Coat",
+          "Head": "Convoker\u0027s Horn",
+          "Hands": "Convoker\u0027s Gloves",
+          "Legs": "Convoker\u0027s Trousers",
+          "Feet": "Convoker\u0027s Thighboots",
+          "MainHand": "Abraxas"
+        }
+      },
+      {
+        "name": "SMN 100: Glyphic",
+        "minLevel": 100,
+        "items": {
+          "Body": 42627,
+          "Head": 42626,
+          "Hands": 42628,
+          "Legs": 42629,
+          "Feet": 42630,
+          "MainHand": 42576
+        },
+        "itemNames": {
+          "Body": "Glyphic Cloak",
+          "Head": "Glyphic Horn",
+          "Hands": "Glyphic Gloves",
+          "Legs": "Glyphic Gaskins",
+          "Feet": "Glyphic Boots",
+          "MainHand": "The Grand Grimoire"
+        }
+      }
+    ],
+    "28": [
+      {
+        "name": "SCH 50: Scholar\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 3228,
+          "Head": 2905,
+          "Hands": 3689,
+          "Legs": 3466,
+          "Feet": 3897,
+          "MainHand": 2214
+        },
+        "itemNames": {
+          "Body": "Scholar\u0027s Gown",
+          "Head": "Scholar\u0027s Mortarboard",
+          "Hands": "Scholar\u0027s Gloves",
+          "Legs": "Scholar\u0027s Culottes",
+          "Feet": "Scholar\u0027s Boots",
+          "MainHand": "Omnilex"
+        }
+      },
+      {
+        "name": "SCH 60: Antiquated Savant\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 10221,
+          "Head": 10220,
+          "Hands": 10222,
+          "Legs": 10223,
+          "Feet": 10224,
+          "MainHand": 10295
+        },
+        "itemNames": {
+          "Body": "Antiquated Savant\u0027s Overcoat",
+          "Head": "Antiquated Savant\u0027s Top Hat",
+          "Hands": "Antiquated Savant\u0027s Aethercell Gloves",
+          "Legs": "Antiquated Savant\u0027s Culottes",
+          "Feet": "Antiquated Savant\u0027s Boots",
+          "MainHand": "Antiquated Elements"
+        }
+      },
+      {
+        "name": "SCH 70: Antiquated Orator\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17783,
+          "Head": 17782,
+          "Hands": 17784,
+          "Legs": 17785,
+          "Feet": 17786,
+          "MainHand": 17828
+        },
+        "itemNames": {
+          "Body": "Antiquated Orator\u0027s Coat",
+          "Head": "Antiquated Orator\u0027s Mortarboard",
+          "Hands": "Antiquated Orator\u0027s Cuffs",
+          "Legs": "Antiquated Orator\u0027s Bottoms",
+          "Feet": "Antiquated Orator\u0027s Shoes",
+          "MainHand": "Antiquated Organum"
+        }
+      },
+      {
+        "name": "SCH 80: Weathered Arbatel",
+        "minLevel": 80,
+        "items": {
+          "Body": 25277,
+          "Head": 25276,
+          "Hands": 25278,
+          "Legs": 25279,
+          "Feet": 25280,
+          "MainHand": 25229
+        },
+        "itemNames": {
+          "Body": "Weathered Arbatel Cloak",
+          "Head": "Weathered Arbatel Mortarboard",
+          "Hands": "Weathered Arbatel Gloves",
+          "Legs": "Weathered Arbatel Bottoms",
+          "Feet": "Weathered Arbatel Thighboots",
+          "MainHand": "Physica"
+        }
+      },
+      {
+        "name": "SCH 90: Academic\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 33988,
+          "Head": 33987,
+          "Hands": 33989,
+          "Legs": 33990,
+          "Feet": 33991,
+          "MainHand": 34053
+        },
+        "itemNames": {
+          "Body": "Academic\u0027s Coat",
+          "Head": "Academic\u0027s Mortarboard",
+          "Hands": "Academic\u0027s Gloves",
+          "Legs": "Academic\u0027s Breeches",
+          "Feet": "Academic\u0027s Longboots",
+          "MainHand": "Epeolatry"
+        }
+      },
+      {
+        "name": "SCH 100: Pedagogy",
+        "minLevel": 100,
+        "items": {
+          "Body": 42632,
+          "Head": 42631,
+          "Hands": 42633,
+          "Legs": 42634,
+          "Feet": 42635,
+          "MainHand": 42577
+        },
+        "itemNames": {
+          "Body": "Pedagogy Gown",
+          "Head": "Pedagogy Mortarboard",
+          "Hands": "Pedagogy Halfgloves",
+          "Legs": "Pedagogy Culottes",
+          "Feet": "Pedagogy Longboots",
+          "MainHand": "Eclecticism"
+        }
+      }
+    ],
+    "30": [
+      {
+        "name": "NIN 50: Ninja",
+        "minLevel": 50,
+        "items": {
+          "Body": 7890,
+          "Head": 7889,
+          "Hands": 7892,
+          "Legs": 7891,
+          "Feet": 7893,
+          "MainHand": 7888
+        },
+        "itemNames": {
+          "Body": "Ninja Chainmail",
+          "Head": "Ninja Hatsuburi",
+          "Hands": "Ninja Tekko",
+          "Legs": "Ninja Hakama",
+          "Feet": "Ninja Kyahan",
+          "MainHand": "Yoshimitsu"
+        }
+      },
+      {
+        "name": "NIN 60: Antiquated Iga",
+        "minLevel": 60,
+        "items": {
+          "Body": 10226,
+          "Head": 10225,
+          "Hands": 10227,
+          "Legs": 10228,
+          "Feet": 10229,
+          "MainHand": 10291
+        },
+        "itemNames": {
+          "Body": "Antiquated Iga Ningi",
+          "Head": "Antiquated Iga Zukin",
+          "Hands": "Antiquated Iga Tekko",
+          "Legs": "Antiquated Iga Hakama",
+          "Feet": "Antiquated Iga Kyahan",
+          "MainHand": "Antiquated Yukimitsu"
+        }
+      },
+      {
+        "name": "NIN 70: Antiquated Kage-kakushi",
+        "minLevel": 70,
+        "items": {
+          "Body": 17788,
+          "Head": 17787,
+          "Hands": 17789,
+          "Legs": 17790,
+          "Feet": 17791,
+          "MainHand": 17822
+        },
+        "itemNames": {
+          "Body": "Antiquated Kage-kakushi Chainmail",
+          "Head": "Antiquated Kage-kakushi Somen",
+          "Hands": "Antiquated Kage-kakushi Tekko",
+          "Legs": "Antiquated Kage-kakushi Hakama",
+          "Feet": "Antiquated Kage-kakushi Kyahan",
+          "MainHand": "Antiquated Nagi"
+        }
+      },
+      {
+        "name": "NIN 80: Weathered Hattori",
+        "minLevel": 80,
+        "items": {
+          "Body": 25282,
+          "Head": 25281,
+          "Hands": 25283,
+          "Legs": 25284,
+          "Feet": 25285,
+          "MainHand": 25223
+        },
+        "itemNames": {
+          "Body": "Weathered Hattori Chainmail",
+          "Head": "Weathered Hattori Somen",
+          "Hands": "Weathered Hattori Tekko",
+          "Legs": "Weathered Hattori Trousers",
+          "Feet": "Weathered Hattori Kyahan",
+          "MainHand": "Heishi Shorinken"
+        }
+      },
+      {
+        "name": "NIN 90: Hachiya",
+        "minLevel": 90,
+        "items": {
+          "Body": 33993,
+          "Head": 33992,
+          "Hands": 33994,
+          "Legs": 33995,
+          "Feet": 33996,
+          "MainHand": 34047
+        },
+        "itemNames": {
+          "Body": "Hachiya Chainmail",
+          "Head": "Hachiya Somen",
+          "Hands": "Hachiya Tekko",
+          "Legs": "Hachiya Tsutsu-hakama",
+          "Feet": "Hachiya Zori",
+          "MainHand": "Mutsunokami"
+        }
+      },
+      {
+        "name": "NIN 100: Momochi",
+        "minLevel": 100,
+        "items": {
+          "Body": 42637,
+          "Head": 42636,
+          "Hands": 42638,
+          "Legs": 42639,
+          "Feet": 42640,
+          "MainHand": 42578
+        },
+        "itemNames": {
+          "Body": "Momochi Chainmail",
+          "Head": "Momochi Gantai",
+          "Hands": "Momochi Tekko",
+          "Legs": "Momochi Hakama",
+          "Feet": "Momochi Kyahan",
+          "MainHand": "Shiranui"
+        }
+      }
+    ],
+    "31": [
+      {
+        "name": "MCH 50: Parrotbeak",
+        "minLevel": 50,
+        "items": {
+          "Body": 12489,
+          "Head": 12488,
+          "Hands": 12490,
+          "Legs": 12491,
+          "Feet": 12492,
+          "MainHand": 10479
+        },
+        "itemNames": {
+          "Body": "Parrotbeak Coat",
+          "Head": "Parrotbeak Mask",
+          "Hands": "Parrotbeak Gloves",
+          "Legs": "Parrotbeak Breeches",
+          "Feet": "Parrotbeak Boots",
+          "MainHand": "Parrotbeak Revolver"
+        }
+      },
+      {
+        "name": "MCH 60: Antiquated Machinist\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 9636,
+          "Head": 9635,
+          "Hands": 9637,
+          "Legs": 9638,
+          "Feet": 9639,
+          "MainHand": 8573
+        },
+        "itemNames": {
+          "Body": "Antiquated Machinist\u0027s Shirt",
+          "Head": "Antiquated Machinist\u0027s Goggles",
+          "Hands": "Antiquated Machinist\u0027s Gloves",
+          "Legs": "Antiquated Machinist\u0027s Brais",
+          "Feet": "Antiquated Machinist\u0027s Boots",
+          "MainHand": "Antiquated Ferdinand"
+        }
+      },
+      {
+        "name": "MCH 70: Antiquated Gunner\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17798,
+          "Head": 17797,
+          "Hands": 17799,
+          "Legs": 17800,
+          "Feet": 17801,
+          "MainHand": 17824
+        },
+        "itemNames": {
+          "Body": "Antiquated Gunner\u0027s Coat",
+          "Head": "Antiquated Gunner\u0027s Goggles",
+          "Hands": "Antiquated Gunner\u0027s Gloves",
+          "Legs": "Antiquated Gunner\u0027s Trousers",
+          "Feet": "Antiquated Gunner\u0027s Thighboots",
+          "MainHand": "Antiquated Outsider"
+        }
+      },
+      {
+        "name": "MCH 80: Weathered Gunslinger\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25292,
+          "Head": 25291,
+          "Hands": 25293,
+          "Legs": 25294,
+          "Feet": 25295,
+          "MainHand": 25225
+        },
+        "itemNames": {
+          "Body": "Weathered Gunslinger\u0027s Coat",
+          "Head": "Weathered Gunslinger\u0027s Hat",
+          "Hands": "Weathered Gunslinger\u0027s Halfgloves",
+          "Legs": "Weathered Gunslinger\u0027s Bottoms",
+          "Feet": "Weathered Gunslinger\u0027s Thighboots",
+          "MainHand": "Fomalhaut"
+        }
+      },
+      {
+        "name": "MCH 90: Pioneer\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 34003,
+          "Head": 34002,
+          "Hands": 34004,
+          "Legs": 34005,
+          "Feet": 34006,
+          "MainHand": 34049
+        },
+        "itemNames": {
+          "Body": "Pioneer\u0027s Coat",
+          "Head": "Pioneer\u0027s Scope",
+          "Hands": "Pioneer\u0027s Gloves",
+          "Legs": "Pioneer\u0027s Bottoms",
+          "Feet": "Pioneer\u0027s Boots",
+          "MainHand": "Ataktos"
+        }
+      },
+      {
+        "name": "MCH 100: Forerider\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42647,
+          "Head": 42646,
+          "Hands": 42648,
+          "Legs": 42649,
+          "Feet": 42650,
+          "MainHand": 42580
+        },
+        "itemNames": {
+          "Body": "Forerider\u0027s Coat",
+          "Head": "Forerider\u0027s Hat",
+          "Hands": "Forerider\u0027s Gloves",
+          "Legs": "Forerider\u0027s Breeches",
+          "Feet": "Forerider\u0027s Longboots",
+          "MainHand": "Sthalmann Special"
+        }
+      }
+    ],
+    "32": [
+      {
+        "name": "DRK 50: Lynxfang",
+        "minLevel": 50,
+        "items": {
+          "Body": 12477,
+          "Head": 12476,
+          "Hands": 12478,
+          "Legs": 12479,
+          "Feet": 12480,
+          "MainHand": 10417
+        },
+        "itemNames": {
+          "Body": "Lynxfang Cuirass",
+          "Head": "Lynxfang Armet",
+          "Hands": "Lynxfang Gauntlets",
+          "Legs": "Lynxfang Breeches",
+          "Feet": "Lynxfang Sabatons",
+          "MainHand": "Lynxfang Faussar"
+        }
+      },
+      {
+        "name": "DRK 60: Antiquated Chaos",
+        "minLevel": 60,
+        "items": {
+          "Body": 9631,
+          "Head": 9630,
+          "Hands": 9632,
+          "Legs": 9633,
+          "Feet": 9634,
+          "MainHand": 8842
+        },
+        "itemNames": {
+          "Body": "Antiquated Chaos Cuirass",
+          "Head": "Antiquated Chaos Burgeonet",
+          "Hands": "Antiquated Chaos Gauntlets",
+          "Legs": "Antiquated Chaos Flanchard",
+          "Feet": "Antiquated Chaos Sollerets",
+          "MainHand": "Antiquated Deathbringer"
+        }
+      },
+      {
+        "name": "DRK 70: Antiquated Abyss",
+        "minLevel": 70,
+        "items": {
+          "Body": 17793,
+          "Head": 17792,
+          "Hands": 17794,
+          "Legs": 17795,
+          "Feet": 17796,
+          "MainHand": 17823
+        },
+        "itemNames": {
+          "Body": "Antiquated Abyss Cuirass",
+          "Head": "Antiquated Abyss Burgeonet",
+          "Hands": "Antiquated Abyss Gauntlets",
+          "Legs": "Antiquated Abyss Flanchard",
+          "Feet": "Antiquated Abyss Sollerets",
+          "MainHand": "Antiquated Caladbolg"
+        }
+      },
+      {
+        "name": "DRK 80: Weathered Bale",
+        "minLevel": 80,
+        "items": {
+          "Body": 25287,
+          "Head": 25286,
+          "Hands": 25288,
+          "Legs": 25289,
+          "Feet": 25290,
+          "MainHand": 25224
+        },
+        "itemNames": {
+          "Body": "Weathered Bale Cuirass",
+          "Head": "Weathered Bale Burgeonet",
+          "Hands": "Weathered Bale Gauntlets",
+          "Legs": "Weathered Bale Flanchard",
+          "Feet": "Weathered Bale Sollerets",
+          "MainHand": "Shadowbringer"
+        }
+      },
+      {
+        "name": "DRK 90: Ignominy",
+        "minLevel": 90,
+        "items": {
+          "Body": 33998,
+          "Head": 33997,
+          "Hands": 33999,
+          "Legs": 34000,
+          "Feet": 34001,
+          "MainHand": 34048
+        },
+        "itemNames": {
+          "Body": "Ignominy Cuirass",
+          "Head": "Ignominy Burgeonet",
+          "Hands": "Ignominy Gauntlets",
+          "Legs": "Ignominy Trousers",
+          "Feet": "Ignominy Sollerets",
+          "MainHand": "Chaosbringer"
+        }
+      },
+      {
+        "name": "DRK 100: Fallen\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42642,
+          "Head": 42641,
+          "Hands": 42643,
+          "Legs": 42644,
+          "Feet": 42645,
+          "MainHand": 42579
+        },
+        "itemNames": {
+          "Body": "Fallen\u0027s Cuirass",
+          "Head": "Fallen\u0027s Burgeonet",
+          "Hands": "Fallen\u0027s Gloves",
+          "Legs": "Fallen\u0027s Trousers",
+          "Feet": "Fallen\u0027s Sollerets",
+          "MainHand": "Maleficus"
+        }
+      }
+    ],
+    "33": [
+      {
+        "name": "AST 50: Owlsight",
+        "minLevel": 50,
+        "items": {
+          "Body": 12501,
+          "Head": 12500,
+          "Hands": 12502,
+          "Legs": 12503,
+          "Feet": 12504,
+          "MainHand": 10541
+        },
+        "itemNames": {
+          "Body": "Owlsight Coat",
+          "Head": "Owlsight Hood",
+          "Hands": "Owlsight Armguards",
+          "Legs": "Owlsight Hose",
+          "Feet": "Owlsight Boots",
+          "MainHand": "Owlsight Star Globe"
+        }
+      },
+      {
+        "name": "AST 60: Antiquated Welkin",
+        "minLevel": 60,
+        "items": {
+          "Body": 9641,
+          "Head": 9640,
+          "Hands": 9642,
+          "Legs": 9643,
+          "Feet": 9644,
+          "MainHand": 8843
+        },
+        "itemNames": {
+          "Body": "Antiquated Welkin Robe",
+          "Head": "Antiquated Welkin Hat",
+          "Hands": "Antiquated Welkin Half Sleeves",
+          "Legs": "Antiquated Welkin Breeches",
+          "Feet": "Antiquated Welkin Shoes",
+          "MainHand": "Antiquated Atlas"
+        }
+      },
+      {
+        "name": "AST 70: Antiquated Constellation",
+        "minLevel": 70,
+        "items": {
+          "Body": 17803,
+          "Head": 17802,
+          "Hands": 17804,
+          "Legs": 17805,
+          "Feet": 17806,
+          "MainHand": 17829
+        },
+        "itemNames": {
+          "Body": "Antiquated Constellation Top",
+          "Head": "Antiquated Constellation Turban",
+          "Hands": "Antiquated Constellation Armlets",
+          "Legs": "Antiquated Constellation Gaskins",
+          "Feet": "Antiquated Constellation Sandals",
+          "MainHand": "Antiquated Pleiades"
+        }
+      },
+      {
+        "name": "AST 80: Weathered Soothsayer\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25297,
+          "Head": 25296,
+          "Hands": 25298,
+          "Legs": 25299,
+          "Feet": 25300,
+          "MainHand": 25230
+        },
+        "itemNames": {
+          "Body": "Weathered Soothsayer\u0027s Chiton",
+          "Head": "Weathered Soothsayer\u0027s Turban",
+          "Hands": "Weathered Soothsayer\u0027s Armlets",
+          "Legs": "Weathered Soothsayer\u0027s Skirt",
+          "Feet": "Weathered Soothsayer\u0027s Sandals",
+          "MainHand": "Procyon"
+        }
+      },
+      {
+        "name": "AST 90: Astronomia",
+        "minLevel": 90,
+        "items": {
+          "Body": 34008,
+          "Head": 34007,
+          "Hands": 34009,
+          "Legs": 34010,
+          "Feet": 34011,
+          "MainHand": 34054
+        },
+        "itemNames": {
+          "Body": "Astronomia Chiton",
+          "Head": "Astronomia Turban",
+          "Hands": "Astronomia Armlets",
+          "Legs": "Astronomia Pantaloons",
+          "Feet": "Astronomia Sandals",
+          "MainHand": "Diana"
+        }
+      },
+      {
+        "name": "AST 100: Ephemerist\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42652,
+          "Head": 42651,
+          "Hands": 42653,
+          "Legs": 42654,
+          "Feet": 42655,
+          "MainHand": 42581
+        },
+        "itemNames": {
+          "Body": "Ephemerist\u0027s Robe",
+          "Head": "Ephemerist\u0027s Hat",
+          "Hands": "Ephemerist\u0027s Armlets",
+          "Legs": "Ephemerist\u0027s Kecks",
+          "Feet": "Ephemerist\u0027s Crakows",
+          "MainHand": "Metis"
+        }
+      }
+    ],
+    "34": [
+      {
+        "name": "SAM 50: Nameless",
+        "minLevel": 50,
+        "items": {
+          "Body": 20461,
+          "Head": 20460,
+          "Hands": 20462,
+          "Legs": 20463,
+          "Feet": 20464,
+          "MainHand": 20388
+        },
+        "itemNames": {
+          "Body": "Nameless Togi",
+          "Head": "Nameless Hachigane",
+          "Hands": "Nameless Tekko",
+          "Legs": "Nameless Hakama",
+          "Feet": "Nameless Kyahan",
+          "MainHand": "Mythrite Uchigatana"
+        }
+      },
+      {
+        "name": "SAM 70: Antiquated Myochin",
+        "minLevel": 70,
+        "items": {
+          "Body": 17808,
+          "Head": 17807,
+          "Hands": 17809,
+          "Legs": 17810,
+          "Feet": 17811,
+          "MainHand": 17830
+        },
+        "itemNames": {
+          "Body": "Antiquated Myochin Haori",
+          "Head": "Antiquated Myochin Jingasa",
+          "Hands": "Antiquated Myochin Tekko",
+          "Legs": "Antiquated Myochin Hakama",
+          "Feet": "Antiquated Myochin Geta",
+          "MainHand": "Antiquated Kiku-ichimonji"
+        }
+      },
+      {
+        "name": "SAM 80: Weathered Kasuga",
+        "minLevel": 80,
+        "items": {
+          "Body": 25302,
+          "Head": 25301,
+          "Hands": 25303,
+          "Legs": 25304,
+          "Feet": 25305,
+          "MainHand": 25231
+        },
+        "itemNames": {
+          "Body": "Weathered Kasuga Haori",
+          "Head": "Weathered Kasuga Hanbo",
+          "Hands": "Weathered Kasuga Kote",
+          "Legs": "Weathered Kasuga Tsutsu-hakama",
+          "Feet": "Weathered Kasuga Zori",
+          "MainHand": "Dojikiri Yasutsuna"
+        }
+      },
+      {
+        "name": "SAM 90: Saotome",
+        "minLevel": 90,
+        "items": {
+          "Body": 34013,
+          "Head": 34012,
+          "Hands": 34014,
+          "Legs": 34015,
+          "Feet": 34016,
+          "MainHand": 34055
+        },
+        "itemNames": {
+          "Body": "Saotome Jin-baori",
+          "Head": "Saotome Hanbo",
+          "Hands": "Saotome Kote",
+          "Legs": "Saotome Hakama",
+          "Feet": "Saotome Sune-ate",
+          "MainHand": "Murasame"
+        }
+      },
+      {
+        "name": "SAM 100: Sakonji",
+        "minLevel": 100,
+        "items": {
+          "Body": 42657,
+          "Head": 42656,
+          "Hands": 42658,
+          "Legs": 42659,
+          "Feet": 42660,
+          "MainHand": 42582
+        },
+        "itemNames": {
+          "Body": "Sakonji Haori",
+          "Head": "Sakonji Gantai",
+          "Hands": "Sakonji Gloves",
+          "Legs": "Sakonji Hakama",
+          "Feet": "Sakonji Tabi",
+          "MainHand": "Kogarasumaru"
+        }
+      }
+    ],
+    "35": [
+      {
+        "name": "RDM 50: Red",
+        "minLevel": 50,
+        "items": {
+          "Body": 20466,
+          "Head": 20465,
+          "Hands": 20467,
+          "Legs": 20468,
+          "Feet": 20469,
+          "MainHand": 20389
+        },
+        "itemNames": {
+          "Body": "Red Bliaud",
+          "Head": "Red Hat",
+          "Hands": "Red Gloves",
+          "Legs": "Red Gaskins",
+          "Feet": "Red Boots",
+          "MainHand": "Mythrite Rapier"
+        }
+      },
+      {
+        "name": "RDM 70: Antiquated Duelist\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 17813,
+          "Head": 17812,
+          "Hands": 17814,
+          "Legs": 17815,
+          "Feet": 17816,
+          "MainHand": 17831
+        },
+        "itemNames": {
+          "Body": "Antiquated Duelist\u0027s Tabard",
+          "Head": "Antiquated Duelist\u0027s Chapeau",
+          "Hands": "Antiquated Duelist\u0027s Gloves",
+          "Legs": "Antiquated Duelist\u0027s Breeches",
+          "Feet": "Antiquated Duelist\u0027s Thighboots",
+          "MainHand": "Antiquated Murgleis"
+        }
+      },
+      {
+        "name": "RDM 80: Weathered Estoqueur\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25307,
+          "Head": 25306,
+          "Hands": 25308,
+          "Legs": 25309,
+          "Feet": 25310,
+          "MainHand": 25232
+        },
+        "itemNames": {
+          "Body": "Weathered Estoqueur\u0027s Bliaud",
+          "Head": "Weathered Estoqueur\u0027s Tricorne",
+          "Hands": "Weathered Estoqueur\u0027s Gloves",
+          "Legs": "Weathered Estoqueur\u0027s Bottoms",
+          "Feet": "Weathered Estoqueur\u0027s Thighboots",
+          "MainHand": "Aeneas"
+        }
+      },
+      {
+        "name": "RDM 90: Atrophy",
+        "minLevel": 90,
+        "items": {
+          "Body": 34018,
+          "Head": 34017,
+          "Hands": 34019,
+          "Legs": 34020,
+          "Feet": 34021,
+          "MainHand": 34056
+        },
+        "itemNames": {
+          "Body": "Atrophy Bliaud",
+          "Head": "Atrophy Chapeau",
+          "Hands": "Atrophy Gloves",
+          "Legs": "Atrophy Bottoms",
+          "Feet": "Atrophy Thighboots",
+          "MainHand": "Wild Rose"
+        }
+      },
+      {
+        "name": "RDM 100: Roseblood",
+        "minLevel": 100,
+        "items": {
+          "Body": 42662,
+          "Head": 42661,
+          "Hands": 42663,
+          "Legs": 42664,
+          "Feet": 42665,
+          "MainHand": 42583
+        },
+        "itemNames": {
+          "Body": "Roseblood Coat",
+          "Head": "Roseblood Chapeau",
+          "Hands": "Roseblood Gloves",
+          "Legs": "Roseblood Breeches",
+          "Feet": "Roseblood Boots",
+          "MainHand": "Colada"
+        }
+      }
+    ],
+    "36": [
+      {
+        "name": "BLU 50: Magus\u0027s",
+        "minLevel": 50,
+        "items": {
+          "Body": 24553,
+          "Head": 24552,
+          "Hands": 24554,
+          "Legs": 24555,
+          "Feet": 24556,
+          "MainHand": 24551
+        },
+        "itemNames": {
+          "Body": "Magus\u0027s Jacket",
+          "Head": "Magus\u0027s Mask",
+          "Hands": "Magus\u0027s Gloves",
+          "Legs": "Magus\u0027s Trousers",
+          "Feet": "Magus\u0027s Shoes",
+          "MainHand": "The Spirit of the Whalaqee"
+        }
+      },
+      {
+        "name": "BLU 70: Mirage",
+        "minLevel": 70,
+        "items": {
+          "Body": 32647,
+          "Head": 32646,
+          "Hands": 32648,
+          "Legs": 32649,
+          "Feet": 32650,
+          "MainHand": 32644
+        },
+        "itemNames": {
+          "Body": "Mirage Coatee",
+          "Head": "Mirage Hat",
+          "Hands": "Mirage Gloves",
+          "Legs": "Mirage Bottoms",
+          "Feet": "Mirage Boots",
+          "MainHand": "Predatrice"
+        }
+      },
+      {
+        "name": "BLU 80: Phantasmal",
+        "minLevel": 80,
+        "items": {
+          "Body": 40347,
+          "Head": 40346,
+          "Hands": 40348,
+          "Legs": 40349,
+          "Feet": 40350,
+          "MainHand": 40345
+        },
+        "itemNames": {
+          "Body": "Phantasmal Robe",
+          "Head": "Phantasmal Hat",
+          "Hands": "Phantasmal Gloves",
+          "Legs": "Phantasmal Slacks",
+          "Feet": "Phantasmal Shoes",
+          "MainHand": "Blue-eyes"
+        }
+      }
+    ],
+    "37": [
+      {
+        "name": "GNB 60: Makai Vanguard\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 37443,
+          "Head": 37442,
+          "Hands": 37444,
+          "Legs": 37445,
+          "Feet": 37446,
+          "MainHand": 27347
+        },
+        "itemNames": {
+          "Body": "Makai Vanguard\u0027s Battlegarb",
+          "Head": "Makai Vanguard\u0027s Monocle",
+          "Hands": "Makai Vanguard\u0027s Fingerless Gloves",
+          "Legs": "Makai Vanguard\u0027s Leggings",
+          "Feet": "Makai Vanguard\u0027s Boots",
+          "MainHand": "Padjali Gunblade"
+        }
+      },
+      {
+        "name": "GNB 80: Weathered Bodyguard\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25312,
+          "Head": 25311,
+          "Hands": 25313,
+          "Legs": 25314,
+          "Feet": 25315,
+          "MainHand": 25233
+        },
+        "itemNames": {
+          "Body": "Weathered Bodyguard\u0027s Coat",
+          "Head": "Weathered Bodyguard\u0027s Blinder",
+          "Hands": "Weathered Bodyguard\u0027s Fingerless Gloves",
+          "Legs": "Weathered Bodyguard\u0027s Trousers",
+          "Feet": "Weathered Bodyguard\u0027s Thighboots",
+          "MainHand": "Lion Heart"
+        }
+      },
+      {
+        "name": "GNB 90: Allegiance",
+        "minLevel": 90,
+        "items": {
+          "Body": 34023,
+          "Head": 34022,
+          "Hands": 34024,
+          "Legs": 34025,
+          "Feet": 34026,
+          "MainHand": 34057
+        },
+        "itemNames": {
+          "Body": "Allegiance Coat",
+          "Head": "Allegiance Blinder",
+          "Hands": "Allegiance Gloves",
+          "Legs": "Allegiance Trousers",
+          "Feet": "Allegiance Longboots",
+          "MainHand": "Hyperion"
+        }
+      },
+      {
+        "name": "GNB 100: Bastion\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42667,
+          "Head": 42666,
+          "Hands": 42668,
+          "Legs": 42669,
+          "Feet": 42670,
+          "MainHand": 42584
+        },
+        "itemNames": {
+          "Body": "Bastion\u0027s Coat",
+          "Head": "Bastion\u0027s Eyepatch",
+          "Hands": "Bastion\u0027s Gloves",
+          "Legs": "Bastion\u0027s Trousers",
+          "Feet": "Bastion\u0027s Thighboots",
+          "MainHand": "Chastiefol"
+        }
+      }
+    ],
+    "38": [
+      {
+        "name": "DNC 60: Softstepper\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 27262,
+          "Head": 27261,
+          "Hands": 27263,
+          "Legs": 27264,
+          "Feet": 27265,
+          "MainHand": 27350
+        },
+        "itemNames": {
+          "Body": "Softstepper\u0027s Bolero",
+          "Head": "Softstepper\u0027s Turban",
+          "Hands": "Softstepper\u0027s Gloves",
+          "Legs": "Softstepper\u0027s Sarouel",
+          "Feet": "Softstepper\u0027s Babouches",
+          "MainHand": "Kinna Glaives"
+        }
+      },
+      {
+        "name": "DNC 80: Weathered Dancer\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 25317,
+          "Head": 25316,
+          "Hands": 25318,
+          "Legs": 25319,
+          "Feet": 25320,
+          "MainHand": 25234
+        },
+        "itemNames": {
+          "Body": "Weathered Dancer\u0027s Casaque",
+          "Head": "Weathered Dancer\u0027s Headdress",
+          "Hands": "Weathered Dancer\u0027s Armlets",
+          "Legs": "Weathered Dancer\u0027s Bottoms",
+          "Feet": "Weathered Dancer\u0027s Shoes",
+          "MainHand": "Krishna"
+        }
+      },
+      {
+        "name": "DNC 90: Etoile",
+        "minLevel": 90,
+        "items": {
+          "Body": 34028,
+          "Head": 34027,
+          "Hands": 34029,
+          "Legs": 34030,
+          "Feet": 34031,
+          "MainHand": 34058
+        },
+        "itemNames": {
+          "Body": "Etoile Longcoat",
+          "Head": "Etoile Headdress",
+          "Hands": "Etoile Halfgloves",
+          "Legs": "Etoile Bottoms",
+          "Feet": "Etoile Dress Boots",
+          "MainHand": "Terpsichore"
+        }
+      },
+      {
+        "name": "DNC 100: Horos",
+        "minLevel": 100,
+        "items": {
+          "Body": 42672,
+          "Head": 42671,
+          "Hands": 42673,
+          "Legs": 42674,
+          "Feet": 42675,
+          "MainHand": 42585
+        },
+        "itemNames": {
+          "Body": "Horos Casaque",
+          "Head": "Horos Headdress",
+          "Hands": "Horos Wrist Torques",
+          "Legs": "Horos Bottoms",
+          "Feet": "Horos Dress Boots",
+          "MainHand": "Soma"
+        }
+      }
+    ],
+    "39": [
+      {
+        "name": "RPR 60: Makai Harbinger\u0027s",
+        "minLevel": 60,
+        "items": {
+          "Body": 37453,
+          "Head": 37452,
+          "Hands": 37454,
+          "Legs": 37455,
+          "Feet": 37456,
+          "MainHand": 35756
+        },
+        "itemNames": {
+          "Body": "Makai Harbinger\u0027s Battlegarb",
+          "Head": "Makai Harbinger\u0027s Facemask",
+          "Hands": "Makai Harbinger\u0027s Fingerless Gloves",
+          "Legs": "Makai Harbinger\u0027s Leggings",
+          "Feet": "Makai Harbinger\u0027s Boots",
+          "MainHand": "Padjali War Scythe"
+        }
+      },
+      {
+        "name": "RPR 70: Muzhik",
+        "minLevel": 70,
+        "items": {
+          "Body": 36021,
+          "Head": 36020,
+          "Hands": 36022,
+          "Legs": 36023,
+          "Feet": 36024,
+          "MainHand": 35760
+        },
+        "itemNames": {
+          "Body": "Muzhik Coat",
+          "Head": "Muzhik Blinder",
+          "Hands": "Muzhik Field Dressing",
+          "Legs": "Muzhik Trousers",
+          "Feet": "Muzhik Boots",
+          "MainHand": "Deepgold War Scythe"
+        }
+      },
+      {
+        "name": "RPR 80: Harvester\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 36645,
+          "Head": 36644,
+          "Hands": 36646,
+          "Legs": 36647,
+          "Feet": 36648,
+          "MainHand": 36643
+        },
+        "itemNames": {
+          "Body": "Harvester\u0027s Coat",
+          "Head": "Harvester\u0027s Blinder",
+          "Hands": "Harvester\u0027s Dressing",
+          "Legs": "Harvester\u0027s Trousers",
+          "Feet": "Harvester\u0027s Boots",
+          "MainHand": "Demon Slicer"
+        }
+      },
+      {
+        "name": "RPR 90: Reaper\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 34038,
+          "Head": 34037,
+          "Hands": 34039,
+          "Legs": 34040,
+          "Feet": 34041,
+          "MainHand": 34060
+        },
+        "itemNames": {
+          "Body": "Reaper\u0027s Corselet",
+          "Head": "Reaper\u0027s Chapeau",
+          "Hands": "Reaper\u0027s Armguards",
+          "Legs": "Reaper\u0027s Poleyns",
+          "Feet": "Reaper\u0027s Boots",
+          "MainHand": "Death Sickle"
+        }
+      },
+      {
+        "name": "RPR 100: Assassin\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42677,
+          "Head": 42676,
+          "Hands": 42678,
+          "Legs": 42679,
+          "Feet": 42680,
+          "MainHand": 42586
+        },
+        "itemNames": {
+          "Body": "Assassin\u0027s Coat",
+          "Head": "Assassin\u0027s Hood",
+          "Hands": "Assassin\u0027s Halfgloves",
+          "Legs": "Assassin\u0027s Brais",
+          "Feet": "Assassin\u0027s Greaves",
+          "MainHand": "Vendetta"
+        }
+      }
+    ],
+    "40": [
+      {
+        "name": "SGE 70: Bookwyrm\u0027s",
+        "minLevel": 70,
+        "items": {
+          "Body": 36016,
+          "Head": 36015,
+          "Hands": 36017,
+          "Legs": 36018,
+          "Feet": 36019,
+          "MainHand": 35778
+        },
+        "itemNames": {
+          "Body": "Bookwyrm\u0027s Chasuble",
+          "Head": "Bookwyrm\u0027s Spectacles",
+          "Hands": "Bookwyrm\u0027s Gloves",
+          "Legs": "Bookwyrm\u0027s Waistwrap",
+          "Feet": "Bookwyrm\u0027s Boots",
+          "MainHand": "Stonegold Milpreves"
+        }
+      },
+      {
+        "name": "SGE 80: Therapeutes\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 36651,
+          "Head": 36650,
+          "Hands": 36652,
+          "Legs": 36653,
+          "Feet": 36654,
+          "MainHand": 36649
+        },
+        "itemNames": {
+          "Body": "Therapeutes\u0027s Chasuble",
+          "Head": "Therapeutes\u0027s Spectacles",
+          "Hands": "Therapeutes\u0027s Gloves",
+          "Legs": "Therapeutes\u0027s Waistwrap",
+          "Feet": "Therapeutes\u0027s Boots",
+          "MainHand": "Horkos"
+        }
+      },
+      {
+        "name": "SGE 90: Didact\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 34033,
+          "Head": 34032,
+          "Hands": 34034,
+          "Legs": 34035,
+          "Feet": 34036,
+          "MainHand": 34059
+        },
+        "itemNames": {
+          "Body": "Didact\u0027s Coat",
+          "Head": "Didact\u0027s Visor",
+          "Hands": "Didact\u0027s Gloves",
+          "Legs": "Didact\u0027s Gaskins",
+          "Feet": "Didact\u0027s Boots",
+          "MainHand": "Hagneia"
+        }
+      },
+      {
+        "name": "SGE 100: Asklepian",
+        "minLevel": 100,
+        "items": {
+          "Body": 42682,
+          "Head": 42681,
+          "Hands": 42683,
+          "Legs": 42684,
+          "Feet": 42685,
+          "MainHand": 42587
+        },
+        "itemNames": {
+          "Body": "Asklepian Coat",
+          "Head": "Asklepian Visor",
+          "Hands": "Asklepian Gloves",
+          "Legs": "Asklepian Hose",
+          "Feet": "Asklepian Boots",
+          "MainHand": "Metanoia"
+        }
+      }
+    ],
+    "41": [
+      {
+        "name": "VPR 80: Weathered Snakebite",
+        "minLevel": 80,
+        "items": {
+          "Body": 43179,
+          "Head": 43178,
+          "Hands": 43180,
+          "Legs": 43181,
+          "Feet": 43182,
+          "MainHand": 41808
+        },
+        "itemNames": {
+          "Body": "Weathered Snakebite Gilet",
+          "Head": "Weathered Snakebite Headband",
+          "Hands": "Weathered Snakebite Halfgloves",
+          "Legs": "Weathered Snakebite Gaskins",
+          "Feet": "Weathered Snakebite Boots",
+          "MainHand": "Weathered Twinfangs"
+        }
+      },
+      {
+        "name": "VPR 90: Snakebite",
+        "minLevel": 90,
+        "items": {
+          "Body": 43190,
+          "Head": 43189,
+          "Hands": 43191,
+          "Legs": 43192,
+          "Feet": 43193,
+          "MainHand": 43188
+        },
+        "itemNames": {
+          "Body": "Snakebite Gilet",
+          "Head": "Snakebite Headband",
+          "Hands": "Snakebite Halfgloves",
+          "Legs": "Snakebite Gaskins",
+          "Feet": "Snakebite Boots",
+          "MainHand": "Twinfangs"
+        }
+      },
+      {
+        "name": "VPR 100: Viper\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42687,
+          "Head": 42686,
+          "Hands": 42688,
+          "Legs": 42689,
+          "Feet": 42690,
+          "MainHand": 42588
+        },
+        "itemNames": {
+          "Body": "Viper\u0027s Coat",
+          "Head": "Viper\u0027s Hood",
+          "Hands": "Viper\u0027s Halfgloves",
+          "Legs": "Viper\u0027s Hose",
+          "Feet": "Viper\u0027s Leg Guards",
+          "MainHand": "Sargatanas"
+        }
+      }
+    ],
+    "42": [
+      {
+        "name": "PCT 80: Weathered Painter\u0027s",
+        "minLevel": 80,
+        "items": {
+          "Body": 43184,
+          "Head": 43183,
+          "Hands": 43185,
+          "Legs": 43186,
+          "Feet": 43187,
+          "MainHand": 41809
+        },
+        "itemNames": {
+          "Body": "Weathered Painter\u0027s Tabard",
+          "Head": "Weathered Painter\u0027s Beret",
+          "Hands": "Weathered Painter\u0027s Halfgloves",
+          "Legs": "Weathered Painter\u0027s Slops",
+          "Feet": "Weathered Painter\u0027s Pattens",
+          "MainHand": "Weathered Round Brush"
+        }
+      },
+      {
+        "name": "PCT 90: Painter\u0027s",
+        "minLevel": 90,
+        "items": {
+          "Body": 43196,
+          "Head": 43195,
+          "Hands": 43197,
+          "Legs": 43198,
+          "Feet": 43199,
+          "MainHand": 43194
+        },
+        "itemNames": {
+          "Body": "Painter\u0027s Tabard",
+          "Head": "Painter\u0027s Beret",
+          "Hands": "Painter\u0027s Halfgloves",
+          "Legs": "Painter\u0027s Slops",
+          "Feet": "Painter\u0027s Pattens",
+          "MainHand": "Round Brush"
+        }
+      },
+      {
+        "name": "PCT 100: Pictomancer\u0027s",
+        "minLevel": 100,
+        "items": {
+          "Body": 42692,
+          "Head": 42691,
+          "Hands": 42693,
+          "Legs": 42694,
+          "Feet": 42695,
+          "MainHand": 42589
+        },
+        "itemNames": {
+          "Body": "Pictomancer\u0027s Bolero",
+          "Head": "Pictomancer\u0027s Turban",
+          "Hands": "Pictomancer\u0027s Armlets",
+          "Legs": "Pictomancer\u0027s Sarouel",
+          "Feet": "Pictomancer\u0027s Crakows",
+          "MainHand": "Angel Brush"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0.0</Version>
+    <Author>StoryMode</Author>
+    <Name>Story Mode</Name>
+    <Punchline>See other players in their job's artifact gear, so glamours don't break the story.</Punchline>
+    <Description>Story Mode changes how other players look on your screen only. Players with a job stone appear in that job's artifact gear for their level bracket, and players without one appear in a starter outfit for their class.
+
+Choose who it applies to (everyone, or everyone except your party, alliance, friends or free company) and when (always, or only in cutscenes and duties). Nothing is sent to the server, and other players see no change.</Description>
+    <RepoUrl>https://github.com/OWNER/StoryMode</RepoUrl>
+    <Tags>glamour;immersion;story;cutscene;artifact</Tags>
+    <!-- Keep local folder paths (and so the Windows username) out of the built DLL. -->
+    <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..'))=/StoryMode/</PathMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\gear-table.json" LogicalName="StoryMode.gear-table.json" />
+  </ItemGroup>
+</Project>

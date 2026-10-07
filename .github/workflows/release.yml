@@ -1,0 +1,56 @@
+# Builds the plugin and publishes a GitHub release when a version tag (e.g. v0.1.0.0) is pushed,
+# then updates repo.json so Dalamud offers the new version.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Download Dalamud
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile dalamud.zip
+          Expand-Archive -Force dalamud.zip "$env:AppData\XIVLauncher\addon\Hooks\dev"
+
+      - name: Set version from tag
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          "VERSION=$version" | Out-File -FilePath $env:GITHUB_ENV -Append
+          (Get-Content StoryMode/StoryMode.csproj) -replace '<Version>.*</Version>', "<Version>$version</Version>" |
+            Set-Content StoryMode/StoryMode.csproj
+
+      - name: Build
+        run: dotnet build StoryMode/StoryMode.csproj -c Release
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: StoryMode/bin/Release/StoryMode/latest.zip
+
+      - name: Update repo.json
+        shell: pwsh
+        run: |
+          $repo = Get-Content repo.json -Raw | ConvertFrom-Json
+          $repo[0].AssemblyVersion = $env:VERSION
+          ConvertTo-Json @($repo) -Depth 5 | Set-Content repo.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo.json StoryMode/StoryMode.csproj
+          git commit -m "Release $env:VERSION"
+          git push origin main

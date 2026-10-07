@@ -1,0 +1,17 @@
+[
+  {
+    "Author": "StoryMode",
+    "Name": "Story Mode",
+    "InternalName": "StoryMode",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Story Mode changes how other players look on your screen only. Players with a job stone appear in that job's artifact gear for their level bracket, and players without one appear in a starter outfit for their class.\n\nChoose who it applies to (everyone, or everyone except your party, alliance, friends or free company) and when (always, or only in cutscenes and duties). Nothing is sent to the server, and other players see no change.",
+    "Punchline": "See other players in their job's artifact gear, so glamours don't break the story.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/OWNER/StoryMode",
+    "Tags": ["glamour", "immersion", "story", "cutscene", "artifact"],
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/OWNER/StoryMode/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/OWNER/StoryMode/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/OWNER/StoryMode/releases/latest/download/latest.zip"
+  }
+]

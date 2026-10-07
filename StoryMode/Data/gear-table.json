@@ -3382,19 +3382,19 @@
     ],
     "34": [
       {
-        "name": "SAM 50: Nameless",
+        "name": "SAM 50: Nameless (unlock)",
         "minLevel": 50,
         "items": {
-          "Body": 20461,
           "Head": 20460,
+          "Body": 20461,
           "Hands": 20462,
           "Legs": 20463,
           "Feet": 20464,
           "MainHand": 20388
         },
         "itemNames": {
-          "Body": "Nameless Togi",
           "Head": "Nameless Hachigane",
+          "Body": "Nameless Togi",
           "Hands": "Nameless Tekko",
           "Legs": "Nameless Hakama",
           "Feet": "Nameless Kyahan",
@@ -3484,19 +3484,19 @@
     ],
     "35": [
       {
-        "name": "RDM 50: Red",
+        "name": "RDM 50: Red (unlock)",
         "minLevel": 50,
         "items": {
-          "Body": 20466,
           "Head": 20465,
+          "Body": 20466,
           "Hands": 20467,
           "Legs": 20468,
           "Feet": 20469,
           "MainHand": 20389
         },
         "itemNames": {
-          "Body": "Red Bliaud",
           "Head": "Red Hat",
+          "Body": "Red Bliaud",
           "Hands": "Red Gloves",
           "Legs": "Red Gaskins",
           "Feet": "Red Boots",
@@ -3586,6 +3586,26 @@
     ],
     "36": [
       {
+        "name": "BLU 1: True Blue (unlock)",
+        "minLevel": 1,
+        "items": {
+          "Head": 24582,
+          "Body": 24583,
+          "Hands": 24584,
+          "Legs": 24585,
+          "Feet": 24586,
+          "MainHand": 22746
+        },
+        "itemNames": {
+          "Head": "True Blue Hat",
+          "Body": "True Blue Coat",
+          "Hands": "True Blue Gloves",
+          "Legs": "True Blue Trousers",
+          "Feet": "True Blue Boots",
+          "MainHand": "Rainmaker"
+        }
+      },
+      {
         "name": "BLU 50: Magus\u0027s",
         "minLevel": 50,
         "items": {
@@ -3648,23 +3668,23 @@
     ],
     "37": [
       {
-        "name": "GNB 60: Makai Vanguard\u0027s",
+        "name": "GNB 60: Outsider\u0027s (unlock)",
         "minLevel": 60,
         "items": {
-          "Body": 37443,
-          "Head": 37442,
-          "Hands": 37444,
-          "Legs": 37445,
-          "Feet": 37446,
-          "MainHand": 27347
+          "Head": 27256,
+          "Body": 27257,
+          "Hands": 27258,
+          "Legs": 27259,
+          "Feet": 27260,
+          "MainHand": 27357
         },
         "itemNames": {
-          "Body": "Makai Vanguard\u0027s Battlegarb",
-          "Head": "Makai Vanguard\u0027s Monocle",
-          "Hands": "Makai Vanguard\u0027s Fingerless Gloves",
-          "Legs": "Makai Vanguard\u0027s Leggings",
-          "Feet": "Makai Vanguard\u0027s Boots",
-          "MainHand": "Padjali Gunblade"
+          "Head": "Outsider\u0027s Circlet",
+          "Body": "Outsider\u0027s Jacket",
+          "Hands": "Outsider\u0027s Gloves",
+          "Legs": "Outsider\u0027s Chaps",
+          "Feet": "Outsider\u0027s Boots",
+          "MainHand": "High Steel Gunblade"
         }
       },
       {
@@ -3730,23 +3750,23 @@
     ],
     "38": [
       {
-        "name": "DNC 60: Softstepper\u0027s",
+        "name": "DNC 60: Softstepper\u0027s (unlock)",
         "minLevel": 60,
         "items": {
-          "Body": 27262,
           "Head": 27261,
+          "Body": 27262,
           "Hands": 27263,
           "Legs": 27264,
           "Feet": 27265,
-          "MainHand": 27350
+          "MainHand": 27358
         },
         "itemNames": {
-          "Body": "Softstepper\u0027s Bolero",
           "Head": "Softstepper\u0027s Turban",
+          "Body": "Softstepper\u0027s Bolero",
           "Hands": "Softstepper\u0027s Gloves",
           "Legs": "Softstepper\u0027s Sarouel",
           "Feet": "Softstepper\u0027s Babouches",
-          "MainHand": "Kinna Glaives"
+          "MainHand": "High Steel Chakrams"
         }
       },
       {
@@ -3812,39 +3832,19 @@
     ],
     "39": [
       {
-        "name": "RPR 60: Makai Harbinger\u0027s",
-        "minLevel": 60,
-        "items": {
-          "Body": 37453,
-          "Head": 37452,
-          "Hands": 37454,
-          "Legs": 37455,
-          "Feet": 37456,
-          "MainHand": 35756
-        },
-        "itemNames": {
-          "Body": "Makai Harbinger\u0027s Battlegarb",
-          "Head": "Makai Harbinger\u0027s Facemask",
-          "Hands": "Makai Harbinger\u0027s Fingerless Gloves",
-          "Legs": "Makai Harbinger\u0027s Leggings",
-          "Feet": "Makai Harbinger\u0027s Boots",
-          "MainHand": "Padjali War Scythe"
-        }
-      },
-      {
-        "name": "RPR 70: Muzhik",
+        "name": "RPR 70: Muzhik (unlock)",
         "minLevel": 70,
         "items": {
-          "Body": 36021,
           "Head": 36020,
+          "Body": 36021,
           "Hands": 36022,
           "Legs": 36023,
           "Feet": 36024,
           "MainHand": 35760
         },
         "itemNames": {
-          "Body": "Muzhik Coat",
           "Head": "Muzhik Blinder",
+          "Body": "Muzhik Coat",
           "Hands": "Muzhik Field Dressing",
           "Legs": "Muzhik Trousers",
           "Feet": "Muzhik Boots",
@@ -3914,19 +3914,19 @@
     ],
     "40": [
       {
-        "name": "SGE 70: Bookwyrm\u0027s",
+        "name": "SGE 70: Bookwyrm\u0027s (unlock)",
         "minLevel": 70,
         "items": {
-          "Body": 36016,
           "Head": 36015,
+          "Body": 36016,
           "Hands": 36017,
           "Legs": 36018,
           "Feet": 36019,
           "MainHand": 35778
         },
         "itemNames": {
-          "Body": "Bookwyrm\u0027s Chasuble",
           "Head": "Bookwyrm\u0027s Spectacles",
+          "Body": "Bookwyrm\u0027s Chasuble",
           "Hands": "Bookwyrm\u0027s Gloves",
           "Legs": "Bookwyrm\u0027s Waistwrap",
           "Feet": "Bookwyrm\u0027s Boots",
@@ -3996,19 +3996,19 @@
     ],
     "41": [
       {
-        "name": "VPR 80: Weathered Snakebite",
+        "name": "VPR 80: Weathered Snakebite (unlock)",
         "minLevel": 80,
         "items": {
-          "Body": 43179,
           "Head": 43178,
+          "Body": 43179,
           "Hands": 43180,
           "Legs": 43181,
           "Feet": 43182,
           "MainHand": 41808
         },
         "itemNames": {
-          "Body": "Weathered Snakebite Gilet",
           "Head": "Weathered Snakebite Headband",
+          "Body": "Weathered Snakebite Gilet",
           "Hands": "Weathered Snakebite Halfgloves",
           "Legs": "Weathered Snakebite Gaskins",
           "Feet": "Weathered Snakebite Boots",
@@ -4058,19 +4058,19 @@
     ],
     "42": [
       {
-        "name": "PCT 80: Weathered Painter\u0027s",
+        "name": "PCT 80: Weathered Painter\u0027s (unlock)",
         "minLevel": 80,
         "items": {
-          "Body": 43184,
           "Head": 43183,
+          "Body": 43184,
           "Hands": 43185,
           "Legs": 43186,
           "Feet": 43187,
           "MainHand": 41809
         },
         "itemNames": {
-          "Body": "Weathered Painter\u0027s Tabard",
           "Head": "Weathered Painter\u0027s Beret",
+          "Body": "Weathered Painter\u0027s Tabard",
           "Hands": "Weathered Painter\u0027s Halfgloves",
           "Legs": "Weathered Painter\u0027s Slops",
           "Feet": "Weathered Painter\u0027s Pattens",

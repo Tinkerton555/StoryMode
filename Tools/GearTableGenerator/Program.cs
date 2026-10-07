@@ -22,8 +22,6 @@ uint[] arrJobs = [19, 20, 21, 22, 23, 24, 25, 27, 28, 30];
 var weaponOverrides = new Dictionary<(uint Job, int Tier), (uint Main, uint Off)>
 {
     [(19, 50)] = (0, 2306), // Paladin: Holy Shield to go with Curtana
-    [(34, 50)] = (20388, 0), // Samurai: Mythrite Uchigatana rather than a trial weapon
-    [(35, 50)] = (20389, 0), // Red Mage: Mythrite Rapier
 };
 
 // ARR artifact sets had no weapon, so level 50 uses each job's base relic weapon. Named here
@@ -53,7 +51,7 @@ foreach (var cj in classJobs.Where(c => c.RowId is >= 8 and <= 42 and not (26 or
 {
     var abbr = cj.Abbreviation.ToString();
     var mine = Report.JobItems(abbr);
-    var list = new List<object>();
+    var list = new List<(int Min, object Entry)>();
 
     foreach (var t in tiers)
     {
@@ -112,16 +110,65 @@ foreach (var cj in classJobs.Where(c => c.RowId is >= 8 and <= 42 and not (26 or
         if (main.RowId != 0) picked["MainHand"] = main;
         if (off.RowId != 0) picked["OffHand"] = off;
 
-        list.Add(new
-        {
-            name = $"{abbr} {t}: {family}",
-            minLevel = t,
-            items = picked.ToDictionary(p => p.Key, p => p.Value.RowId),
-            itemNames = picked.ToDictionary(p => p.Key, p => p.Value.Name.ToString()),
-        });
+        list.Add((t, Entry($"{abbr} {t}: {family}", t, picked)));
     }
 
-    jobsOut[cj.RowId] = list;
+    // Jobs that start above level 1 or 30 with their own outfit (Samurai, Gunbreaker, Viper, Blue
+    // Mage, ...) get exactly what their unlock quest hands out, from their starting level.
+    if (UnlockOutfit(cj, abbr) is { } unlock)
+    {
+        int start = cj.StartingLevel;
+        list.RemoveAll(e => e.Min <= start);
+        list.Insert(0, (start, Entry($"{abbr} {start}: {unlock.Family} (unlock)", start, unlock.Picked)));
+    }
+
+    jobsOut[cj.RowId] = list.Select(e => e.Entry).ToList();
+}
+
+static object Entry(string name, int minLevel, Dictionary<string, Item> picked) => new
+{
+    name,
+    minLevel,
+    items = picked.ToDictionary(p => p.Key, p => p.Value.RowId),
+    itemNames = picked.ToDictionary(p => p.Key, p => p.Value.Name.ToString()),
+};
+
+// The outfit and weapon a job's unlock quest rewards, when it rewards a "<Name> Attire Coffer"
+// (or "<Name> Armor Coffer").
+(string Family, Dictionary<string, Item> Picked)? UnlockOutfit(ClassJob cj, string abbr)
+{
+    if (cj.UnlockQuest.ValueNullable is not { } quest)
+        return null;
+
+    var rewards = quest.Reward.Select(r => items.TryGetRow(r.RowId, out var it) ? it : default).Where(it => it.RowId != 0).ToList();
+    var coffer = rewards.FirstOrDefault(it => System.Text.RegularExpressions.Regex.IsMatch(it.Name.ToString(), " (Attire|Armor) Coffer"));
+    if (coffer.RowId == 0)
+        return null;
+
+    var family = System.Text.RegularExpressions.Regex.Match(coffer.Name.ToString(), "^(.*?) (Attire|Armor) Coffer").Groups[1].Value;
+    var picked = new Dictionary<string, Item>();
+    var jobGear = Report.JobItems(abbr, minItemLevel: 0);
+
+    for (var s = 0; s < 5; s++)
+    {
+        var pick = jobGear.Where(i => Report.SlotOf(i) == s && i.Name.ToString().StartsWith(family + " "))
+            .OrderBy(i => i.LevelItem.RowId).ThenBy(i => i.RowId).FirstOrDefault();
+        if (pick.RowId != 0)
+            picked[slotKeys[s]] = pick;
+    }
+    foreach (var it in rewards)
+    {
+        if (Report.SlotOf(it) == 5) picked["MainHand"] = it;
+        if (Report.SlotOf(it) == 6) picked["OffHand"] = it;
+    }
+
+    if (!picked.ContainsKey("Body"))
+    {
+        Console.Error.WriteLine($"{abbr}: couldn't find the {family} set from its unlock quest");
+        missing++;
+        return null;
+    }
+    return (family, picked);
 }
 
 // ---- Starter outfits: no job stone, or a crafter/gatherer below 50 ----

@@ -18,8 +18,7 @@ public sealed class ConfigWindow : Window
 
     public override void Draw()
     {
-        Checkbox("Enable Story Mode", config.Enabled, v => config.Enabled = v);
-        ImGui.TextDisabled("Other players see no change. This only affects your screen.");
+        Checkbox("Show players in artifact gear for their job and level", config.Enabled, v => config.Enabled = v);
 
         ImGui.Spacing();
         Section("Who to change");

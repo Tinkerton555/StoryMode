@@ -26,7 +26,7 @@ static class Report
     private static Dictionary<uint, HashSet<string>>? categoryJobs;
 
     /// <summary>Gear only this job (or its base class) can wear: artifact sets, relics, job quest gear.</summary>
-    public static List<Item> JobItems(string abbr)
+    public static List<Item> JobItems(string abbr, uint minItemLevel = 6)
     {
         if (categoryJobs == null)
         {
@@ -39,7 +39,7 @@ static class Report
         if (Bases.TryGetValue(abbr, out var b))
             allowed.Add(b);
 
-        return GD.GetExcelSheet<Item>()!.Where(i => !i.IsPvP && i.ModelMain != 0 && i.LevelItem.RowId > 5
+        return GD.GetExcelSheet<Item>()!.Where(i => !i.IsPvP && i.ModelMain != 0 && i.LevelItem.RowId >= minItemLevel
                 && !i.Name.ToString().Contains("Replica")
                 && categoryJobs.TryGetValue(i.ClassJobCategory.RowId, out var cj) && cj.Contains(abbr) && cj.IsSubsetOf(allowed)
                 && SlotOf(i) >= 0)

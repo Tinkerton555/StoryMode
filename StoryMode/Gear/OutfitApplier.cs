@@ -43,6 +43,10 @@ public sealed unsafe class OutfitApplier : IDisposable
     private readonly Dictionary<nint, RealLook> changed = new();
     private readonly HashSet<nint> seenThisFrame = new();
 
+    // Cutscene copy address -> the real player's address, rebuilt each frame.
+    private readonly Dictionary<nint, nint> cutsceneSources = new();
+    private readonly Dictionary<(string Name, ushort HomeWorld), nint> playersByName = new();
+
     public OutfitApplier(Configuration config, OutfitResolver resolver)
     {
         this.config = config;
@@ -88,8 +92,48 @@ public sealed unsafe class OutfitApplier : IDisposable
     {
         if (!IsActive() || character == null || character->GameObject.ObjectKind != ObjectKind.Pc)
             return null;
+
+        // Decide using the real player, not a cutscene copy: copies have no level and no
+        // party/friend flags, and a copy of you isn't the local player.
+        var source = character;
+        if (cutsceneSources.TryGetValue((nint)character, out var real))
+            source = (Character*)real;
+
         var local = (Character*)Control.GetLocalPlayer();
-        return resolver.ShouldAffect(character, local) ? resolver.Resolve(character) : null;
+        return resolver.ShouldAffect(source, local) ? resolver.Resolve(source) : null;
+    }
+
+    // Object table slots 200-243 hold the copies of characters the game creates for cutscenes.
+    private const int FirstCutsceneIndex = 200;
+    private const int EndCutsceneIndex = 244;
+
+    private static bool IsCutsceneCopy(Character* character)
+        => character->GameObject.ObjectIndex is >= FirstCutsceneIndex and < EndCutsceneIndex;
+
+    /// <summary>Links each cutscene copy to the real player it was made from, matched by name and home world.</summary>
+    private void MapCutsceneCopies()
+    {
+        cutsceneSources.Clear();
+        playersByName.Clear();
+
+        foreach (var obj in Plugin.ObjectTable)
+        {
+            var character = (Character*)obj.Address;
+            if (character == null || character->GameObject.ObjectKind != ObjectKind.Pc || IsCutsceneCopy(character))
+                continue;
+            playersByName.TryAdd((obj.Name.TextValue, character->HomeWorld), (nint)character);
+            playersByName.TryAdd((obj.Name.TextValue, 0), (nint)character);
+        }
+
+        foreach (var obj in Plugin.ObjectTable)
+        {
+            var character = (Character*)obj.Address;
+            if (character == null || character->GameObject.ObjectKind != ObjectKind.Pc || !IsCutsceneCopy(character))
+                continue;
+            if (playersByName.TryGetValue((obj.Name.TextValue, character->HomeWorld), out var real)
+                || playersByName.TryGetValue((obj.Name.TextValue, 0), out real))
+                cutsceneSources[(nint)character] = real;
+        }
     }
 
     private EquipmentModelId DesiredEquipment(Outfit outfit, int slot, EquipmentModelId real)
@@ -105,6 +149,7 @@ public sealed unsafe class OutfitApplier : IDisposable
     private void OnFrameworkUpdate(IFramework framework)
     {
         seenThisFrame.Clear();
+        MapCutsceneCopies();
 
         foreach (var obj in Plugin.ObjectTable)
         {

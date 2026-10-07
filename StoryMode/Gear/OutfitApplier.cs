@@ -29,9 +29,13 @@ public sealed unsafe class OutfitApplier : IDisposable
     {
         public uint EntityId;
         public readonly EquipmentModelId[] Equipment = new EquipmentModelId[10];
-        public WeaponModelId MainHand;
-        public WeaponModelId OffHand;
         public ushort Glasses;
+
+        // Real weapons aren't stored here: weapon swaps only change what's drawn, so the game's
+        // own record (DrawData.Weapon(slot).ModelId) always holds the real weapon.
+        // The outfit and weapon setting the drawn weapons were last set for.
+        public Outfit? WeaponsFor;
+        public bool WeaponsReplaced;
     }
 
     private readonly Configuration config;
@@ -196,16 +200,12 @@ public sealed unsafe class OutfitApplier : IDisposable
             if (cutsceneSources.TryGetValue(address, out var source) && changed.TryGetValue(source, out var sourceReal))
             {
                 Array.Copy(sourceReal.Equipment, real.Equipment, real.Equipment.Length);
-                real.MainHand = sourceReal.MainHand;
-                real.OffHand = sourceReal.OffHand;
                 real.Glasses = sourceReal.Glasses;
             }
             else
             {
                 for (var i = 0; i < 10; i++)
                     real.Equipment[i] = drawData.Equipment((DrawDataContainer.EquipmentSlot)i);
-                real.MainHand = drawData.Weapon(DrawDataContainer.WeaponSlot.MainHand).ModelId;
-                real.OffHand = drawData.Weapon(DrawDataContainer.WeaponSlot.OffHand).ModelId;
                 real.Glasses = drawData.GlassesIds[0];
             }
 
@@ -222,15 +222,14 @@ public sealed unsafe class OutfitApplier : IDisposable
                     loadEquipmentHook.Original(container, slot, &want, 1);
             }
 
-            if (config.ReplaceWeapons)
+            // Drawn weapons are set when the outfit or setting changes. Weapon changes the game
+            // makes itself (job changes, gear changes) go through LoadWeaponDetour.
+            if (real.WeaponsFor != outfit || real.WeaponsReplaced != config.ReplaceWeapons)
             {
-                SetWeapon(container, DrawDataContainer.WeaponSlot.MainHand, outfit.MainHand);
-                SetWeapon(container, DrawDataContainer.WeaponSlot.OffHand, outfit.OffHand);
-            }
-            else
-            {
-                SetWeapon(container, DrawDataContainer.WeaponSlot.MainHand, real.MainHand);
-                SetWeapon(container, DrawDataContainer.WeaponSlot.OffHand, real.OffHand);
+                real.WeaponsFor = outfit;
+                real.WeaponsReplaced = config.ReplaceWeapons;
+                ShowWeapon(container, DrawDataContainer.WeaponSlot.MainHand, config.ReplaceWeapons ? outfit.MainHand : RealWeapon(container, DrawDataContainer.WeaponSlot.MainHand));
+                ShowWeapon(container, DrawDataContainer.WeaponSlot.OffHand, config.ReplaceWeapons ? outfit.OffHand : RealWeapon(container, DrawDataContainer.WeaponSlot.OffHand));
             }
 
             var glasses = drawData.GlassesIds[0];
@@ -265,8 +264,11 @@ public sealed unsafe class OutfitApplier : IDisposable
                 loadEquipmentHook.Original(container, (DrawDataContainer.EquipmentSlot)i, &model, 1);
             }
 
-            SetWeapon(container, DrawDataContainer.WeaponSlot.MainHand, real.MainHand);
-            SetWeapon(container, DrawDataContainer.WeaponSlot.OffHand, real.OffHand);
+            if (real.WeaponsReplaced)
+            {
+                ShowWeapon(container, DrawDataContainer.WeaponSlot.MainHand, RealWeapon(container, DrawDataContainer.WeaponSlot.MainHand));
+                ShowWeapon(container, DrawDataContainer.WeaponSlot.OffHand, RealWeapon(container, DrawDataContainer.WeaponSlot.OffHand));
+            }
             if (drawData.GlassesIds[0] != real.Glasses)
                 drawData.SetGlasses(0, real.Glasses);
         }
@@ -283,11 +285,16 @@ public sealed unsafe class OutfitApplier : IDisposable
         changed.Clear();
     }
 
-    private void SetWeapon(DrawDataContainer* container, DrawDataContainer.WeaponSlot slot, WeaponModelId want)
-    {
-        if (container->Weapon(slot).ModelId.Value != want.Value)
-            loadWeaponHook.Original(container, slot, want, 1, 0, 0, 0, 0);
-    }
+    private static WeaponModelId RealWeapon(DrawDataContainer* container, DrawDataContainer.WeaponSlot slot)
+        => container->Weapon(slot).ModelId;
+
+    /// <summary>
+    /// Changes the weapon that's drawn without touching the game's record of the real weapon
+    /// (skipGameObject = 1, as Glamourer does). The game uses that record for things like draw
+    /// animations, so overwriting it broke them until the character was reloaded.
+    /// </summary>
+    private void ShowWeapon(DrawDataContainer* container, DrawDataContainer.WeaponSlot slot, WeaponModelId model)
+        => loadWeaponHook.Original(container, slot, model, 1, 0, 1, 0, 0);
 
     private static bool SameModel(EquipmentModelId a, EquipmentModelId b)
         => a.Id == b.Id && a.Variant == b.Variant && a.Stain0 == b.Stain0 && a.Stain1 == b.Stain1;
@@ -322,30 +329,28 @@ public sealed unsafe class OutfitApplier : IDisposable
 
     private void LoadWeaponDetour(DrawDataContainer* self, DrawDataContainer.WeaponSlot slot, WeaponModelId model, byte redrawOnEquality, byte a5, byte skipGameObject, byte a7, byte a8)
     {
+        // Let the game load the real weapon first, so its own record stays correct.
+        loadWeaponHook.Original(self, slot, model, redrawOnEquality, a5, skipGameObject, a7, a8);
+
         try
         {
             var character = self->OwnerObject;
-            if (slot != DrawDataContainer.WeaponSlot.System && character != null
-                && changed.TryGetValue((nint)character, out var real))
-            {
-                var outfit = DesiredOutfit(character);
-                if (outfit != null)
-                {
-                    if (slot == DrawDataContainer.WeaponSlot.MainHand)
-                        real.MainHand = model;
-                    else
-                        real.OffHand = model;
+            if (character != null && character == (Character*)Control.GetLocalPlayer())
+                Plugin.Log.Debug($"LoadWeapon {slot}: id {model.Id} type {model.Type} variant {model.Variant} " +
+                                 $"(flags {redrawOnEquality} {a5} {skipGameObject} {a7} {a8}), tracked: {changed.ContainsKey((nint)character)}");
 
-                    if (config.ReplaceWeapons)
-                        model = slot == DrawDataContainer.WeaponSlot.MainHand ? outfit.MainHand : outfit.OffHand;
-                }
+            // Then draw ours over it.
+            if (slot != DrawDataContainer.WeaponSlot.System && character != null && config.ReplaceWeapons
+                && changed.ContainsKey((nint)character) && DesiredOutfit(character) is { } outfit)
+            {
+                var ours = slot == DrawDataContainer.WeaponSlot.MainHand ? outfit.MainHand : outfit.OffHand;
+                if (ours.Value != model.Value)
+                    loadWeaponHook.Original(self, slot, ours, 1, a5, 1, a7, a8);
             }
         }
         catch (Exception ex)
         {
             Plugin.Log.Error(ex, "Error while swapping weapon");
         }
-
-        loadWeaponHook.Original(self, slot, model, redrawOnEquality, a5, skipGameObject, a7, a8);
     }
 }

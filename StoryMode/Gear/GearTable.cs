@@ -76,8 +76,10 @@ public sealed class GearTable
         {
             outfit.MainHand = ToWeaponModel(main.ModelMain);
 
-            // Paired weapons (fists, daggers, bows with quivers) carry their off hand on the main item.
-            if (main.ModelSub != 0)
+            // Paired weapons (fists, daggers, bows with quivers) take both hands and carry their off
+            // hand on the main item. Crafting and gathering tools leave the off hand free; their
+            // second model is the workbench shown while crafting, not something to hold.
+            if (main.ModelSub != 0 && main.EquipSlotCategory.Value.OffHand == -1)
                 outfit.OffHand = ToWeaponModel(main.ModelSub);
         }
 

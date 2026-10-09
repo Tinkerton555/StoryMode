@@ -12,7 +12,7 @@ Only you see the change.
 1. Type `/xlsettings` in game and open the **Experimental** tab.
 2. Paste this into **Custom Plugin Repositories** and click **+**:
    ```
-   https://raw.githubusercontent.com/OWNER/StoryMode/main/repo.json
+   https://raw.githubusercontent.com/Tinkerton555/StoryMode/main/repo.json
    ```
 3. Click **Save**.
 4. Type `/xlplugins`, search for **Story Mode** and install it.

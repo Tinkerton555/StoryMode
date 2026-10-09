@@ -1,5 +1,8 @@
 # Builds the plugin and publishes a GitHub release when a version tag (e.g. v0.1.0.0) is pushed,
-# then updates repo.json so Dalamud offers the new version.
+# then updates repo.json on main so Dalamud offers the new version.
+#
+# Actions are pinned to full commit SHAs (with the version in a comment) so a moved tag upstream
+# can't change what runs here. To update one, look up the new release's commit SHA.
 name: Release
 
 on:
@@ -7,17 +10,38 @@ on:
     tags: ["v*"]
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
   release:
     runs-on: windows-latest
+    permissions:
+      contents: write # create the release and commit repo.json
+    env:
+      TAG: ${{ github.ref_name }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the tagged commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: main
+          fetch-depth: 0
 
-      - uses: actions/setup-dotnet@v4
+      - name: Check the tag
+        shell: pwsh
+        run: |
+          if ($env:TAG -notmatch '^v(\d+\.\d+\.\d+\.\d+)$') {
+            throw "Tag '$env:TAG' isn't a version like v1.2.3.4"
+          }
+          "VERSION=$($Matches[1])" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+          # Only release commits that are on main.
+          git merge-base --is-ancestor HEAD origin/main
+          if ($LASTEXITCODE -ne 0) { throw "Tagged commit isn't on main" }
+
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
         with:
           dotnet-version: "10.0.x"
 
@@ -27,25 +51,28 @@ jobs:
           Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile dalamud.zip
           Expand-Archive -Force dalamud.zip "$env:AppData\XIVLauncher\addon\Hooks\dev"
 
-      - name: Set version from tag
+      - name: Build
         shell: pwsh
         run: |
-          $version = "${{ github.ref_name }}".TrimStart("v")
-          "VERSION=$version" | Out-File -FilePath $env:GITHUB_ENV -Append
-          (Get-Content StoryMode/StoryMode.csproj) -replace '<Version>.*</Version>', "<Version>$version</Version>" |
+          (Get-Content StoryMode/StoryMode.csproj) -replace '<Version>.*</Version>', "<Version>$env:VERSION</Version>" |
             Set-Content StoryMode/StoryMode.csproj
-
-      - name: Build
-        run: dotnet build StoryMode/StoryMode.csproj -c Release
+          # Locked mode fails if any package differs from packages.lock.json.
+          dotnet restore StoryMode/StoryMode.csproj --locked-mode
+          dotnet build StoryMode/StoryMode.csproj -c Release --no-restore
 
       - name: Publish release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
           files: StoryMode/bin/Release/StoryMode/latest.zip
+          fail_on_unmatched_files: true
 
-      - name: Update repo.json
+      - name: Update repo.json on main
         shell: pwsh
         run: |
+          git checkout -- .
+          git checkout main
+          (Get-Content StoryMode/StoryMode.csproj) -replace '<Version>.*</Version>', "<Version>$env:VERSION</Version>" |
+            Set-Content StoryMode/StoryMode.csproj
           $repo = Get-Content repo.json -Raw | ConvertFrom-Json
           $repo[0].AssemblyVersion = $env:VERSION
           ConvertTo-Json @($repo) -Depth 5 | Set-Content repo.json

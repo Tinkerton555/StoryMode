@@ -1,40 +1,31 @@
 # Story Mode
 
-A Dalamud plugin for Final Fantasy XIV that keeps other players' glamours from breaking the story.
+A Dalamud plugin that puts other players in their job's artifact gear, so glamours don't ruin the story.
 
-On your screen only, other players appear in gear that fits the world:
+Only you see the change.
 
-- **Job stone equipped:** that job's artifact gear and weapon for their level bracket (30–59 → the level 50 set, 60–69 → the level 60 set, and so on). Jobs that start above level 30 use their unlock gear until their first artifact set.
-- **No job stone:** a starter outfit themed to their class, so job gear always means a job stone.
-- **Crafters and gatherers:** a starter outfit below 50, then their job's own scrip gear for each bracket.
+- Players with a job stone wear the artifact gear for their level (level 30-59 get the level 50 set, 60-69 the level 60 set, and so on).
+- Players without a job stone wear a basic starter outfit for their class.
 
-Nothing is sent to the server. Other players see no change, and your own appearance is untouched unless you choose otherwise.
+## Install
 
-## Settings
+1. Type `/xlsettings` in game and open the **Experimental** tab.
+2. Paste this into **Custom Plugin Repositories** and click **+**:
+   ```
+   https://raw.githubusercontent.com/OWNER/StoryMode/main/repo.json
+   ```
+3. Click **Save**.
+4. Type `/xlplugins`, search for **Story Mode** and install it.
 
-Open with `/storymode config`, or toggle the plugin on and off with `/storymode`.
+## Use
 
-- **Who to change:** all other players, all except your party, or all except your party and alliance. Optionally skip friends and your free company, or include yourself.
-- **When:** everywhere, or only during cutscenes and/or duties.
-- **What to replace:** weapons, accessories and facewear can each be switched on or off.
+- `/storymode` turns it on or off.
+- `/storymode config` opens the settings, where you can choose who gets changed (everyone, or everyone except your party, friends or FC) and when (always, or only in cutscenes or duties).
 
-## Installing
+## Problems
 
-1. In game, open `/xlsettings` → **Experimental**.
-2. Under **Custom Plugin Repositories**, add:
-   `https://raw.githubusercontent.com/OWNER/StoryMode/main/repo.json`
-3. Tick the checkbox, save, and install **Story Mode** from `/xlplugins`.
-
-## Gear table
-
-`StoryMode/Data/gear-table.json` lists the item used for each job, level bracket and slot. It is generated from the game's own data by `Tools/GearTableGenerator`:
-
-```
-dotnet run --project Tools/GearTableGenerator -- "<game folder>\game\sqpack"
-```
-
-If a set looks wrong, please open an issue naming the job and level.
+If a job is wearing the wrong gear, open an issue with the job and level.
 
 ## License
 
-Story Mode is licensed under the [GNU Affero General Public License v3.0](LICENSE). You're free to use, change and share it, as long as anything you share based on it is released under the same license with its source.
+[AGPL-3.0](LICENSE)

@@ -8,7 +8,13 @@
     "Punchline": "See other players in their job's artifact gear, so glamours don't break the story.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tinkerton555/StoryMode",
-    "Tags": ["glamour", "immersion", "story", "cutscene", "artifact"],
+    "Tags": [
+      "glamour",
+      "immersion",
+      "story",
+      "cutscene",
+      "artifact"
+    ],
     "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://github.com/Tinkerton555/StoryMode/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Tinkerton555/StoryMode/releases/latest/download/latest.zip",

@@ -18,7 +18,7 @@ public class Configuration : IPluginConfiguration
     public bool Enabled { get; set; } = true;
 
     // Who is affected
-    public TargetMode TargetMode { get; set; } = TargetMode.ExcludeParty;
+    public TargetMode TargetMode { get; set; } = TargetMode.AllOtherPlayers;
     public bool ExcludeFriends { get; set; } = false;
     public bool ExcludeFreeCompany { get; set; } = false;
     public bool ApplyToSelf { get; set; } = false;

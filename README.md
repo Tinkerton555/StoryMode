@@ -34,3 +34,7 @@ dotnet run --project Tools/GearTableGenerator -- "<game folder>\game\sqpack"
 ```
 
 If a set looks wrong, please open an issue naming the job and level.
+
+## License
+
+Story Mode is licensed under the [GNU Affero General Public License v3.0](LICENSE). You're free to use, change and share it, as long as anything you share based on it is released under the same license with its source.

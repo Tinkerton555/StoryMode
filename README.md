@@ -1,6 +1,6 @@
 # Story Mode
 
-A Dalamud plugin that puts other players in their job's artifact gear, so glamours don't ruin the story.
+A Dalamud plugin for Final Fantasy XIV (FFXIV) that puts other players in their job's artifact gear, so glamours don't ruin the story.
 
 - Players with a job stone equipped wear the artifact gear for their level (level 30-59 get the level 50 set, 60-69 the level 60 set, and so on).
 - Players without a job stone equipped wear a basic starter outfit.

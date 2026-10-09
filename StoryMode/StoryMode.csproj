@@ -9,7 +9,7 @@
 
 Choose who it applies to (everyone, or everyone except your party, alliance, friends or free company) and when (always, or only in cutscenes and duties). Nothing is sent to the server, and other players see no change.</Description>
     <RepoUrl>https://github.com/Tinkerton555/StoryMode</RepoUrl>
-    <Tags>glamour;immersion;story;cutscene;artifact</Tags>
+    <Tags>ffxiv;glamour;immersion;story;cutscene;artifact</Tags>
     <!-- Keep local folder paths (and so the Windows username) out of the built DLL. -->
     <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..'))=/StoryMode/</PathMap>
   </PropertyGroup>
